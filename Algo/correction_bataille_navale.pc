@@ -1,0 +1,479 @@
+/**
+Correction : Bataille navale
+
+Regles utilisees :
+- 2 joueurs.
+- Chaque joueur possede une grille cachee de 10 lignes et 10 colonnes.
+- Chaque joueur place 5 navires : porte-avions 5 cases, cuirasse 4 cases,
+  croiseur 3 cases, sous-marin 3 cases, torpilleur 2 cases.
+- Un navire est place horizontalement ou verticalement, sans sortir de la grille
+  et sans chevaucher un autre navire.
+- Les joueurs jouent chacun leur tour en annoncant une coordonnee._
+- Un tir peut etre dans l'eau, toucher un navire ou couler un navire.
+- Le premier joueur qui coule toute la flotte adverse gagne.
+**/
+
+Constante TAILLE = 10
+Constante NB_NAVIRES = 5
+
+
+/**
+Procedure qui initialise une grille de 10 par 10.
+Chaque case de la grille recoit la valeur "." pour representer une case vide.
+**/
+PROCEDURE InitialiserGrille(
+    grille : Tableau de Chaine[TAILLE][TAILLE]
+)
+    Variable ligne : Entier
+    Variable colonne : Entier
+
+    DEBUT
+        POUR ligne DE 0 À TAILLE - 1 FAIRE
+            POUR colonne DE 0 À TAILLE - 1 FAIRE
+                grille[ligne][colonne] <- "."
+            FINP
+        FINP
+    FIN
+
+
+
+/**
+Procedure qui initialise les informations des navires.
+Elle remplit les tableaux contenant les noms, les tailles et les symboles des navires.
+**/
+PROCEDURE InitialiserFlotte(
+    noms : Tableau de Chaine[NB_NAVIRES], 
+    tailles : Tableau de Entier[NB_NAVIRES], 
+    symboles : Tableau de Chaine[NB_NAVIRES]
+)
+    DEBUT
+        noms[0] <- "Porte-avions"
+        tailles[0] <- 5
+        symboles[0] <- "1"
+
+        noms[1] <- "Cuirasse"
+        tailles[1] <- 4
+        symboles[1] <- "2"
+
+        noms[2] <- "Croiseur"
+        tailles[2] <- 3
+        symboles[2] <- "3"
+
+        noms[3] <- "Sous-marin"
+        tailles[3] <- 3
+        symboles[3] <- "4"
+
+        noms[4] <- "Torpilleur"
+        tailles[4] <- 2
+        symboles[4] <- "5"
+    FIN
+
+
+/**
+Procedure qui affiche la grille contenant les navires du joueur.
+Elle est utilisee pendant la phase de placement des navires.
+**/
+PROCEDURE AfficherGrillePlacement(
+    grilleNavires : Tableau de Chaine[TAILLE][TAILLE]
+)
+    Variable ligne : Entier
+    Variable colonne : Entier
+
+    DEBUT
+        Ecrire("   1 2 3 4 5 6 7 8 9 10")
+
+        POUR ligne DE 0 À TAILLE - 1 FAIRE
+            Ecrire("Ligne ", ligne + 1, " : ")
+
+            POUR colonne DE 0 À TAILLE - 1 FAIRE
+                Ecrire(grilleNavires[ligne][colonne])
+            FINP
+        FINP
+    FIN
+
+
+/**
+Procedure qui affiche la grille des tirs deja effectues.
+Elle permet au joueur de voir les cases deja visees.
+**/
+PROCEDURE AfficherGrilleTirs(
+    grilleTirs : Tableau de Chaine[TAILLE][TAILLE]
+)
+    Variable ligne : Entier
+    Variable colonne : Entier
+
+    DEBUT
+        Ecrire("   1 2 3 4 5 6 7 8 9 10")
+
+        POUR ligne DE 0 À TAILLE - 1 FAIRE
+            Ecrire("Ligne ", ligne + 1, " : ")
+
+            POUR colonne DE 0 À TAILLE - 1 FAIRE
+                Ecrire(grilleTirs[ligne][colonne])
+            FINP
+        FINP
+    FIN
+
+
+/**
+Fonction qui verifie si une coordonnee appartient bien a la grille.
+Elle renvoie Vrai si la ligne et la colonne sont comprises entre 0 et TAILLE - 1.
+**/
+FONCTION EstDansGrille(
+    ligne : Entier, colonne : Entier
+) : Booleen
+    Variable valide : Booleen
+
+    DEBUT
+        valide <- Faux
+
+        SI ligne >= 0 ET ligne < TAILLE ET colonne >= 0 ET colonne < TAILLE ALORS
+            valide <- Vrai
+        FINSI
+
+        RENVOIE valide
+    FIN
+
+
+/**
+Fonction qui verifie si un navire peut etre place a partir d'une case donnee.
+Elle controle l'orientation, les limites de la grille et l'absence de chevauchement.
+**/
+FONCTION PeutPlacerNavire(
+    grilleNavires : Tableau de Chaine[TAILLE][TAILLE], 
+    ligne : Entier, 
+    colonne : Entier, 
+    orientation : Chaine, 
+    tailleNavire : Entier
+) : Booleen
+    Variable valide : Booleen
+    Variable i : Entier
+    Variable ligneTest : Entier
+    Variable colonneTest : Entier
+
+    DEBUT
+        valide <- Vrai
+
+        SI orientation != "H" ET orientation != "V" ALORS
+            valide <- Faux
+        FINSI
+
+        POUR i DE 0 À tailleNavire - 1 FAIRE
+            ligneTest <- ligne
+            colonneTest <- colonne
+
+            SI orientation = "H" ALORS
+                colonneTest <- colonne + i
+            FINSI
+
+            SI orientation = "V" ALORS
+                ligneTest <- ligne + i
+            FINSI
+
+            SI EstDansGrille(ligneTest, colonneTest) = Faux ALORS
+                valide <- Faux
+            SINON
+                SI grilleNavires[ligneTest][colonneTest] != "." ALORS
+                    valide <- Faux
+                FINSI
+            FINSI
+        FINP
+
+        RENVOIE valide
+    FIN
+
+
+/**
+Procedure qui place reellement un navire sur la grille.
+Elle remplit les cases concernees avec le symbole du navire.
+**/
+PROCEDURE PlacerNavire(
+    grilleNavires : Tableau de Chaine[TAILLE][TAILLE], 
+    symbole : Chaine, 
+    ligne : Entier, 
+    colonne : Entier, 
+    orientation : Chaine, 
+    tailleNavire : Entier
+)
+    Variable i : Entier
+    Variable lignePosee : Entier
+    Variable colonnePosee : Entier
+
+    DEBUT
+        POUR i DE 0 À tailleNavire - 1 FAIRE
+            lignePosee <- ligne
+            colonnePosee <- colonne
+
+            SI orientation = "H" ALORS
+                colonnePosee <- colonne + i
+            SINON
+                lignePosee <- ligne + i
+            FINSI
+
+            grilleNavires[lignePosee][colonnePosee] <- symbole
+        FINP
+    FIN
+
+
+/**
+Procedure qui permet a un joueur de placer toute sa flotte.
+Pour chaque navire, elle demande une ligne, une colonne et une orientation
+jusqu'a ce que le placement soit valide.
+**/
+PROCEDURE PlacerFlotteJoueur(
+    grilleNavires : Tableau de Chaine[TAILLE][TAILLE], 
+    joueur : Entier, 
+    noms : Tableau de Chaine[NB_NAVIRES], 
+    tailles : Tableau de Entier[NB_NAVIRES], 
+    symboles : Tableau de Chaine[NB_NAVIRES]
+)
+    Variable navire : Entier
+    Variable ligne : Entier
+    Variable colonne : Entier
+    Variable orientation : Chaine
+    Variable placementValide : Booleen
+
+    DEBUT
+        POUR navire DE 0 À NB_NAVIRES - 1 FAIRE
+            placementValide <- Faux
+
+            TANTQUE placementValide = Faux FAIRE
+                Ecrire("Joueur ", joueur, " - Placement du ", noms[navire], " de taille ", tailles[navire])
+                AfficherGrillePlacement(grilleNavires)
+
+                Ecrire("Ligne de depart (1 a 10) : ")
+                Lire(ligne)
+                ligne <- ligne - 1
+
+                Ecrire("Colonne de depart (1 a 10) : ")
+                Lire(colonne)
+                colonne <- colonne - 1
+
+                Ecrire("Orientation H pour horizontal ou V pour vertical : ")
+                Lire(orientation)
+
+                SI PeutPlacerNavire(grilleNavires, ligne, colonne, orientation, tailles[navire]) = Vrai ALORS
+                    PlacerNavire(grilleNavires, symboles[navire], ligne, colonne, orientation, tailles[navire])
+                    placementValide <- Vrai
+                SINON
+                    Ecrire("Placement impossible. Recommencez.")
+                FINSI
+            FINTQ
+        FINP
+    FIN
+
+
+/**
+Fonction qui retrouve le nom d'un navire a partir de son symbole.
+Elle parcourt le tableau des symboles et renvoie le nom correspondant.
+**/
+FONCTION NomDuNavire(
+    symbole : Chaine, 
+    noms : Tableau de Chaine[NB_NAVIRES], 
+    symboles : Tableau de Chaine[NB_NAVIRES]
+) : Chaine
+    Variable i : Entier
+    Variable nom : Chaine
+
+    DEBUT
+        nom <- "navire"
+
+        POUR i DE 0 À NB_NAVIRES - 1 FAIRE
+            SI symboles[i] = symbole ALORS
+                nom <- noms[i]
+            FINSI
+        FINP
+
+        RENVOIE nom
+    FIN
+
+
+/**
+Fonction qui verifie si toutes les cases d'un navire ont ete touchees.
+Elle renvoie Vrai si aucune case du navire n'est encore intacte.
+**/
+FONCTION NavireCoule(
+    grilleNavires : Tableau de Chaine[TAILLE][TAILLE], 
+    grilleTirs : Tableau de Chaine[TAILLE][TAILLE], 
+    symbole : Chaine
+) : Booleen
+    Variable ligne : Entier
+    Variable colonne : Entier
+    Variable coule : Booleen
+
+    DEBUT
+        coule <- Vrai
+
+        POUR ligne DE 0 À TAILLE - 1 FAIRE
+            POUR colonne DE 0 À TAILLE - 1 FAIRE
+                SI grilleNavires[ligne][colonne] = symbole ET grilleTirs[ligne][colonne] != "T" ET grilleTirs[ligne][colonne] != "C" ALORS
+                    coule <- Faux
+                FINSI
+            FINP
+        FINP
+
+        RENVOIE coule
+    FIN
+
+
+/**
+Procedure qui marque toutes les cases d'un navire comme coulees.
+Elle remplace les cases touchees du navire par le symbole "C" dans la grille des tirs.
+**/
+PROCEDURE MarquerNavireCoule(
+    grilleNavires : Tableau de Chaine[TAILLE][TAILLE], 
+    grilleTirs : Tableau de Chaine[TAILLE][TAILLE], 
+    symbole : Chaine
+)
+    Variable ligne : Entier
+    Variable colonne : Entier
+
+    DEBUT
+        POUR ligne DE 0 À TAILLE - 1 FAIRE
+            POUR colonne DE 0 À TAILLE - 1 FAIRE
+                SI grilleNavires[ligne][colonne] = symbole ALORS
+                    grilleTirs[ligne][colonne] <- "C"
+                FINSI
+            FINP
+        FINP
+    FIN
+
+
+/**
+Fonction qui verifie si toute la flotte d'un joueur est coulee.
+Elle renvoie Vrai si toutes les cases contenant un navire sont marquees "C".
+**/
+FONCTION TouteLaFlotteCoulee(
+    grilleNavires : Tableau de Chaine[TAILLE][TAILLE], 
+    grilleTirs : Tableau de Chaine[TAILLE][TAILLE]
+) : Booleen
+    Variable ligne : Entier
+    Variable colonne : Entier
+    Variable gagne : Booleen
+
+    DEBUT
+        gagne <- Vrai
+
+        POUR ligne DE 0 À TAILLE - 1 FAIRE
+            POUR colonne DE 0 À TAILLE - 1 FAIRE
+                SI grilleNavires[ligne][colonne] != "." ET grilleTirs[ligne][colonne] != "C" ALORS
+                    gagne <- Faux
+                FINSI
+            FINP
+        FINP
+
+        RENVOIE gagne
+    FIN
+
+
+/**
+Procedure qui gere le tour d'un joueur.
+Elle demande une coordonnee de tir, verifie sa validite, puis indique si le tir est
+dans l'eau, touche un navire ou coule un navire.
+**/
+PROCEDURE JouerUnTour(
+    grilleNaviresAdverse : Tableau de Chaine[TAILLE][TAILLE], 
+    grilleTirsAdverse : Tableau de Chaine[TAILLE][TAILLE], 
+    joueur : Entier, 
+    noms : Tableau de Chaine[NB_NAVIRES], 
+    symboles : Tableau de Chaine[NB_NAVIRES]
+)
+    Variable ligne : Entier
+    Variable colonne : Entier
+    Variable tirValide : Booleen
+    Variable symboleTouche : Chaine
+    Variable nomTouche : Chaine
+
+    DEBUT
+        tirValide <- Faux
+
+        TANTQUE tirValide = Faux FAIRE
+            Ecrire("Joueur ", joueur, " - Grille des tirs deja joues")
+            AfficherGrilleTirs(grilleTirsAdverse)
+
+            Ecrire("Ligne du tir (1 a 10) : ")
+            Lire(ligne)
+            ligne <- ligne - 1
+
+            Ecrire("Colonne du tir (1 a 10) : ")
+            Lire(colonne)
+            colonne <- colonne - 1
+
+            SI EstDansGrille(ligne, colonne) = Faux ALORS
+                Ecrire("Coordonnee hors grille.")
+            SINON
+                SI grilleTirsAdverse[ligne][colonne] != "." ALORS
+                    Ecrire("Cette case a deja ete visee.")
+                SINON
+                    tirValide <- Vrai
+                FINSI
+            FINSI
+        FINTQ
+
+        SELONQUE grilleNaviresAdverse[ligne][colonne] VAUT
+            "." :
+                grilleTirsAdverse[ligne][colonne] <- "O"
+                Ecrire("Dans l'eau.")
+            SINON :
+                symboleTouche <- grilleNaviresAdverse[ligne][colonne]
+                nomTouche <- NomDuNavire(symboleTouche, noms, symboles)
+                grilleTirsAdverse[ligne][colonne] <- "T"
+
+                SI NavireCoule(grilleNaviresAdverse, grilleTirsAdverse, symboleTouche) = Vrai ALORS
+                    MarquerNavireCoule(grilleNaviresAdverse, grilleTirsAdverse, symboleTouche)
+                    Ecrire("Touche coule : ", nomTouche)
+                SINON
+                    Ecrire("Touche.")
+                FINSI
+        FINSQ
+    FIN
+
+
+Algorithme BatailleNavale
+    Variable grilleNaviresJoueur1 : Tableau de Chaine[TAILLE][TAILLE]
+    Variable grilleNaviresJoueur2 : Tableau de Chaine[TAILLE][TAILLE]
+    Variable grilleTirsJoueur1 : Tableau de Chaine[TAILLE][TAILLE]
+    Variable grilleTirsJoueur2 : Tableau de Chaine[TAILLE][TAILLE]
+    Variable nomsNavires : Tableau de Chaine[NB_NAVIRES]
+    Variable taillesNavires : Tableau de Entier[NB_NAVIRES]
+    Variable symbolesNavires : Tableau de Chaine[NB_NAVIRES]
+    Variable joueurCourant : Entier
+    Variable partieTerminee : Booleen
+
+    DEBUT
+        InitialiserFlotte(nomsNavires, taillesNavires, symbolesNavires)
+
+        InitialiserGrille(grilleNaviresJoueur1)
+        InitialiserGrille(grilleNaviresJoueur2)
+        InitialiserGrille(grilleTirsJoueur1)
+        InitialiserGrille(grilleTirsJoueur2)
+
+        PlacerFlotteJoueur(grilleNaviresJoueur1, 1, nomsNavires, taillesNavires, symbolesNavires)
+        PlacerFlotteJoueur(grilleNaviresJoueur2, 2, nomsNavires, taillesNavires, symbolesNavires)
+
+        joueurCourant <- 1
+        partieTerminee <- Faux
+
+        TANTQUE partieTerminee = Faux FAIRE
+            SI joueurCourant = 1 ALORS
+                JouerUnTour(grilleNaviresJoueur2, grilleTirsJoueur2, 1, nomsNavires, symbolesNavires)
+
+                SI TouteLaFlotteCoulee(grilleNaviresJoueur2, grilleTirsJoueur2) = Vrai ALORS
+                    partieTerminee <- Vrai
+                    Ecrire("Le joueur 1 gagne.")
+                SINON
+                    joueurCourant <- 2
+                FINSI
+            SINON
+                JouerUnTour(grilleNaviresJoueur1, grilleTirsJoueur1, 2, nomsNavires, symbolesNavires)
+
+                SI TouteLaFlotteCoulee(grilleNaviresJoueur1, grilleTirsJoueur1) = Vrai ALORS
+                    partieTerminee <- Vrai
+                    Ecrire("Le joueur 2 gagne.")
+                SINON
+                    joueurCourant <- 1
+                FINSI
+            FINSI
+        FINTQ
+    FIN
+

@@ -1,0 +1,14 @@
+C:\Users\antoi\Documents\Formation développement\Algo\AlgoCSharp\ExoS1\bin\Debug\net8.0\ExoS1.exe
+C:\Users\antoi\Documents\Formation développement\Algo\AlgoCSharp\ExoS1\bin\Debug\net8.0\ExoS1.deps.json
+C:\Users\antoi\Documents\Formation développement\Algo\AlgoCSharp\ExoS1\bin\Debug\net8.0\ExoS1.runtimeconfig.json
+C:\Users\antoi\Documents\Formation développement\Algo\AlgoCSharp\ExoS1\bin\Debug\net8.0\ExoS1.dll
+C:\Users\antoi\Documents\Formation développement\Algo\AlgoCSharp\ExoS1\bin\Debug\net8.0\ExoS1.pdb
+C:\Users\antoi\Documents\Formation développement\Algo\AlgoCSharp\ExoS1\obj\Debug\net8.0\ExoS1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antoi\Documents\Formation développement\Algo\AlgoCSharp\ExoS1\obj\Debug\net8.0\ExoS1.AssemblyInfoInputs.cache
+C:\Users\antoi\Documents\Formation développement\Algo\AlgoCSharp\ExoS1\obj\Debug\net8.0\ExoS1.AssemblyInfo.cs
+C:\Users\antoi\Documents\Formation développement\Algo\AlgoCSharp\ExoS1\obj\Debug\net8.0\ExoS1.csproj.CoreCompileInputs.cache
+C:\Users\antoi\Documents\Formation développement\Algo\AlgoCSharp\ExoS1\obj\Debug\net8.0\ExoS1.dll
+C:\Users\antoi\Documents\Formation développement\Algo\AlgoCSharp\ExoS1\obj\Debug\net8.0\refint\ExoS1.dll
+C:\Users\antoi\Documents\Formation développement\Algo\AlgoCSharp\ExoS1\obj\Debug\net8.0\ExoS1.pdb
+C:\Users\antoi\Documents\Formation développement\Algo\AlgoCSharp\ExoS1\obj\Debug\net8.0\ExoS1.genruntimeconfig.cache
+C:\Users\antoi\Documents\Formation développement\Algo\AlgoCSharp\ExoS1\obj\Debug\net8.0\ref\ExoS1.dll
