@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.ComponentModel.Design;
 
 /////////////////////////////////////////////////////////////////   1
 //int nbOfPlayers;
@@ -339,6 +340,7 @@ List<(int left, int top)> cruiserPos = new List<(int left, int top)>();
 List<(int left, int top)> destroyer1Pos = new List<(int left, int top)>();
 List<(int left, int top)> destroyer2Pos = new List<(int left, int top)>();
 List<(int left, int top)> torpedoPos = new List<(int left, int top)>();
+List<(int left, int top)> allBoatsPos = new List<(int left, int top)>();
 
 
 int sizeMainTab = playerBoard.GetLength(0);
@@ -414,7 +416,6 @@ void SetBoardData()
             {
                 positionBoard[i, j] = "_";
             }
-
         }
     }
 }
@@ -455,23 +456,70 @@ void DrawPositionBoard()
 void SetBoatPosition(string name, int boatSize, List<(int, int)> boatPos)
 {
     int iteration = 0;
+    bool boxFound = false;
+    bool caseTaken = false;
+
+    int boxY;
+    int boxX = 0;
+    bool canBeVertical = true;
+    bool canBeHorizontal = true;
 
     Console.WriteLine($"Where do you want you want to put your {name} ({boatSize} boxes)?\nPlease write down the coordinates the first box of your boat.\nEx: a1\n\n");
 
-
-    boxPos = Console.ReadLine();
-    int boxY = int.Parse(boxPos.Substring(1));
-
-    for (int i = 0; i < coordinatesX.Length; i++)
+    do
     {
-        if (boxPos[0] == coordinatesX[i])
+        boxPos = Console.ReadLine();
+        boxY = int.Parse(boxPos.Substring(1)) - 1;
+
+        for (int i = 0; i < coordinatesX.Length; i++)
         {
-
-
-
-
+            if (boxPos[0] == coordinatesX[i] && 0 < boxY && boxY < 11)
+            {
+                boxX = i;
+                boatPos.Add((boxX, boxY));
+                allBoatsPos.Add((boxX, boxY));
+                boxFound = true;
+            }
         }
-    }
+
+    Console.WriteLine("Do you want to place your boat horizontally or vertically ?\nPress 'h' to place it horizontally, or 'v' to place it vertically.");
+
+        do
+        {
+            bool succeed = char.TryParse(Console.ReadLine(), out char orientation);
+
+
+            if (orientation != 'v' && orientation != 'h')
+            {
+                Console.WriteLine("Please write 'v' to place it vertically, or 'h' to place it horizontally");
+            }
+
+            else if (orientation == 'v')
+            {
+                for (int i = 0; i < allBoatsPos.Count; i++)
+                {
+                    for (int j = 1; j < boatSize; j++)
+                    {
+                        if (allBoatsPos[i] == (boxX, boxY + j))
+                        {
+                            canBeVertical = false;
+                        }
+
+                        else
+                        {
+
+                        }
+                    }
+                }
+            }
+
+            else if 
+        } while (canBeHorizontal || canBeHorizontal && !caseTaken);
+    } while (boxFound == false);
+
+
+
+
 }
 
 

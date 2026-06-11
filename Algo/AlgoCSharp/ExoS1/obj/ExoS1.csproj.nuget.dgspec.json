@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antoi\\Documents\\Formation développement\\Algo\\AlgoCSharp\\ExoS1\\ExoS1.csproj": {}
+    "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\ExoS1\\ExoS1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\antoi\\Documents\\Formation développement\\Algo\\AlgoCSharp\\ExoS1\\ExoS1.csproj": {
+    "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\ExoS1\\ExoS1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antoi\\Documents\\Formation développement\\Algo\\AlgoCSharp\\ExoS1\\ExoS1.csproj",
+        "projectUniqueName": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\ExoS1\\ExoS1.csproj",
         "projectName": "ExoS1",
-        "projectPath": "C:\\Users\\antoi\\Documents\\Formation développement\\Algo\\AlgoCSharp\\ExoS1\\ExoS1.csproj",
+        "projectPath": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\ExoS1\\ExoS1.csproj",
         "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antoi\\Documents\\Formation développement\\Algo\\AlgoCSharp\\ExoS1\\obj\\",
+        "outputPath": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\ExoS1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -31,6 +31,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -45,10 +46,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -66,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
