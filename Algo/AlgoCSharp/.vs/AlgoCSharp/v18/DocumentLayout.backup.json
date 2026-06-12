@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7F479C1D-FAE1-4999-9406-11D2F6355050}|ExoS1-2\\ExoS1-2.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\algo\\algocsharp\\exos1-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F479C1D-FAE1-4999-9406-11D2F6355050}|ExoS1-2\\ExoS1-2.csproj|solutionrelative:exos1-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBDAE500-6493-4402-84AF-97F823C05D4D}|ExoS1\\ExoS1.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\algo\\algocsharp\\exos1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBDAE500-6493-4402-84AF-97F823C05D4D}|ExoS1\\ExoS1.csproj|solutionrelative:exos1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6936FAB6-1685-4B1D-827F-53CDBAF3CEFD}|Bataille navale\\Bataille navale.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\algo\\algocsharp\\bataille navale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6936FAB6-1685-4B1D-827F-53CDBAF3CEFD}|Bataille navale\\Bataille navale.csproj|solutionrelative:bataille navale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,39 +26,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\Bataille navale\\Program.cs",
-              "RelativeDocumentMoniker": "Bataille navale\\Program.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\Bataille navale\\Program.cs",
-              "RelativeToolTip": "Bataille navale\\Program.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAiwAABAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T08:11:36.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\ExoS1\\Program.cs",
-              "RelativeDocumentMoniker": "ExoS1\\Program.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\ExoS1\\Program.cs",
-              "RelativeToolTip": "ExoS1\\Program.cs",
-              "ViewState": "AgIAAPsAAAAAAAAAAAAAAEUBAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T08:10:27.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\ExoS1-2\\Program.cs",
               "RelativeDocumentMoniker": "ExoS1-2\\Program.cs",
               "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\ExoS1-2\\Program.cs",
               "RelativeToolTip": "ExoS1-2\\Program.cs",
-              "ViewState": "AgIAALIBAAAAAAAAAAAiwNMBAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAPABAAAAAAAAAAAQwAcCAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T08:13:12.769Z",
               "EditorCaption": ""
