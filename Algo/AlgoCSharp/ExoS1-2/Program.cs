@@ -303,6 +303,56 @@
 
 
 
+//---------------------------------------------------------------------------------- First prime numbers based on a given number
+//int number;
+//List<int> primeNumbers = new List<int>();
+//bool isPrime;
+//bool succeed = false;
+//int i = 2;
+
+//Console.WriteLine("How many prime numbers do you want ?");
+
+//do
+//{
+//    succeed = int.TryParse(Console.ReadLine(), out number);
+
+//    if (!succeed)
+//    {
+//        Console.Clear();
+//        Console.WriteLine("Please enter a valid number.");
+//    }
+
+//} while (!succeed);
+
+
+//for (int count = 0; count < number; i++)
+//{
+//    isPrime = true;
+
+//    foreach (int p in primeNumbers)
+//    { 
+//        if (i % p == 0)
+//        {
+//            isPrime = false;
+//        }
+//    }
+
+//    if (isPrime)
+//    {
+//        primeNumbers.Add(i);
+//        count++;
+//    }
+//}
+
+//Console.Clear();
+//Console.WriteLine($"There are the {number} first prime numbers:\n");
+//foreach (int numb in primeNumbers)
+//{
+//    Console.Write($"{numb} ");
+//}
+
+
+
 ////---------------------------------------------------------------------------------- Prime number V2 (while)
 //int number;
 //List<int> primeNumbers = new List<int>();
@@ -323,26 +373,28 @@
 
 //} while (!succeed);
 
+//int i = 2;
 
-//int numberToCheck = number - 1;
-
-//while (numberToCheck > 1)
+//while (i < number)
 //{
 //    isPrime = true;
+//    int j = 2;
 
-//    for (int i = 2; i < numberToCheck; i++)
+//    while (j * j <= i)
 //    {
-//        if (numberToCheck % i == 0)
+//        if (i % j == 0)
 //        {
 //            isPrime = false;
+//            break;
 //        }
+//        j++;
 //    }
 
 //    if (isPrime)
 //    {
-//        primeNumbers.Add(numberToCheck);
+//        primeNumbers.Add(i);
 //    }
-//    numberToCheck--;
+//    i++;
 //}
 
 //Console.Clear();
@@ -354,61 +406,71 @@
 
 
 
+
+
+
 ////---------------------------------------------------------------------------------- ToCharArray
+//string entry1 = string.Empty;
+//string entry2 = string.Empty;
 
-string nb1 = string.Empty;
-string nb2 = string.Empty;
+//int checkValid;
 
-int checkValid;
+//bool succeed = false;
 
-string additionResult = string.Empty;
 
-bool succeed = false;
+//Console.WriteLine("Enter a first number.");
 
-Console.WriteLine("Enter a first number.");
+//do
+//{
+//    succeed = int.TryParse(Console.ReadLine(), out checkValid);
 
-do
-{
-    succeed = int.TryParse(Console.ReadLine(), out checkValid);
+//    if (!succeed)
+//    {
+//        Console.Clear();
+//        Console.WriteLine("Please enter a valid number.");
+//    }
 
-    if (!succeed)
-    {
-        Console.Clear();
-        Console.WriteLine("Please enter a valid number.");
-    }
+//    else
+//    {
+//        entry1 = checkValid.ToString();
+//    }
 
-    else
-    {
-        nb1 = checkValid.ToString();
-        char[] result = nb1.ToCharArray();
-        
-    }
+//} while (!succeed);
 
-} while (!succeed);
+//Console.WriteLine("Enter a second number.");
 
-Console.WriteLine("Enter a second number.");
+//do
+//{
+//    succeed = int.TryParse(Console.ReadLine(), out checkValid);
 
-do
-{
-    succeed = int.TryParse(Console.ReadLine(), out checkValid);
+//    if (!succeed)
+//    {
+//        Console.Clear();
+//        Console.WriteLine("Please enter a valid number.");
+//    }
 
-    if (!succeed)
-    {
-        Console.Clear();
-        Console.WriteLine("Please enter a valid number.");
-    }
+//    else
+//    {
+//        entry2 = checkValid.ToString();
+//    }
 
-    else
-    {
-        nb2 = checkValid.ToString();
-    }
+//} while (!succeed);
 
-} while (!succeed);
 
-result = (int.Parse(nb1) * int.Parse(nb2)).ToString();
+//char[] chars1 = entry1.ToCharArray();
+//char[] chars2 = entry2.ToCharArray();
 
-result.ToCharArray();
+//int nb1 = 0;
+//foreach (char c in chars1)
+//    nb1 = nb1 * 10 + (c - '0');
 
+//int nb2 = 0;
+//foreach (char c in chars2)
+//    nb2 = nb2 * 10 + (c - '0');
+
+//int somme = nb1 + nb2;
+
+//Console.WriteLine($"La somme est de {somme}");
 
 
 

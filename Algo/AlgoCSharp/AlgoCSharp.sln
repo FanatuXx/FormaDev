@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.7.11903.348 stable
+VisualStudioVersion = 18.7.11903.348
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoS1", "ExoS1\ExoS1.csproj", "{BBDAE500-6493-4402-84AF-97F823C05D4D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoS1-2", "ExoS1-2\ExoS1-2.csproj", "{7F479C1D-FAE1-4999-9406-11D2F6355050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bataille navale", "Bataille navale\Bataille navale.csproj", "{6936FAB6-1685-4B1D-827F-53CDBAF3CEFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7F479C1D-FAE1-4999-9406-11D2F6355050}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F479C1D-FAE1-4999-9406-11D2F6355050}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F479C1D-FAE1-4999-9406-11D2F6355050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6936FAB6-1685-4B1D-827F-53CDBAF3CEFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6936FAB6-1685-4B1D-827F-53CDBAF3CEFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6936FAB6-1685-4B1D-827F-53CDBAF3CEFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6936FAB6-1685-4B1D-827F-53CDBAF3CEFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

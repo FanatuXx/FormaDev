@@ -13,3 +13,18 @@ C:\Users\antoi\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\obj\Debug\net10.0\refi
 C:\Users\antoi\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\obj\Debug\net10.0\ExoS1-2.pdb
 C:\Users\antoi\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\obj\Debug\net10.0\ExoS1-2.genruntimeconfig.cache
 C:\Users\antoi\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\obj\Debug\net10.0\ref\ExoS1-2.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\bin\Debug\net10.0\ExoS1-2.exe
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\bin\Debug\net10.0\ExoS1-2.deps.json
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\bin\Debug\net10.0\ExoS1-2.runtimeconfig.json
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\bin\Debug\net10.0\ExoS1-2.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\bin\Debug\net10.0\ExoS1-2.pdb
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\obj\Debug\net10.0\ExoS1-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\obj\Debug\net10.0\ExoS1-2.AssemblyInfoInputs.cache
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\obj\Debug\net10.0\ExoS1-2.AssemblyInfo.cs
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\obj\Debug\net10.0\ExoS1-2.csproj.CoreCompileInputs.cache
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\obj\Debug\net10.0\ExoS1-2.sourcelink.json
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\obj\Debug\net10.0\ExoS1-2.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\obj\Debug\net10.0\refint\ExoS1-2.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\obj\Debug\net10.0\ExoS1-2.pdb
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\obj\Debug\net10.0\ExoS1-2.genruntimeconfig.cache
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoS1-2\obj\Debug\net10.0\ref\ExoS1-2.dll
