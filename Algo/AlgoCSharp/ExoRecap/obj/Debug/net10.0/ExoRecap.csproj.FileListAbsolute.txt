@@ -1,0 +1,15 @@
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoRecap\bin\Debug\net10.0\ExoRecap.exe
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoRecap\bin\Debug\net10.0\ExoRecap.deps.json
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoRecap\bin\Debug\net10.0\ExoRecap.runtimeconfig.json
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoRecap\bin\Debug\net10.0\ExoRecap.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoRecap\bin\Debug\net10.0\ExoRecap.pdb
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoRecap\obj\Debug\net10.0\ExoRecap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoRecap\obj\Debug\net10.0\ExoRecap.AssemblyInfoInputs.cache
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoRecap\obj\Debug\net10.0\ExoRecap.AssemblyInfo.cs
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoRecap\obj\Debug\net10.0\ExoRecap.csproj.CoreCompileInputs.cache
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoRecap\obj\Debug\net10.0\ExoRecap.sourcelink.json
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoRecap\obj\Debug\net10.0\ExoRecap.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoRecap\obj\Debug\net10.0\refint\ExoRecap.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoRecap\obj\Debug\net10.0\ExoRecap.pdb
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoRecap\obj\Debug\net10.0\ExoRecap.genruntimeconfig.cache
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Algo\AlgoCSharp\ExoRecap\obj\Debug\net10.0\ref\ExoRecap.dll

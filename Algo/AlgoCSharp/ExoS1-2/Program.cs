@@ -500,64 +500,62 @@
 
 
 //------------------------------------------------------------------------- Structures 2
-Celsius c;
-c.Temperature = 32;
+//Celsius c;
+//c.Temperature = 32;
 
 
-Console.WriteLine(c.CelToFar());
+//Console.WriteLine(c.CelToFar());
 
 
-public struct Celsius
-{
-    public double Temperature;
+//public struct Celsius
+//{
+//    public double Temperature;
 
-    public double CelToFar()
-    {
-        return (Temperature * 9 / 5) + 32;
-    }
-}
+//    public double CelToFar()
+//    {
+//        return (Temperature * 9 / 5) + 32;
+//    }
+//}
 
-public struct Fahrenheit
-{
-    public double Temperature;
+//public struct Fahrenheit
+//{
+//    public double Temperature;
 
-    public double FarToCell()
-    {
-        return (Temperature - 32) * 5 / 9;
-    }
-}
+//    public double FarToCell()
+//    {
+//        return (Temperature - 32) * 5 / 9;
+//    }
+//}
 
 
 //------------------------------------------------------------------------- 2nd degree equations
+//public struct EqSecDeg
+//{
+//    public double A, B, C;
+
+//    public bool Resolve(out double? X1, out double? X2)
+//    {
+//        double delta = B * B - 4 * A * C;
+
+//        if (delta < 0)
+//        {
+//            X1 = null;
+//            X2 = null;
+//            return false;
+//        }
+
+//        else if (delta == 0)
+//        {
+//            X1 = -B / (2 * A);
+//            X2 = X1;
+//            return true;
+//        }
+
+//        X1 = (-B - Math.Sqrt(delta)) / (2 * A);
+//        X2 = (-B + Math.Sqrt(delta)) / (2 * A);
+//        return true;
+//    }
+//}
 
 
 
-
-
-public struct EqSecDeg
-{
-    public double A, B, C;
-
-    public bool Resolve(out double? X1, out double? X2)
-    {
-        double delta = B * B - 4 * A * C;
-
-        if (delta < 0)
-        {
-            X1 = null;
-            X2 = null;
-            return false;
-        }
-
-        else if (delta == 0)
-        {
-            X1 = -B / (2 * A);
-            X2 = X1;
-            return true;
-        }
-
-        X1 = (-B - Math.Sqrt(delta)) / (2 * A);
-        X2 = (-B + Math.Sqrt(delta)) / (2 * A);
-        return true;
-    }
-}

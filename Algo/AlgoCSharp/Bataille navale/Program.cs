@@ -173,16 +173,24 @@ void SetBoatPosition(string name, int boatSize, List<(int, int)> boatPos)
                         {
                             canBeVertical = false;
                         }
+                    }
+                }
+            }
 
-                        else
+            else if (orientation == 'h')
+            {
+                for (int i = 0; i < allBoatsPos.Count; i++)
+                {
+                    for (int j = 1; j < boatSize; j++)
+                    {
+                        if (allBoatsPos[i] == (boxX + j, boxY))
                         {
-
+                            canBeHorizontal = false;
                         }
                     }
                 }
             }
 
-            else if
         } while (canBeHorizontal || canBeHorizontal && !caseTaken);
     } while (boxFound == false);
 }
