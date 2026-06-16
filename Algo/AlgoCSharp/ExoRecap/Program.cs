@@ -24,26 +24,32 @@ do
         case "Create":
 
             Create();
+            BackToMain();
             break;
 
         case "Details":
 
             Get();
+            BackToMain();
             break;
 
         case "All":
 
+            Console.Clear();
             GetAll();
+            BackToMain();
             break;
 
         case "Update":
 
             Update();
+            BackToMain();
             break;
 
         case "Delete":
 
             Delete();
+            BackToMain();
             break;
 
         case "Quit":
@@ -108,7 +114,7 @@ void ShowMainMenu()
         Console.BackgroundColor = ConsoleColor.DarkYellow;
     }
     Console.SetCursorPosition(middleX - 10, middleY + 9);
-    Console.WriteLine(" > Quit Gamify");
+    Console.WriteLine(" > Quit Gamify ");
     Console.BackgroundColor = ConsoleColor.Black;
 
     Console.SetCursorPosition(middleX - 17, middleY + 11);
@@ -180,15 +186,16 @@ void Create()
     Console.Clear();
     Console.WriteLine("Enter the game's year of parution :");
 
-    do
+    while (!succeed)
     {
         succeed = int.TryParse(Console.ReadLine(), out newGame.Year);
 
         if (!succeed)
         {
+            Console.Clear();
             Console.WriteLine("Enter a valid year of parution (ie: 1998)");
         }
-    } while (!succeed);
+    }
 
     Console.Clear();
     Console.WriteLine("Enter the game's studio :");
@@ -200,9 +207,6 @@ void Create()
     Console.WriteLine("Game added in your DB !");
 
     ShowInfo(newGame);
-
-    Console.WriteLine("\nPress any key to come back to main menu...");
-    Console.Clear();
 }
 
 void Get()
@@ -217,7 +221,7 @@ void Get()
         bool succeed = false;
 
         if (
-            game.Title == userInput ||
+            game.Title.Contains(userInput) ||
             game.Year.ToString() == userInput ||
             game.Genra == userInput ||
             game.Studio == userInput
@@ -233,86 +237,165 @@ void Get()
         }
     }
 
-    Console.WriteLine("\nPress any key to come back to the main menu.");
-    Console.ReadKey();
-    Console.Clear();
+    CheckIfDBEmpty();
 }
 
 void GetAll()
 {
-    Console.Clear();
-
     foreach (Game game in games)
     {
         ShowInfo(game);
     }
 
-    Console.WriteLine("\nPress any key to come back to main menu...");
-    Console.ReadKey();
-    Console.Clear();
+    CheckIfDBEmpty();
 }
 
 void Update()
 {
     Console.Clear();
-    Console.WriteLine("Please enter the title of the game you want to update");
-    string userInput2 = Console.ReadLine();
-    Console.Clear();
-    Console.WriteLine("");
 
-    for (int i = 0; i < games.Count; i++)
+    if (games.Count == 0)
     {
-        if (games[i].Title == userInput2)
+        CheckIfDBEmpty();
+    }
+
+    else
+    {
+        Console.WriteLine("Please enter the title of the game you want to update.");
+        string userInput2 = Console.ReadLine();
+        Console.Clear();
+
+        bool gameFound = false;
+        bool similarGameFound = false;
+        bool isConverted = false;
+        bool gameIDFound = false;
+        int gameID = 0;
+
+        for (int i = 0; i < games.Count; i++)
         {
-            index = i;
-            break;
+            if (games[i].Title == userInput2)
+            {
+                gameFound = true;
+                index = i;
+                break;
+            }
         }
+
+        if (!gameFound)
+        {
+            Console.WriteLine("No game is fully matching what you're looking for...");
+            for (int i = 0; i < games.Count; i++)
+            {
+                if (games[i].Title.Contains(userInput2))
+                {
+                    similarGameFound = true;
+                    ShowInfo(games[i]);
+                }
+            }
+
+            if (similarGameFound)
+            {
+                Console.WriteLine($"\nThere is a list that could contain the game you're looking for :");
+            }
+
+            else
+            {
+                GetAll();
+                Console.WriteLine($"\nThere is the list of all games stored in this DB :");
+            }
+
+            Console.WriteLine("\nPlease write the ID of the game you want to modify.");
+
+            do
+            {
+                isConverted = int.TryParse(Console.ReadLine(), out gameID);
+                
+                if(isConverted)
+                {
+                    for (int i = 0; i < games.Count; i++)
+                    {
+                        if (games[i].ID == gameID)
+                        {
+                            gameIDFound = true;
+                            index = i;
+                            break;
+                        }
+                    }
+
+                    if (!gameIDFound)
+                    {        
+                        Console.WriteLine("\nThe ID you wrote doesn't match any game ID... Please try again.");
+                    }
+                }
+
+            } while (!gameIDFound);
+        }
+
+        Console.WriteLine("\nWhich information do you want to update (Title, Genra, Year or Studio)?");
+        string infoToUdpate = Console.ReadLine();
+
+        Console.WriteLine("\nWrite the updated info:");
+        string updatedInfo = Console.ReadLine();
+        Console.Clear();
+
+        Game jeu = games[index];
+
+        switch (infoToUdpate)
+        {
+            case "Title":
+            case "title":
+                jeu.Title = updatedInfo;
+                break;
+
+            case "Genra":
+            case "genra":
+                jeu.Genra = updatedInfo;
+                break;
+
+            case "Year":
+            case "year":
+                bool succeed = false;
+                succeed = int.TryParse(updatedInfo, out int yearOfParution);
+                Console.Clear();
+
+                if (succeed)
+                {
+                    jeu.Year = yearOfParution;
+                }
+
+                else
+                {
+                    while (!succeed)
+                    {
+                        Console.WriteLine("Please enter a valid year of parution (ie: 1998).");
+                        succeed = int.TryParse(Console.ReadLine(), out yearOfParution);
+                        Console.Clear();
+
+                        if (succeed)
+                        {
+                            jeu.Year = yearOfParution;
+                        }
+                    }
+                }
+
+
+                break;
+
+            case "Studio":
+            case "studio":
+                jeu.Studio = updatedInfo;
+                break;
+        }
+
+        Console.WriteLine("Game successfuly updated!");
+        ShowInfo(jeu);
     }
-
-    Console.WriteLine("Which information do you want to update ?");
-    string infoToUdpate = Console.ReadLine();
-    Console.Clear();
-
-    Console.Clear();
-    Console.WriteLine("Write the updated info :");
-    string updatedInfo = Console.ReadLine();
-    Console.Clear();
-
-    Game jeu = games[index];
-
-    switch (infoToUdpate)
-    {
-        case "Title":
-        case "title":
-            jeu.Title = updatedInfo;
-            break;
-
-        case "Genra":
-        case "genra":
-            jeu.Genra = updatedInfo;
-            break;
-
-        case "Year":
-        case "year":
-            jeu.Year = int.Parse(updatedInfo);
-            break;
-
-        case "Studio":
-        case "studio":
-            jeu.Studio = updatedInfo;
-            break;
-    }
-
-    ShowInfo(jeu);
-    Console.WriteLine("\nPress any key to come back to main menu...");
-    Console.ReadKey();
-    Console.Clear();
 }
 
 void Delete()
 {
     Console.Clear();
-    Console.WriteLine("Please enter the title of the game you want to delete");
+    Console.WriteLine("Please enter the title of the game you want to delete.");
     string userInput3 = Console.ReadLine();
     Console.Clear();
 
@@ -326,7 +409,30 @@ void Delete()
     }
 
     games.RemoveAt(index);
-    Console.WriteLine("Game has been successfuly deleted !");
+    Console.WriteLine("Game has been successfuly deleted!");
+
+    //If I want to update IDs to match the indexes
+    //for (int i = index; i < games.Count; i++)
+    //{
+    //    Game jeu = games[i];
+    //    jeu.ID--;
+    //}
+
+    //Console.WriteLine("Games IDs updated!");
+
+
+}
+
+void CheckIfDBEmpty()
+{
+    if (games.Count == 0)
+    {
+        Console.WriteLine("There is no game in your DB yet...\nYou can add some by selecting the first option in the main menu.\n\n");
+    }
+}
+
+void BackToMain()
+{
     Console.WriteLine("\nPress any key to come back to main menu...");
     Console.ReadKey();
     Console.Clear();

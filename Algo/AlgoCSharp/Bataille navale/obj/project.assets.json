@@ -8,28 +8,25 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\a.dufour\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\antoi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\Bataille navale\\Bataille navale.csproj",
+      "projectUniqueName": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\Bataille navale\\Bataille navale.csproj",
       "projectName": "Bataille navale",
-      "projectPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\Bataille navale\\Bataille navale.csproj",
-      "packagesPath": "C:\\Users\\a.dufour\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\Bataille navale\\obj\\",
+      "projectPath": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\Bataille navale\\Bataille navale.csproj",
+      "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\Bataille navale\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\a.dufour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
