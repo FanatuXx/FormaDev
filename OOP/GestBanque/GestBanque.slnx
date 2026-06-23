@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Console App/">
+    <Project Path="GestBanque/GestBanque.csproj" Id="907931a6-00fd-472b-9cdb-da88173c5f5b" />
+  </Folder>
+  <Folder Name="/Domain/">
+    <Project Path="Models/Models.csproj" Id="3008b9fb-b7cd-44f0-866b-7af969e69c86" />
+  </Folder>
+</Solution>

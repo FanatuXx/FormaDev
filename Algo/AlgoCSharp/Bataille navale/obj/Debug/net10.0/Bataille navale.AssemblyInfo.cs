@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bataille navale")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6c6a6e3f0540c1cc2390b8e7f52673b558e044a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edcf101398b738197d24dab17ef43c89420f4107")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bataille navale")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bataille navale")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

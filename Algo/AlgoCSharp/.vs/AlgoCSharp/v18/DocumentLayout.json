@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\",
+  "WorkspaceRootPath": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACC99F9E-C316-4ED7-8BF5-99BD512227FC}|OOP\\OOP.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\algo\\algocsharp\\oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ACC99F9E-C316-4ED7-8BF5-99BD512227FC}|OOP\\OOP.csproj|c:\\users\\antoi\\documents\\formadev\\algo\\algocsharp\\oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACC99F9E-C316-4ED7-8BF5-99BD512227FC}|OOP\\OOP.csproj|solutionrelative:oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACC99F9E-C316-4ED7-8BF5-99BD512227FC}|OOP\\OOP.csproj|c:\\users\\antoi\\documents\\formadev\\algo\\algocsharp\\oop\\oop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ACC99F9E-C316-4ED7-8BF5-99BD512227FC}|OOP\\OOP.csproj|solutionrelative:oop\\oop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,11 +30,24 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OOP",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\OOP\\OOP.csproj",
+              "RelativeDocumentMoniker": "OOP\\OOP.csproj",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\OOP\\OOP.csproj",
+              "RelativeToolTip": "OOP\\OOP.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-23T07:28:23.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\OOP\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\OOP\\Program.cs",
               "RelativeDocumentMoniker": "OOP\\Program.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\OOP\\Program.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\OOP\\Program.cs",
               "RelativeToolTip": "OOP\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

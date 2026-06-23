@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\a.dufour\\.nuget\\packages\\": {},
+    "C:\\Users\\antoi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\MyLibrary\\MyLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\MyLibrary\\MyLibrary.csproj",
       "projectName": "MyLibrary",
-      "projectPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\MyLibrary\\MyLibrary.csproj",
-      "packagesPath": "C:\\Users\\a.dufour\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\MyLibrary\\obj\\",
+      "projectPath": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\MyLibrary\\MyLibrary.csproj",
+      "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\MyLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\a.dufour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

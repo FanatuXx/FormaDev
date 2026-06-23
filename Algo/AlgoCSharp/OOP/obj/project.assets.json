@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\a.dufour\\.nuget\\packages\\": {},
+    "C:\\Users\\antoi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\OOP\\OOP.csproj",
+      "projectUniqueName": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\OOP\\OOP.csproj",
       "projectName": "OOP",
-      "projectPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\OOP\\OOP.csproj",
-      "packagesPath": "C:\\Users\\a.dufour\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\OOP\\obj\\",
+      "projectPath": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\OOP\\OOP.csproj",
+      "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\OOP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\a.dufour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -60,8 +60,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\MyLibrary\\MyLibrary.csproj": {
-              "projectPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\MyLibrary\\MyLibrary.csproj"
+            "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\MyLibrary\\MyLibrary.csproj": {
+              "projectPath": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\MyLibrary\\MyLibrary.csproj"
             }
           }
         }
