@@ -1,25 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\",
+  "WorkspaceRootPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5133D55-7EB9-4403-9918-A04951FC7955}|ExoRecap\\ExoRecap.csproj|c:\\users\\antoi\\documents\\formadev\\algo\\algocsharp\\exorecap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5133D55-7EB9-4403-9918-A04951FC7955}|ExoRecap\\ExoRecap.csproj|solutionrelative:exorecap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5133D55-7EB9-4403-9918-A04951FC7955}|ExoRecap\\ExoRecap.csproj|c:\\users\\antoi\\documents\\formadev\\algo\\algocsharp\\exorecap\\gameenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5133D55-7EB9-4403-9918-A04951FC7955}|ExoRecap\\ExoRecap.csproj|solutionrelative:exorecap\\gameenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\a.dufour\\Downloads\\Projet de fin de forma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6936FAB6-1685-4B1D-827F-53CDBAF3CEFD}|Bataille navale\\Bataille navale.csproj|c:\\users\\antoi\\documents\\formadev\\algo\\algocsharp\\bataille navale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6936FAB6-1685-4B1D-827F-53CDBAF3CEFD}|Bataille navale\\Bataille navale.csproj|solutionrelative:bataille navale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F479C1D-FAE1-4999-9406-11D2F6355050}|ExoS1-2\\ExoS1-2.csproj|c:\\users\\antoi\\documents\\formadev\\algo\\algocsharp\\exos1-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F479C1D-FAE1-4999-9406-11D2F6355050}|ExoS1-2\\ExoS1-2.csproj|solutionrelative:exos1-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACC99F9E-C316-4ED7-8BF5-99BD512227FC}|OOP\\OOP.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\algo\\algocsharp\\oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACC99F9E-C316-4ED7-8BF5-99BD512227FC}|OOP\\OOP.csproj|solutionrelative:oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,22 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\ExoRecap\\Program.cs",
-              "RelativeDocumentMoniker": "ExoRecap\\Program.cs",
-              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\ExoRecap\\Program.cs",
-              "RelativeToolTip": "ExoRecap\\Program.cs",
-              "ViewState": "AgIAAGoBAAAAAAAAAAAswHgBAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T08:09:11.938Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
@@ -55,51 +26,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Projet de fin de forma.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\Downloads\\Projet de fin de forma.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\a.dufour\\Downloads\\Projet de fin de forma.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\Downloads\\Projet de fin de forma.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\a.dufour\\Downloads\\Projet de fin de forma.cs",
-              "ViewState": "AgIAAJEBAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T08:17:15.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameEnum.cs",
-              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\ExoRecap\\GameEnum.cs",
-              "RelativeDocumentMoniker": "ExoRecap\\GameEnum.cs",
-              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\ExoRecap\\GameEnum.cs",
-              "RelativeToolTip": "ExoRecap\\GameEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T08:09:56.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\Bataille navale\\Program.cs",
-              "RelativeDocumentMoniker": "Bataille navale\\Program.cs",
-              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\Bataille navale\\Program.cs",
-              "RelativeToolTip": "Bataille navale\\Program.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAowL8AAAANAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\OOP\\Program.cs",
+              "RelativeDocumentMoniker": "OOP\\Program.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Algo\\AlgoCSharp\\OOP\\Program.cs",
+              "RelativeToolTip": "OOP\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T07:19:06.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\ExoS1-2\\Program.cs",
-              "RelativeDocumentMoniker": "ExoS1-2\\Program.cs",
-              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Algo\\AlgoCSharp\\ExoS1-2\\Program.cs",
-              "RelativeToolTip": "ExoS1-2\\Program.cs",
-              "ViewState": "AgIAACgCAAAAAAAAAAAAADECAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T08:13:12.769Z"
+              "WhenOpened": "2026-06-22T07:38:50.626Z",
+              "EditorCaption": ""
             }
           ]
         }

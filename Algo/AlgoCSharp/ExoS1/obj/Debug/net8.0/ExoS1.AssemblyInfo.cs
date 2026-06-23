@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExoS1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22ba22813a038665ac9920b58cae3c97f51151d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6c6a6e3f0540c1cc2390b8e7f52673b558e044a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExoS1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExoS1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
