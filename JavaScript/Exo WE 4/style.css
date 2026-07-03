@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    width: 75px;
+    height: 100px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+#all-cards {
+    display: flex;
+    gap: 32px;
+}
+
+.name {
+    text-align: center;
+}
