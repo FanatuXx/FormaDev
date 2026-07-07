@@ -1,0 +1,12 @@
+#answer-container {
+    display: flex;
+    gap: 20px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
