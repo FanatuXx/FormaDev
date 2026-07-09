@@ -12,13 +12,14 @@
     <h1>Recherche ton pokémon !</h1>
 
     <form id="form" name="pokeform">
-        <label for="name-number">Nom ou numéro du pokémon : </label>
-        <input id="name-number" type="text" placeholder="Ex: salamèche ou 36">
+        <label for="name-number">Nom du pokémon : </label>
+        <input id="name-number" type="text" placeholder="Ex: salamèche ou 36" required>
         <br><br>
         <button id="submit" type="submit">Rechercher</button>
     </form>
 
-    <div id="pokemon-card"></div>
+    <br><br>
+    <div class="pokemon-card"></div>
 
     <p id="error-message"></p>
 </body>

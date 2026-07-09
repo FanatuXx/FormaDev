@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(250, 246, 242);
+}
+
+.pokemon-card {
+    display: flex;
+    height: 300px;
+    width: 250px;
+    background-color: rgba(255, 73, 73, 0.801);
+    border: 3px solid black;
+    border-radius: 5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+#sprite {
+    height: 200px;
+    width: 200px;
+}
+
+#name {
+    font-size:x-large;
+}
