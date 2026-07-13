@@ -1,46 +1,37 @@
 <br>
 
 <div class="taskContainer">
+
     <h1>Mes tâches</h1>
+
+    <div class="input-container">
+        <input type="text" placeholder="Title" [(ngModel)]="titleInput">
+        <input type="text" placeholder="Description" [(ngModel)]="descInput">
+        <select [(ngModel)]="priorityInput">
+            <option [value]="undefined" [defaultSelected]="true"></option>
+            @for (p of TaskPriority | keyvalue; track p.key) {
+                <option [value]="p.key">{{p.value | titlecase}}</option>
+            }
+        </select>
+        <input type="text" placeholder="ImageUrl" [(ngModel)]="imageUrl">
+        <button (click)="addTask()">Ajouter</button>
+    </div>
+
     @for (task of myTasks(); track task.id) {
 
         <div class="card">
             <p id ="title">Titre : {{task.title}}</p>
             <p>Description : {{task.description}}</p>
-
-            @if (task.priority < 5) {
-                
-                <p id="low">💤 Low priority... 💤</p>
-            }
-
-            @else if (task.priority < 8) {
-                <p id="medium">⚠️ Medium priority ⚠️</p>
-            }
-
-            @else {
-                <p id="high">🚨 High priority 🚨</p>
-            }
+            <p class="prio">{{ task.priority | titlecase }} priority</p>
         </div>
         <br>
     } @empty {
         <p>Aucune tâche pour le moment...</p>
     }
+    
 </div>
 <br>
-<form>
-    <label for="new-title">Titre</label>
-    <input type="text" id="new-title">
-    <br>
-    <label for="new-description">Description</label>
-    <input type="text" id="new-description">
-    <br>
-    <label for="new-prio">Priorité</label>
-    <input type="number" id="new-prio" min="1" max="10">
-    <br>
-    <label for="new-status">Terminé ?</label>
-    <input type="checkbox" id="new-status">
-    <br>
-    <br>
-    <button type="submit">Ajouter</button>
-</form>
+
+
+
 
