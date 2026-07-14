@@ -1,0 +1,7 @@
+@if(appService.pokemon.isLoading()) {
+    <app-loader></app-loader>
+} @else {
+    <p>Nom: {{ appService.pokemon.value()!.name | titlecase }}</p>
+    <p>Poids: {{ appService.pokemon.value()!.weight | convert_to: 0.1 : 'kg' }}</p>
+    <p>Taille: {{ appService.pokemon.value()!.height | convert_to: 10 : 'cm' }}</p>
+}
