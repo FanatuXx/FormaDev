@@ -6,44 +6,54 @@ namespace Models
 {
     public class CheckingAccount
     {
-        private string accountNumber;
-        private double balance;
-        private double creditLine;
-        private Person holder;
+        private double balance = 0;
+        private double creditLine = 50;
+        public Person holder;
 
-        private string AccountNumber {
-            get
+        public static double operator +(CheckingAccount c1, double amount)
+        {
+            if (c1.Balance > 0)
             {
-                return accountNumber;
+                return c1.Balance + amount;
             }
-            set
+
+            else
             {
-                accountNumber = value;
-            } 
+                return c1.Balance;
+            }
         }
 
-        private double Balance {
+        public string AccountNumber { get; set; }
+
+        public double Balance {
             get
             {
                 return balance;
             }
+            private set
+            {
+                if (value >= -CreditLine)
+                {
+                    balance = value;
+                }
+            }
         }
 
-        private double CreditLine {
+        public double CreditLine {
             get
             {
                 return CreditLine;
             }
             set
             {
-                if (value <= 0)
+                if (value >= 0)
                 {
                     CreditLine = value;
                 }
             }
         }
 
-        private Person Holder {
+        public Person Holder {
             get
             {
                 return holder;
@@ -57,15 +67,17 @@ namespace Models
 
         public void Deposit(double amount)
         {
-            balance = Balance + amount;
+            Balance += amount;
         }
 
         public void Withdrawal(double amount)
         {
-            if (Balance - amount > -CreditLine)
-            {
-                balance = Balance - amount;
-            }
+            Balance -= amount;
+        }
+
+        public double GetAccounts(Person holder)
+        {
+
         }
     }
 }

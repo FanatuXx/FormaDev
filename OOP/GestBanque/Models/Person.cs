@@ -24,5 +24,6 @@ namespace Models
                     birthDate = value;
                 }
             }
+        }
     }
 }

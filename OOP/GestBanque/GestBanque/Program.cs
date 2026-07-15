@@ -10,5 +10,11 @@ mazda3.WheelNumber = 4;
 Person person = new Person();
 person.Firstname = "Bruce";
 person.Surname = "Wayne";
-person.BirthDate = new DateTime(1972, 19, 2);
+person.BirthDate = new DateTime(1972, 2, 19);
 #endregion
+
+CheckingAccount checkAccount = new CheckingAccount();
+checkAccount.Holder = new Person();
+checkAccount.Deposit(20);
+
+Console.WriteLine(checkAccount.Balance);
