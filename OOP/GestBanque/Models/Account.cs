@@ -4,17 +4,11 @@ using System.Text;
 
 namespace Models
 {
-    public class Account
+    public abstract class Account
     {
         private double balance = 0;
         public Person holder;
         public string AccountNumber { get; set; }
-
-
-        public Account(double bal)
-        {
-            balance = bal;
-        }
 
 
         public virtual double Balance
@@ -44,17 +38,23 @@ namespace Models
 
 
 
-
         public void Deposit(double amount)
         {
             Balance += amount;
         }
 
-        public void Withdrawal(double amount)
+        public virtual void Withdrawal(double amount)
         {
             Balance -= amount;
         }
 
+        protected abstract double InterestCalculation();
+
+
+        public void ApplicateInterest()
+        {
+            Balance += InterestCalculation();
+        }
 
 
 

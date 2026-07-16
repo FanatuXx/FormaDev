@@ -8,15 +8,15 @@ namespace Models
     {
         public string Name { get; set; }
 
-        private Dictionary<string, CheckingAccount> accounts = new Dictionary<string, CheckingAccount>();
+        private Dictionary<string, Account> accounts = new Dictionary<string, Account>();
 
-        public Dictionary<string, CheckingAccount> Accounts { get; set; }
+        public Dictionary<string, Account> Accounts { get; set; }
 
-        public CheckingAccount this[string accountNumber]
+        public Account this[string accountNumber]
         {
             get
             {
-                CheckingAccount account;
+                Account account;
                 Accounts.TryGetValue(accountNumber, out account);
                 return account;
             }
@@ -27,7 +27,7 @@ namespace Models
             }
         }
 
-        public void Add(CheckingAccount account)
+        public void Add(Account account)
         {
             if (!accounts.ContainsKey(account.AccountNumber))
             {
@@ -46,7 +46,7 @@ namespace Models
         {
             double totalBalance = 0;
 
-            foreach (CheckingAccount acc in Accounts.Values)
+            foreach (Account acc in Accounts.Values)
             {
                 if (acc.holder == holder)
                 {

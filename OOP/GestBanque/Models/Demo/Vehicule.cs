@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Models.Demo
 {
-    public class Vehicule
+    public abstract class Vehicule
     {
         protected int speed;
         public int Speed

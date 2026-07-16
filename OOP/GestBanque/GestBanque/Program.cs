@@ -17,5 +17,7 @@ person.BirthDate = new DateTime(1972, 2, 19);
 CheckingAccount checkAccount = new CheckingAccount();
 checkAccount.Holder = new Person();
 checkAccount.Deposit(20);
+// Impossible car classe abstraite  
+// Vehicule v2 = new Vehicule();
 
 Console.WriteLine(checkAccount.Balance);

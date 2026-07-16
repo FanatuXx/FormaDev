@@ -9,24 +9,6 @@ namespace Models
 
         private double creditLine = 50;
 
-        public CheckingAccount(double bal) : base(bal)
-        {
-        }
-
-        public override double Balance {
-            get
-            {
-                return base.Balance;
-            }
-
-            private set
-            {
-                if (value >= -CreditLine)
-                {
-                    base.bal = value;
-                }
-            }
-        }
 
         public double CreditLine {
             get
@@ -41,6 +23,21 @@ namespace Models
                     CreditLine = value;
                 }
             }
+        }
+
+        public override void Withdrawal(double amount)
+        {
+            base.Withdrawal(amount);
+        }
+
+        protected override double InterestCalculation()
+        {
+            if (Balance >= 0)
+            {
+                return Balance * 0.03;
+            }
+
+            return Balance * 0.0975;
         }
     }
 }
