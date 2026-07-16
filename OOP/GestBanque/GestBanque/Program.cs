@@ -1,7 +1,8 @@
 ﻿using Models;
+using Models.Demo;
 
 #region demo
-Voiture mazda3 = new Voiture();
+Car mazda3 = new Car();
 mazda3.FuelType = "Gasoil";
 mazda3.WheelNumber = 4;
 #endregion

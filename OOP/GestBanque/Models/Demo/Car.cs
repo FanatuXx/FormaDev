@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Models
+namespace Models.Demo
 {
-    public class Voiture
+    public class Car : Vehicule
     {
         private string fuelType;
         private int wheelNumber;
@@ -45,12 +45,12 @@ namespace Models
 
         internal Garage garage;
 
-        private int speed;
+        protected int speed;
 
         public int Speed
         {
             get { return speed; }
-            set 
+            protected set 
             {
                 if (value >= 0)
                 {
@@ -58,19 +58,26 @@ namespace Models
                 }
             }
         }
-
-        // 10 = valeur par défaut de supSpeed, mais peut être modifié en mettant une autre valeur entre parenthèses 
-        // Les fonctions qui ne retournent rien (void) sont appelées "procédures"
-        public void Accelerate(int supSpeed = 10)
+       
+        // override permet de réécrire le comportement d'une fonction dans une classe enfant qui hérite d'une classe parent
+        public override void Accelerate(int supSpeed = 10)
         {
-            Speed += supSpeed;
+            //Speed += supSpeed;
+            base.Accelerate(supSpeed);
         }
 
-        public void Decelerate(int dropSpeed = 10)
+        // new permet de réécrire le comportement d'une fonction dans une classe enfant qui hérite d'une classe parent MAIS il ne changera pas le comportement si l'objet enfant est considéré comme l'objet parent 
+        // Ex : Car mazda3 = new Car();
+        //      Vehicule v = mazda3;
+        //      v.Accelerate();    => Appelera la fonction de la classe Vehicule si jamais c'est le mot clé "new" qui est utilisé, et celui de la classe enfant si c'est le mot clé "override" qui est utilisé 
+        public new void Decelerate(int dropSpeed = 10)
         {
-            Speed -= dropSpeed;
+            base.Decelerate(dropSpeed);
         }
 
-
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 }

@@ -39,5 +39,22 @@ namespace Models
         {
             Accounts.Remove(accountNumber);
         }
+
+
+        //Voir CheckingAccount.cs pour comprendre pourquoi il est possible d'utiliser le + entre un double ou un objet CheckingAccount
+        public double GetAccounts(Person holder)
+        {
+            double totalBalance = 0;
+
+            foreach (CheckingAccount acc in Accounts.Values)
+            {
+                if (acc.holder == holder)
+                {
+                    totalBalance += acc;
+                }
+            }
+
+            return totalBalance;
+        }
     }
 }
