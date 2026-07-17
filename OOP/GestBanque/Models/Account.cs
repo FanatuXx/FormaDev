@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Models
 {
-    public abstract class Account
+    public abstract class Account : IBanker
     {
         private double balance = 0;
         public Person holder;
-        public string AccountNumber { get; set; }
+        public string AccountNumber { get; private set; }
 
 
         public virtual double Balance
@@ -30,16 +30,31 @@ namespace Models
             {
                 return holder;
             }
-            set
+            private set
             {
                 holder = value;
             }
         }
 
+        public Account(string accountNumber, Person holder)
+        {
+            AccountNumber = accountNumber;
+            Holder = holder;
+        }
+
+        public Account(string accountNumber, Person holder, double balance): this(accountNumber, holder)
+        {
+            Balance = balance;
+        }
 
 
         public void Deposit(double amount)
         {
+            if (!(amount > 0))
+            {
+                throw new ArgumentOutOfRangeException("montant", "Le montant déposé doit être plus grand que 0.");
+            }
+
             Balance += amount;
         }
 

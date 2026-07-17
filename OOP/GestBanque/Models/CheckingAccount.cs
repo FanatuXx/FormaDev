@@ -16,17 +16,22 @@ namespace Models
                 return CreditLine;
             }
 
-            set
+            private set
             {
-                if (value >= 0)
+                if (!(value >= 0))
                 {
-                    CreditLine = value;
+                    throw new InvalidOperationException("La ligne de crédit ne peut être négative");
                 }
+                CreditLine = value;
             }
         }
 
         public override void Withdrawal(double amount)
         {
+            if (Balance - amount < -CreditLine)
+            {
+                throw new InsufficientBalanceException();
+            }
             base.Withdrawal(amount);
         }
 
@@ -38,6 +43,20 @@ namespace Models
             }
 
             return Balance * 0.0975;
+        }
+
+
+        public CheckingAccount(string accountNumber, Person holder) : this(accountNumber, holder, 0, 0)
+        {
+        }
+
+        public CheckingAccount(string accountNumber, Person holder, double balance) : this(accountNumber, holder, balance, 0)
+        {
+        }
+
+        public CheckingAccount(string accountNumber, Person holder, double balance, double creditLine) : base(accountNumber, holder, balance)
+        {
+            CreditLine = creditLine;
         }
     }
 }

@@ -13,7 +13,7 @@ namespace Models
             {
                 return lastWithdrawalDate;
             }
-            set
+            private set
             {
                 DateTime today = DateTime.Now;
                 //Check si la valeur rentrée n'est pas dans le futur OU + de 110ans dans le passé
@@ -26,16 +26,26 @@ namespace Models
 
         public override void Withdrawal(double amount)
         {
-            if (Balance - amount >= 0)
+            if (Balance - amount < 0)
             {
-                LastWithdrawalDate = DateTime.Now;
-                base.Withdrawal(amount);
+                throw new InsufficientBalanceException();
             }
+            LastWithdrawalDate = DateTime.Now;
+            base.Withdrawal(amount);
         }
 
         protected override double InterestCalculation()
         {
             return Balance * 0.045;
+        }
+
+
+        public SavingsAccount(string accountNumber, Person holder) : this(accountNumber, holder, 0)
+        {
+        }
+
+        public SavingsAccount(string accountNumber, Person holder, double balance) : base(accountNumber, holder, balance)
+        {
         }
     }
 }

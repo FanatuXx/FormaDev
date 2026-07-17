@@ -17,3 +17,12 @@ C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\OOP\GestBanque\Ge
 C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\OOP\GestBanque\GestBanque\obj\Debug\net10.0\GestBanque.pdb
 C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\OOP\GestBanque\GestBanque\obj\Debug\net10.0\GestBanque.genruntimeconfig.cache
 C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\OOP\GestBanque\GestBanque\obj\Debug\net10.0\ref\GestBanque.dll
+C:\Users\antoi\Documents\FormaDev\OOP\GestBanque\GestBanque\obj\Debug\net10.0\GestBanque.csproj.AssemblyReference.cache
+C:\Users\antoi\Documents\FormaDev\OOP\GestBanque\GestBanque\obj\Debug\net10.0\GestBanque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antoi\Documents\FormaDev\OOP\GestBanque\GestBanque\obj\Debug\net10.0\GestBanque.AssemblyInfoInputs.cache
+C:\Users\antoi\Documents\FormaDev\OOP\GestBanque\GestBanque\obj\Debug\net10.0\GestBanque.AssemblyInfo.cs
+C:\Users\antoi\Documents\FormaDev\OOP\GestBanque\GestBanque\obj\Debug\net10.0\GestBanque.csproj.CoreCompileInputs.cache
+C:\Users\antoi\Documents\FormaDev\OOP\GestBanque\GestBanque\obj\Debug\net10.0\GestBanque.sourcelink.json
+C:\Users\antoi\Documents\FormaDev\OOP\GestBanque\GestBanque\obj\Debug\net10.0\GestBanque.dll
+C:\Users\antoi\Documents\FormaDev\OOP\GestBanque\GestBanque\obj\Debug\net10.0\refint\GestBanque.dll
+C:\Users\antoi\Documents\FormaDev\OOP\GestBanque\GestBanque\obj\Debug\net10.0\GestBanque.pdb

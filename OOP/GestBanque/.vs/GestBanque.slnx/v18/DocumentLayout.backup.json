@@ -1,50 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\",
+  "WorkspaceRootPath": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{907931A6-00FD-472B-9CDB-DA88173C5F5B}|GestBanque\\GestBanque.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\gestbanque\\gestbanque\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{907931A6-00FD-472B-9CDB-DA88173C5F5B}|GestBanque\\GestBanque.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\gestbanque\\gestbanque\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{907931A6-00FD-472B-9CDB-DA88173C5F5B}|GestBanque\\GestBanque.csproj|solutionrelative:gestbanque\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\gestbanque\\models\\demo\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|solutionrelative:models\\demo\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\gestbanque\\models\\demo\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|solutionrelative:models\\demo\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\gestbanque\\models\\checkingaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|solutionrelative:models\\checkingaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\gestbanque\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|solutionrelative:models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\gestbanque\\models\\savingsaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\gestbanque\\models\\savingsaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|solutionrelative:models\\savingsaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\gestbanque\\models\\demo\\vehicule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|solutionrelative:models\\demo\\vehicule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\gestbanque\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|solutionrelative:models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\gestbanque\\models\\autre exo\\celsius.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|solutionrelative:models\\autre exo\\celsius.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\gestbanque\\models\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|solutionrelative:models\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\gestbanque\\models\\banque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|solutionrelative:models\\banque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\gestbanque\\models\\checkingaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|solutionrelative:models\\checkingaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\gestbanque\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\gestbanque\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|solutionrelative:models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\gestbanque\\models\\autre exo\\fahrenheit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|solutionrelative:models\\autre exo\\fahrenheit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\gestbanque\\models\\icustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|solutionrelative:models\\icustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\gestbanque\\models\\demo\\vehicule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3008B9FB-B7CD-44F0-866B-7AF969E69C86}|Models\\Models.csproj|solutionrelative:models\\demo\\vehicule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,73 +42,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Person.cs",
-              "RelativeDocumentMoniker": "Models\\Person.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Person.cs",
-              "RelativeToolTip": "Models\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\GestBanque\\Program.cs",
+              "RelativeDocumentMoniker": "GestBanque\\Program.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\GestBanque\\Program.cs",
+              "RelativeToolTip": "GestBanque\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T09:40:20.224Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Banque.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Banque.cs",
-              "RelativeDocumentMoniker": "Models\\Banque.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Banque.cs",
-              "RelativeToolTip": "Models\\Banque.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T12:34:20.818Z",
-              "IsPinned": true,
+              "WhenOpened": "2026-06-23T07:43:28.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SavingsAccount.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\SavingsAccount.cs",
-              "RelativeDocumentMoniker": "Models\\SavingsAccount.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\SavingsAccount.cs",
-              "RelativeToolTip": "Models\\SavingsAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "Models\\Person.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Person.cs",
+              "RelativeToolTip": "Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T10:13:25.516Z",
+              "WhenOpened": "2026-07-17T10:35:17.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Account.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Account.cs",
               "RelativeDocumentMoniker": "Models\\Account.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Account.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Account.cs",
               "RelativeToolTip": "Models\\Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowDIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-16T09:58:16.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Vehicule.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Demo\\Vehicule.cs",
-              "RelativeDocumentMoniker": "Models\\Demo\\Vehicule.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Demo\\Vehicule.cs",
-              "RelativeToolTip": "Models\\Demo\\Vehicule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T09:03:45.206Z",
               "EditorCaption": ""
             },
             {
@@ -133,79 +93,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Fahrenheit.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Autre exo\\Fahrenheit.cs",
-              "RelativeDocumentMoniker": "Models\\Autre exo\\Fahrenheit.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Autre exo\\Fahrenheit.cs",
-              "RelativeToolTip": "Models\\Autre exo\\Fahrenheit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ICustomer.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\ICustomer.cs",
+              "RelativeDocumentMoniker": "Models\\ICustomer.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\ICustomer.cs",
+              "RelativeToolTip": "Models\\ICustomer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T14:17:14.178Z"
+              "WhenOpened": "2026-07-17T08:07:03.687Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Celsius.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Autre exo\\Celsius.cs",
-              "RelativeDocumentMoniker": "Models\\Autre exo\\Celsius.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Autre exo\\Celsius.cs",
-              "RelativeToolTip": "Models\\Autre exo\\Celsius.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Title": "Vehicule.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Demo\\Vehicule.cs",
+              "RelativeDocumentMoniker": "Models\\Demo\\Vehicule.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Demo\\Vehicule.cs",
+              "RelativeToolTip": "Models\\Demo\\Vehicule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T14:15:30.09Z",
+              "WhenOpened": "2026-07-16T12:51:50.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CheckingAccount.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\CheckingAccount.cs",
-              "RelativeDocumentMoniker": "Models\\CheckingAccount.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\CheckingAccount.cs",
-              "RelativeToolTip": "Models\\CheckingAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Title": "Bank.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Bank.cs",
+              "RelativeDocumentMoniker": "Models\\Bank.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Bank.cs",
+              "RelativeToolTip": "Models\\Bank.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T09:47:11.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Garage.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Demo\\Garage.cs",
-              "RelativeDocumentMoniker": "Models\\Demo\\Garage.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Demo\\Garage.cs",
-              "RelativeToolTip": "Models\\Demo\\Garage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T09:05:20.364Z",
+              "WhenOpened": "2026-07-16T12:26:02.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Car.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Demo\\Car.cs",
-              "RelativeDocumentMoniker": "Models\\Demo\\Car.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\Demo\\Car.cs",
-              "RelativeToolTip": "Models\\Demo\\Car.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwDwAAAAHAAAAAAAAAA==",
+              "Title": "SavingsAccount.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\SavingsAccount.cs",
+              "RelativeDocumentMoniker": "Models\\SavingsAccount.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\SavingsAccount.cs",
+              "RelativeToolTip": "Models\\SavingsAccount.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwA8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T07:57:53.66Z",
+              "WhenOpened": "2026-07-16T10:13:25.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\GestBanque\\Program.cs",
-              "RelativeDocumentMoniker": "GestBanque\\Program.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\GestBanque\\GestBanque\\Program.cs",
-              "RelativeToolTip": "GestBanque\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CheckingAccount.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\CheckingAccount.cs",
+              "RelativeDocumentMoniker": "Models\\CheckingAccount.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\GestBanque\\Models\\CheckingAccount.cs",
+              "RelativeToolTip": "Models\\CheckingAccount.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA1wC8AAAB9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T07:43:28.03Z",
+              "WhenOpened": "2026-07-15T09:47:11.49Z",
               "EditorCaption": ""
             }
           ]

@@ -6,8 +6,8 @@ namespace Models
 {
     public class Person
     {
-        public string Surname { get; set; }
-        public string Firstname { get; set; }
+        public string Surname { get; init; }
+        public string Firstname { get; init; }
 
         private DateTime birthDate;
         public DateTime BirthDate {
@@ -24,6 +24,13 @@ namespace Models
                     birthDate = value;
                 }
             }
+        }
+
+        public Person(string surname, string firstname, DateTime birthDate)
+        {
+            Surname = surname;
+            Firstname = firstname;
+            BirthDate = birthDate;
         }
     }
 }

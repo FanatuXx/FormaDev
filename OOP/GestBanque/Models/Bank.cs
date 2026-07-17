@@ -4,13 +4,13 @@ using System.Text;
 
 namespace Models
 {
-    public class Banque
+    public class Bank
     {
-        public string Name { get; set; }
+        public string Name { get; init; }
 
         private Dictionary<string, Account> accounts = new Dictionary<string, Account>();
 
-        public Dictionary<string, Account> Accounts { get; set; }
+        public Dictionary<string, Account> Accounts { get; init; }
 
         public Account this[string accountNumber]
         {
@@ -55,6 +55,11 @@ namespace Models
             }
 
             return totalBalance;
+        }
+
+        public Bank(string name)
+        {
+            Name = name;
         }
     }
 }
