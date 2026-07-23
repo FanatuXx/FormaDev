@@ -56,6 +56,11 @@ namespace Models
             }
 
             Balance += amount;
+
+            if (balance < 0)
+            {
+
+            }
         }
 
         public virtual void Withdrawal(double amount)
@@ -87,5 +92,15 @@ namespace Models
         {
             return c1 + amount;
         }
+
+        //public event SwitchToNegativeDelegate SwitchToNegativeEvent;
+        public event Action<Account> SwitchToNegativeEvent = null;
+
+
+        protected void TriggerSwitchToNegativeEvent()
+        {
+            SwitchToNegativeEvent?.Invoke(this);
+        }
+
     }
 }

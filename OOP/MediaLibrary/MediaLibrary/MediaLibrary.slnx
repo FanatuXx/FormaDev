@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MediaLibrary/MediaLibraryApp.csproj" />
+  <Project Path="Models/Models.csproj" />
+</Solution>

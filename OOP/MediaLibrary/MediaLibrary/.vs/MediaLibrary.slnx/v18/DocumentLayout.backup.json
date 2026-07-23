@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4BF61A2-623D-441A-94EF-AEA5A3994D07}|MediaLibrary\\MediaLibrary.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\medialibrary\\medialibrary\\medialibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4BF61A2-623D-441A-94EF-AEA5A3994D07}|MediaLibrary\\MediaLibrary.csproj|solutionrelative:medialibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\multiplenotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|solutionrelative:models\\multiplenotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\pushnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|solutionrelative:models\\pushnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\medialibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|solutionrelative:models\\medialibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\smsnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|solutionrelative:models\\smsnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\inotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|solutionrelative:models\\inotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\emailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|solutionrelative:models\\emailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\consolenotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|solutionrelative:models\\consolenotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\subscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|solutionrelative:models\\subscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|solutionrelative:models\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\dvd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|solutionrelative:models\\dvd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFB13B3-9E72-4DE2-BB85-9BFDAAE0689A}|Models\\Models.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T10:05:31.143Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MultipleNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\MultipleNotifier.cs",
+              "RelativeDocumentMoniker": "Models\\MultipleNotifier.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\MultipleNotifier.cs",
+              "RelativeToolTip": "Models\\MultipleNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T12:57:38.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PushNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\PushNotifier.cs",
+              "RelativeDocumentMoniker": "Models\\PushNotifier.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\PushNotifier.cs",
+              "RelativeToolTip": "Models\\PushNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T12:31:38.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SmsNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\SmsNotifier.cs",
+              "RelativeDocumentMoniker": "Models\\SmsNotifier.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\SmsNotifier.cs",
+              "RelativeToolTip": "Models\\SmsNotifier.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T12:01:53.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmailNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\EmailNotifier.cs",
+              "RelativeDocumentMoniker": "Models\\EmailNotifier.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\EmailNotifier.cs",
+              "RelativeToolTip": "Models\\EmailNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T11:56:38.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConsoleNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\ConsoleNotifier.cs",
+              "RelativeDocumentMoniker": "Models\\ConsoleNotifier.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\ConsoleNotifier.cs",
+              "RelativeToolTip": "Models\\ConsoleNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T11:54:42.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "INotifier.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\INotifier.cs",
+              "RelativeDocumentMoniker": "Models\\INotifier.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\INotifier.cs",
+              "RelativeToolTip": "Models\\INotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T11:48:56.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Media.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Media.cs",
+              "RelativeDocumentMoniker": "Models\\Media.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Media.cs",
+              "RelativeToolTip": "Models\\Media.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T10:11:19.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dvd.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Dvd.cs",
+              "RelativeDocumentMoniker": "Models\\Dvd.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Dvd.cs",
+              "RelativeToolTip": "Models\\Dvd.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T10:07:43.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Subscriber.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Subscriber.cs",
+              "RelativeDocumentMoniker": "Models\\Subscriber.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Subscriber.cs",
+              "RelativeToolTip": "Models\\Subscriber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T10:05:57.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MediaLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\MediaLibrary.cs",
+              "RelativeDocumentMoniker": "Models\\MediaLibrary.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\MediaLibrary.cs",
+              "RelativeToolTip": "Models\\MediaLibrary.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T10:05:54.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\MediaLibrary\\Program.cs",
+              "RelativeDocumentMoniker": "MediaLibrary\\Program.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\MediaLibrary\\Program.cs*",
+              "RelativeToolTip": "MediaLibrary\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T09:20:50.213Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

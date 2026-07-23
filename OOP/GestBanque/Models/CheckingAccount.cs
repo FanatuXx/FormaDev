@@ -28,11 +28,18 @@ namespace Models
 
         public override void Withdrawal(double amount)
         {
+            double oldBalance = Balance;
+
             if (Balance - amount < -CreditLine)
             {
                 throw new InsufficientBalanceException();
             }
             base.Withdrawal(amount);
+
+            if (oldBalance >= 0 && Balance < 0)
+            {
+                TriggerSwitchToNegativeEvent();
+            }
         }
 
         protected override double InterestCalculation()

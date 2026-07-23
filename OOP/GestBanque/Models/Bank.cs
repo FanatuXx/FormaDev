@@ -31,13 +31,17 @@ namespace Models
         {
             if (!accounts.ContainsKey(account.AccountNumber))
             {
+                account.SwitchToNegativeEvent += SwitchToNegativeAction;
                 Accounts[account.AccountNumber] = account;
             }
         }
 
         public void Remove(string accountNumber)
         {
+            Account a = Accounts[accountNumber];
+            a.SwitchToNegativeEvent -= SwitchToNegativeAction;
             Accounts.Remove(accountNumber);
+            
         }
 
 
@@ -60,6 +64,11 @@ namespace Models
         public Bank(string name)
         {
             Name = name;
+        }
+
+        public void SwitchToNegativeAction(Account account)
+        {
+            Console.WriteLine($"Le compte {account.AccountNumber} est passé en négatif");
         }
     }
 }
