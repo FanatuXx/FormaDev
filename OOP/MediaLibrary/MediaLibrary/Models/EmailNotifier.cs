@@ -6,13 +6,9 @@ namespace Models
 {
     public class EmailNotifier : INotifier
     {
-        private string sender;
+        //private string sender;
 
-        public string Sender
-        {
-            get { return sender; }
-            private set { sender = value; }
-        }
+        public string Sender { get; }
 
         public EmailNotifier(string sender)
         {

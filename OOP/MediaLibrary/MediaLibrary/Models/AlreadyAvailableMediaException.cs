@@ -7,11 +7,18 @@ namespace Models
 {
     public class AlreadyAvailableMediaException : Exception
     {
-        public string Message { get; set; }
+        //public string Message { get; set; }                                                   //PAS NECESSAIRE CAR L'EXCEPTION DE BASE CONTIENT DEJA UN MESSAGE
 
-        public AlreadyAvailableMediaException()
+        public AlreadyAvailableMediaException() : base("Le média est déjà disponible")
         {
-            Message = "Le média ne peut être retourné puisqu'il est déjà en stock";
+        }
+
+        public AlreadyAvailableMediaException(string message) : base(message)
+        {
+        }
+
+        public AlreadyAvailableMediaException(string message, Exception innerException) : base(message, innerException)
+        {
         }
     }
 }

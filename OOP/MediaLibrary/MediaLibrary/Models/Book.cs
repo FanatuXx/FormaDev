@@ -6,19 +6,29 @@ namespace Models
 {
     public class Book : Media
     {
-        public string Author { get; set; }
+        //PROPRIETES
+        public string Author { get; private set; }
 
+
+
+        //OVERRIDE FONCTION MERE
         public override int LoanDurationDays()
         {
             return 21;
         }
 
-        public Book(string isbn, string title, bool isAvailable) : base(isbn, title, isAvailable)
+
+
+        //CONSTRUCTEURS
+        public Book(string isbn, string title, string author) : base(isbn, title)
         {
+            Author = author;
         }
 
-        public Book(string isbn, string title) : base(isbn, title)
+        public Book(string isbn, string title, string author, bool isAvailable) : base(isbn, title, isAvailable)
         {
+            Author = author;
         }
+
     }
 }

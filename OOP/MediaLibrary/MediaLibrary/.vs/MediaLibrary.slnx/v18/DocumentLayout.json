@@ -7,32 +7,56 @@
       "RelativeMoniker": "D:0:0:{B1EE0D0B-9698-22E6-0307-ADEDFFB448CE}|MediaLibrary\\MediaLibraryApp.csproj|solutionrelative:medialibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\dvd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\dvd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\alreadyavailablemediaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\alreadyavailablemediaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\borrowedmediadelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\borrowedmediadelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\returnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\returnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\returnshandlingdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\returnshandlingdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\smsnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\smsnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\pushnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\pushnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\multiplenotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\multiplenotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\emailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\emailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\consolenotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\consolenotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\medialibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\medialibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\alreadyavailablemediaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\alreadyavailablemediaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\inotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\inotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\antoi\\documents\\formadev\\oop\\medialibrary\\medialibrary\\models\\subscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\subscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,22 +66,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dvd.cs",
-              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Dvd.cs",
-              "RelativeDocumentMoniker": "Models\\Dvd.cs",
-              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Dvd.cs",
-              "RelativeToolTip": "Models\\Dvd.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T07:17:48.241Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
@@ -68,93 +78,184 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BorrowedMediaDelegate.cs",
-              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\BorrowedMediaDelegate.cs",
-              "RelativeDocumentMoniker": "Models\\BorrowedMediaDelegate.cs",
-              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\BorrowedMediaDelegate.cs",
-              "RelativeToolTip": "Models\\BorrowedMediaDelegate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T10:05:32.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "Models\\Book.cs",
-              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Book.cs",
-              "RelativeToolTip": "Models\\Book.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T07:22:13.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\MediaLibrary\\Program.cs",
               "RelativeDocumentMoniker": "MediaLibrary\\Program.cs",
               "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\MediaLibrary\\Program.cs",
               "RelativeToolTip": "MediaLibrary\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAowI4AAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T09:20:50.213Z",
+              "WhenOpened": "2026-07-28T14:37:05.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "ReturnService.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\ReturnService.cs",
               "RelativeDocumentMoniker": "Models\\ReturnService.cs",
               "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\ReturnService.cs",
               "RelativeToolTip": "Models\\ReturnService.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAwDsAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAawC0AAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T07:43:11.105Z",
+              "WhenOpened": "2026-07-28T14:28:53.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ReturnsHandlingDelegate.cs",
-              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\ReturnsHandlingDelegate.cs",
-              "RelativeDocumentMoniker": "Models\\ReturnsHandlingDelegate.cs",
-              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\ReturnsHandlingDelegate.cs",
-              "RelativeToolTip": "Models\\ReturnsHandlingDelegate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAB7AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SmsNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\SmsNotifier.cs",
+              "RelativeDocumentMoniker": "Models\\SmsNotifier.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\SmsNotifier.cs",
+              "RelativeToolTip": "Models\\SmsNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T07:37:33.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Media.cs",
-              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Media.cs",
-              "RelativeDocumentMoniker": "Models\\Media.cs",
-              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Media.cs",
-              "RelativeToolTip": "Models\\Media.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T07:17:21.085Z",
+              "WhenOpened": "2026-07-28T14:28:23.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "PushNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\PushNotifier.cs",
+              "RelativeDocumentMoniker": "Models\\PushNotifier.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\PushNotifier.cs",
+              "RelativeToolTip": "Models\\PushNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T14:28:12.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MultipleNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\MultipleNotifier.cs",
+              "RelativeDocumentMoniker": "Models\\MultipleNotifier.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\MultipleNotifier.cs",
+              "RelativeToolTip": "Models\\MultipleNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T14:26:38.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmailNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\EmailNotifier.cs",
+              "RelativeDocumentMoniker": "Models\\EmailNotifier.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\EmailNotifier.cs",
+              "RelativeToolTip": "Models\\EmailNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T14:25:17.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConsoleNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\ConsoleNotifier.cs",
+              "RelativeDocumentMoniker": "Models\\ConsoleNotifier.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\ConsoleNotifier.cs",
+              "RelativeToolTip": "Models\\ConsoleNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T14:25:05.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T12:44:16.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MediaLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\MediaLibrary.cs",
+              "RelativeDocumentMoniker": "Models\\MediaLibrary.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\MediaLibrary.cs",
+              "RelativeToolTip": "Models\\MediaLibrary.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswGMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T12:47:13.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AlreadyAvailableMediaException.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\AlreadyAvailableMediaException.cs",
               "RelativeDocumentMoniker": "Models\\AlreadyAvailableMediaException.cs",
               "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\AlreadyAvailableMediaException.cs",
               "RelativeToolTip": "Models\\AlreadyAvailableMediaException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T14:52:15.861Z",
+              "WhenOpened": "2026-07-28T12:27:30.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Media.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Media.cs",
+              "RelativeDocumentMoniker": "Models\\Media.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Media.cs",
+              "RelativeToolTip": "Models\\Media.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDYAAADOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T12:19:07.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dvd.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Dvd.cs",
+              "RelativeDocumentMoniker": "Models\\Dvd.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Dvd.cs",
+              "RelativeToolTip": "Models\\Dvd.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T12:19:02.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "INotifier.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\INotifier.cs",
+              "RelativeDocumentMoniker": "Models\\INotifier.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\INotifier.cs",
+              "RelativeToolTip": "Models\\INotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T12:44:05.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Subscriber.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Subscriber.cs",
+              "RelativeDocumentMoniker": "Models\\Subscriber.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\OOP\\MediaLibrary\\MediaLibrary\\Models\\Subscriber.cs",
+              "RelativeToolTip": "Models\\Subscriber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T12:17:35.94Z",
               "EditorCaption": ""
             }
           ]

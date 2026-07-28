@@ -8,57 +8,72 @@ namespace Models
 {
     public class MediaLibrary
     {
-        private Dictionary<string, Media> medias = new Dictionary<string, Media>();
+        //VARIABLE
+        private readonly Dictionary<string, Media> _medias = new();                     // = new(); équivaut à = new Dictionary<string, Media>(); dans ce cas-ci
 
-        public Dictionary<string, Media> Medias { get; init; }
 
-        public string Name { get; set; }
+        //CONSTRUCTEURS
+        public KeyValuePair<string, Media>[] Medias => _medias.ToArray();               //Renvoie un tableau de key-value qui est UNE COPIE de _medias
+        //public Dictionary<string, Media> Medias { get; init; }                        //ATTENTION : ici, le code renvoie la référence mémoire du dictionaire, et donc l'ouvre à la modification (CE QU'ON NE VEUT PAS!)
 
-        public INotifier Notifier { get; set; }
+        public string Name { get; set; } = string.Empty;                                //Valeur par défaut = ""
+
+        public INotifier? Notifier { get; set; }
 
 
 
         //INDEXEUR
-        public Media this[string Isbn]
+        public Media? this[string isbn]
         {
             get
             {
-                Media media;
-                Medias.TryGetValue(Isbn, out media);
-                return media;
+                return _medias.GetValueOrDefault(isbn);                                 //Le tableau de KeyValuePair nécessite l'utilisation de GetValueOrDefault à la place de TryGetValue
+                //Media media;
+                //Medias.TryGetValue(isbn, out media);
+                //return media;
             }
 
-            set
-            {
-                Medias[Isbn] = value;
-            }
+            //set                                                                       //Le set n'est pas nécessaire
+            //{
+            //    Medias[Isbn] = value;
+            //}
         }
 
         public void Add(Media media)
         {
-            if(!medias.ContainsKey(media.Isbn))
+            if (media != null && !string.IsNullOrEmpty(media.Isbn))                     //Vérifie si l'objet donné en paramètre a été instancier au préalable et si son ISBN contient bien une valeur
             {
-                media.BorrowedMediaEvent += BorrowedMediaAction;
-                medias.Add(media.Isbn, media);
+                _medias[media.Isbn] = media;
+                media.BorrowedMediaEvent += OnBorrowedMedia;
             }
+            //if(!_medias.ContainsKey(media.Isbn))
+            //{
+            //    media.BorrowedMediaEvent += BorrowedMediaAction;
+            //    _medias.Add(media.Isbn, media);
+            //}
         }
 
 
-        public void Remove(string Isbn)
+        public void Remove(string isbn)                                                 
         {
-            if(medias.ContainsKey(Isbn))
+            //if(_medias.ContainsKey(Isbn))
+            if(!string.IsNullOrEmpty(isbn))                                             //Vérifie si l'ISBN contient bien une valeur                        
             {
-                medias[Isbn].BorrowedMediaEvent -= BorrowedMediaAction;
-                medias.Remove(Isbn);
+                var media = this[isbn];
+                if(media != null)
+                {
+                    media.BorrowedMediaEvent -= OnBorrowedMedia;
+                    _medias.Remove(isbn);
+                }
             }
         }
 
         public void NotifySubscriber(string recipient, string message)
         { 
-            Notifier.Send(recipient, message);
+            Notifier?.Send(recipient, message);
         }
 
-        public void BorrowedMediaAction(Media media)
+        public void OnBorrowedMedia(Media media)                                        //On... = Action qui se passe quand l'event X est trigger ! Dans la même classe que l'endroit 
         {
             Console.WriteLine($"Le média {media.Title} vient d'être emprunté");
         }
@@ -66,19 +81,23 @@ namespace Models
 
         public static MediaLibrary operator +(MediaLibrary mediaLibrary1, MediaLibrary mediaLibrary2)
         {
-            MediaLibrary finalMediaLibrary = new MediaLibrary();
+            if (mediaLibrary1 == null) throw new ArgumentNullException(nameof(mediaLibrary1));                           //Préviens les cas ou les librairies n'auraient pas encore été instanciées 
+            if (mediaLibrary2 == null) throw new ArgumentNullException(nameof(mediaLibrary2));
+
+            MediaLibrary finalMediaLibrary = new MediaLibrary { Name = $"{mediaLibrary1.Name} & {mediaLibrary2.Name}" }; //Permet de donner un nom à la nouvelle library 
             
             foreach (KeyValuePair<string, Media> keyValuePair in mediaLibrary1.Medias)
             {
-                finalMediaLibrary.Medias.Add(keyValuePair.Key, keyValuePair.Value);
+                finalMediaLibrary.Add(keyValuePair.Value);
             }
 
             foreach (KeyValuePair<string, Media> keyValuePair in mediaLibrary2.Medias)
             {
-                if(!finalMediaLibrary.Medias.ContainsKey(keyValuePair.Key))
-                finalMediaLibrary.Medias.Add(keyValuePair.Key, keyValuePair.Value);
+                if (finalMediaLibrary[keyValuePair.Key] == null)
+                {
+                    finalMediaLibrary.Add(keyValuePair.Value);
+                }
             }
-
             return finalMediaLibrary;
         }
     }
