@@ -6,15 +6,15 @@ namespace Models
 {
     public abstract class Media
     {
-        public string Isbn { get; set; }
-        private string Title { get; set; }
+        public string Isbn { get; private set; }
+        public string Title { get; private set; }
 
 
         private bool isAvailable;
-        private bool IsAvailable
+        public bool IsAvailable
         {
             get { return isAvailable; }
-            set { isAvailable = value; }
+            private set { isAvailable = value; }
         }
 
         public Media(string isbn, string title, bool isAvailable) : this(isbn, title)
@@ -35,7 +35,11 @@ namespace Models
                 throw new InvalidOperationException("Le média en question n'est pas disponible. Il n'est donc pas possible de l'emprunter.");
             }
 
-            IsAvailable = false;
+            else
+            {
+                BorrowedMediaEvent?.Invoke(this);
+                IsAvailable = false;
+            }
         }
 
         public void Return()
@@ -44,6 +48,7 @@ namespace Models
             {
                 throw new AlreadyAvailableMediaException();
             }
+
             IsAvailable = true;
         }
 
@@ -55,5 +60,8 @@ namespace Models
             returnDate = loanDate.Day + this.LoanDurationDays();
             return returnDate;
         }
+
+
+        public Action<Media> BorrowedMediaEvent;
     }
 }

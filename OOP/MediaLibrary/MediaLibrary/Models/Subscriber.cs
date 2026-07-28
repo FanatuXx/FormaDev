@@ -6,8 +6,8 @@ namespace Models
 {
     public class Subscriber
     {
-        private string FirstName { get; set; }
-        private string LastName { get; set; }
-        private DateTime InscriptionDate { get; set; }
+        public string FirstName { get; private set; }
+        public string LastName { get; private set; }
+        public DateTime InscriptionDate { get; private set; }
     }
 }

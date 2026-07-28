@@ -6,8 +6,26 @@ namespace Models
 {
     public class Dvd : Media
     {
-        private string Director { get; set; }
-        private int DurationMinutes { get; set; }
+        public string Director { get; private set; }
+
+        private int durationMinutes;
+        public int DurationMinutes {
+            
+            get
+            {
+                return durationMinutes;
+            }
+            
+            private set
+            {
+                if (!(value > 0))
+                {
+                    throw new ArgumentOutOfRangeException("La durée d'un film ne peut pas être inférieure à 1 minute.");
+                }
+                durationMinutes = value;
+            }
+        }
+
 
         public override int LoanDurationDays()
         {

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Security.Principal;
 using System.Text;
 
@@ -7,13 +8,9 @@ namespace Models
 {
     public class MediaLibrary
     {
-        private Dictionary<string, Media> medias;
+        private Dictionary<string, Media> medias = new Dictionary<string, Media>();
 
-        public Dictionary<string, Media> Medias
-        {
-            get { return medias; }
-            private set { medias = value; }
-        }
+        public Dictionary<string, Media> Medias { get; init; }
 
         public string Name { get; set; }
 
@@ -39,17 +36,31 @@ namespace Models
 
         public void Add(Media media)
         {
-            Medias.Add(media.Isbn, media);
+            if(!medias.ContainsKey(media.Isbn))
+            {
+                media.BorrowedMediaEvent += BorrowedMediaAction;
+                medias.Add(media.Isbn, media);
+            }
         }
+
 
         public void Remove(string Isbn)
         {
-            Medias.Remove(Isbn);
+            if(medias.ContainsKey(Isbn))
+            {
+                medias[Isbn].BorrowedMediaEvent -= BorrowedMediaAction;
+                medias.Remove(Isbn);
+            }
         }
 
         public void NotifySubscriber(string recipient, string message)
         { 
             Notifier.Send(recipient, message);
+        }
+
+        public void BorrowedMediaAction(Media media)
+        {
+            Console.WriteLine($"Le média {media.Title} vient d'être emprunté");
         }
 
 
