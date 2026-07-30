@@ -15,30 +15,44 @@ import { ChartConfiguration, ChartData, ChartEvent, ChartType } from 'chart.js';
 export class Stats {
   appService = inject(AppService);
 
-  barChartData = computed<ChartData>(() => ({
-    labels: this.appService.pokemon.value()?.stats.map(s => s.stat.name),
-    datasets: [{ 
-      label: this.appService.pokemonName(),
-      data: this.appService.pokemon.value()?.stats.map(s => s.base_stat) ?? []
-    }] 
-  }));
 
-  // public barChartType: ChartType = 'radar';
+  pokemon = this.appService.selectedPokemon
 
-  // public barChartData: ChartData<'radar'> = {
-  //   labels: ['HP', 'Attaque', 'Defense', 'Attaque Spe.', 'Defense Spe.', 'Vitesse'],
-  //   datasets: [
-  //     { data: [this.appService.pokemon.value()!.stats[0].base_stat, 
-  //       this.appService.pokemon.value()!.stats[1].base_stat,
-  //       this.appService.pokemon.value()!.stats[2].base_stat,
-  //       this.appService.pokemon.value()!.stats[3].base_stat,
-  //       this.appService.pokemon.value()!.stats[4].base_stat,
-  //       this.appService.pokemon.value()!.stats[5].base_stat],
-  //       label : (this.appService.pokemon.value()!.name).toUpperCase()},
-  //   ]
-  // };
 
-  // public barChartOptions: ChartConfiguration['options'] = {
-  //   responsive: true,
-  // };
+  protected barChartData = computed(() => {
+    const pokemon = this.pokemon();
+    return {
+        labels: ['HP', 'Attaque', 'Defense', 'Attaque Spe.', 'Defense Spe.', 'Vitesse'],
+      datasets: [
+        { 
+          // data: [
+          //   pokemon!.stats[0].base_stat, 
+          //   pokemon!.stats[1].base_stat,
+          //   pokemon!.stats[2].base_stat,
+          //   pokemon!.stats[3].base_stat,
+          //   pokemon!.stats[4].base_stat,
+          //   pokemon!.stats[5].base_stat
+          // ],
+          data: pokemon.stats.slice(0,5).map((it: any) => it.base_stat),
+          label : (pokemon!.name).toUpperCase()
+        },
+      ]
+    }
+  })
+
+  
+  public barChartType: ChartType = 'radar';
+  
+ 
+  public barChartOptions: ChartConfiguration['options'] = {
+    responsive: true,
+  };
 }
+
+  // barChartData = computed<ChartData>(() => ({
+  //   labels: this.appService.pokemon.value()?.stats.map(s => s.stat.name),
+  //   datasets: [{ 
+  //     label: this.appService.pokemonName(),
+  //     data: this.appService.pokemon.value()?.stats.map(s => s.base_stat) ?? []
+  //   }] 
+  // }));
