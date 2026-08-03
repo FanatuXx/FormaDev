@@ -1,0 +1,87 @@
+03-08-26 15:00:10	Ce journal contient des informations sur l'importation du schéma dans le projet 'Copy_DBSlide' sur l'ordinateur 'GOS-VDI205' par l'utilisateur 'a.dufour'.
+03-08-26 15:00:10	L'importation du schéma de base de données a commencé.
+03-08-26 15:00:17	Collecte des informations d'identification à la base de données
+03-08-26 15:00:17	Collecte des options de la base de données
+03-08-26 15:00:17	Collecte de l'option de configuration étendue à la base de données générique
+03-08-26 15:00:17	Collecte des utilisateurs
+03-08-26 15:00:17	Collecte des rôles
+03-08-26 15:00:17	Collecte des rôles d'application
+03-08-26 15:00:17	Collecte des appartenances aux rôles
+03-08-26 15:00:17	Collecte des groupes de fichiers
+03-08-26 15:00:17	Collecte des catalogues de recherche en texte intégral
+03-08-26 15:00:17	Collecte des assemblys
+03-08-26 15:00:17	Collecte des certificats
+03-08-26 15:00:17	Collecte des clés asymétriques
+03-08-26 15:00:17	Collecte des clés symétriques
+03-08-26 15:00:17	Collecte des clés symétriques chiffrées
+03-08-26 15:00:17	Collecte des schémas
+03-08-26 15:00:17	Collecte des collections de schémas XML
+03-08-26 15:00:18	Collecte des types de données définis par l'utilisateur
+03-08-26 15:00:18	Collecte des types définis par l'utilisateur
+03-08-26 15:00:18	Collecte des types de tables
+03-08-26 15:00:18	Collecte des clés uniques des types de tables
+03-08-26 15:00:18	Collecte des clés primaires pour les types de tables
+03-08-26 15:00:18	Collecte d'index pour types de tables
+03-08-26 15:00:18	Collecte des contraintes de validation pour les types de tables
+03-08-26 15:00:18	Collecte des contraintes par défaut pour les types de tables
+03-08-26 15:00:18	Collecte des fonctions de partition
+03-08-26 15:00:18	Collecte des schémas de partition
+03-08-26 15:00:18	Collecte des fonctions
+03-08-26 15:00:18	Collecte de fonctions cryptées
+03-08-26 15:00:18	Collecte des agrégats
+03-08-26 15:00:18	Collecte des procédures
+03-08-26 15:00:18	Collecte de procédures cryptées
+03-08-26 15:00:18	Collecte des tables
+03-08-26 15:00:18	Collecte des clés primaires
+03-08-26 15:00:18	Collecte des contraintes uniques
+03-08-26 15:00:18	Collecte des clés étrangères
+03-08-26 15:00:18	Collecte des contraintes par défaut
+03-08-26 15:00:19	Collecte des contraintes de validation
+03-08-26 15:00:19	Collecte des vues
+03-08-26 15:00:19	Collecte de vues cryptées
+03-08-26 15:00:19	Collecte des index
+03-08-26 15:00:19	Collecte des statistiques
+03-08-26 15:00:19	Collecte des listes de mots vides d'index de recherche en texte intégral
+03-08-26 15:00:19	Collecte des listes de propriétés de recherche
+03-08-26 15:00:19	Collecte des propriétés de recherche
+03-08-26 15:00:19	Collecte des index de recherche en texte intégral
+03-08-26 15:00:19	Collecte des index de la banque de colonnes
+03-08-26 15:00:19	Collecte des index spatiaux
+03-08-26 15:00:19	Collecte des index XML
+03-08-26 15:00:19	Collecte d'index XML sélectifs
+03-08-26 15:00:19	Collecte de déclencheurs cryptés
+03-08-26 15:00:19	Collecte des déclencheurs
+03-08-26 15:00:19	Collecte des déclencheurs chiffrés et DDL CLR
+03-08-26 15:00:19	Collecte des DDL triggers
+03-08-26 15:00:19	Création de contraintes d'arête
+03-08-26 15:00:19	Collecte des synonymes
+03-08-26 15:00:19	Collecte des valeurs par défaut
+03-08-26 15:00:19	Collecte des liaisons UDDT de contrainte de données
+03-08-26 15:00:19	Collecte des règles
+03-08-26 15:00:19	Collecte des liaisons UDDT de contrainte de données
+03-08-26 15:00:19	Collecte des types de messages
+03-08-26 15:00:19	Collecte des files d'attente
+03-08-26 15:00:19	Collecte des contrats
+03-08-26 15:00:19	Collecte des services
+03-08-26 15:00:19	Collecte des notifications d'événements
+03-08-26 15:00:19	Collecte des liaisons de service distant
+03-08-26 15:00:19	Collecte des priorités de Service Broker
+03-08-26 15:00:19	Collecte des signatures
+03-08-26 15:00:19	Collecte des options de compression
+03-08-26 15:00:19	Collecte des types de séquences
+03-08-26 15:00:19	Collecte des stratégies de sécurité
+03-08-26 15:00:19	Collecter les clés de chiffrement de colonne
+03-08-26 15:00:19	Collecte des clés principales de colonne
+03-08-26 15:00:19	Collecte des sources de données externes
+03-08-26 15:00:19	Collecte des formats de fichier externes
+03-08-26 15:00:19	Collecte des tables externes
+03-08-26 15:00:19	Collection des propriétés étendues
+03-08-26 15:00:20	Collecte des assemblys
+03-08-26 15:00:20	Collecte des informations d'identification
+03-08-26 15:00:20	Collecte des connexions
+03-08-26 15:00:20	Collecte des audits du serveur
+03-08-26 15:00:21	Analyse du projet à la recherche des éléments en double
+03-08-26 15:00:21	Fin du traitement des éléments en double
+03-08-26 15:00:25	Importation de la base de données terminée.
+03-08-26 15:00:25	Un résumé de l'opération d'importation a été enregistré à l'emplacement suivant : C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\Copy_DBSlide\Importer les journaux de schémas\Copy_DBSlide_20260803010010.log.
+03-08-26 15:00:25	Cliquez sur Terminer pour continuer...

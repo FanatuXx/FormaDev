@@ -1,0 +1,14 @@
+<Solution>
+  <Project Path="AuLitBaba/AuLitBaba.sqlproj" Id="38df7c69-443f-46c3-979f-b64a55f0504a">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="Copy_DBSlide/Copy_AdventureWorks.sqlproj" Id="317462b3-976c-42e5-b417-f2bc9ad01e01">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="ExoADO1/ExoADO1.sqlproj" Id="df1c04fb-8f62-439a-b201-2b05567a73ce">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>

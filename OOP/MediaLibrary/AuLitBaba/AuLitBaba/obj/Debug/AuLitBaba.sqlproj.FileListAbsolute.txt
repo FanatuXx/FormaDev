@@ -1,0 +1,10 @@
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\AuLitBaba\bin\Debug\AuLitBaba.dacpac
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\AuLitBaba\bin\Debug\AuLitBaba.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\AuLitBaba\bin\Debug\AuLitBaba.pdb
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\AuLitBaba\obj\Debug\AuLitBaba.sqlproj.AssemblyReference.cache
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\AuLitBaba\obj\Debug\AuLitBaba.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\AuLitBaba\obj\Debug\AuLitBaba.pdb
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\AuLitBaba\obj\Debug\Model.xml
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\AuLitBaba\obj\Debug\refactor.xml
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\AuLitBaba\obj\Debug\postdeploy.sql
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\AuLitBaba\obj\Debug\predeploy.sql

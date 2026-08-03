@@ -1,0 +1,23 @@
+﻿** Met en surbrillance
+     Tables qui seront recréées avec les données migrées
+       Aucun
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Aucun
+
+** Actions de l'utilisateur
+     Créer
+       [dbo].[Client] (Table)
+       [dbo].[ClientProduit] (Table)
+       [dbo].[ClientProduit].[IX_ClientProduit_ProduitId] (Index)
+       [dbo].[Produit] (Table)
+       [dbo].[FK_ClientProduit_ClientId] (Clé étrangère)
+       [dbo].[FK_ClientProduit_ProduitId] (Clé étrangère)
+       [dbo].[CK_Client_Mail] (Contrainte de validation)
+       [dbo].[CK_Produit_Prix] (Contrainte de validation)
+       [dbo].[ProduitPremium] (Vue)
+
+** Actions de support

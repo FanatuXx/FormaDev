@@ -1,0 +1,47 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\AuLitBaba\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|AuLitBaba||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38DF7C69-443F-46C3-979F-B64A55F0504A}|AuLitBaba\\AuLitBaba.sqlproj|C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\AuLitBaba\\AuLitBaba\\AuLitBaba.sqlproj||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|0032459b-05d4-453a-8918-372d533c7e42",
+      "RelativeMoniker": "D:0:0:{38DF7C69-443F-46C3-979F-B64A55F0504A}|AuLitBaba\\AuLitBaba.sqlproj|solutionrelative:AuLitBaba\\AuLitBaba.sqlproj||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|0032459b-05d4-453a-8918-372d533c7e42"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuLitBaba",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\AuLitBaba\\AuLitBaba\\AuLitBaba.sqlproj",
+              "RelativeDocumentMoniker": "AuLitBaba\\AuLitBaba.sqlproj",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\OOP\\MediaLibrary\\AuLitBaba\\AuLitBaba\\AuLitBaba.sqlproj*",
+              "RelativeToolTip": "AuLitBaba\\AuLitBaba.sqlproj*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-03T07:49:16.365Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
