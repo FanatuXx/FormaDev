@@ -1,6 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[AddSection]
 	@SectionID INT,
-	@SectionName NVARCHAR
+	@SectionName NVARCHAR(50)
 
 AS
 BEGIN

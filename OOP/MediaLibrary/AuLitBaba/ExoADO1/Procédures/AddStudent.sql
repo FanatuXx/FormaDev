@@ -1,7 +1,7 @@
 ﻿CREATE PROCEDURE [dbo].[AddStudent]
 	@FirstName NVARCHAR(50),
 	@LastName NVARCHAR(50),
-	@BirthDate DATE,
+	@BirthDate DATETIME2,
 	@SectionID NVARCHAR(50),
 	@YearResult INT,
 	@Active BIT = 1

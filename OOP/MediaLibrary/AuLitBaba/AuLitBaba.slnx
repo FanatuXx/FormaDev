@@ -3,6 +3,8 @@
     <Build />
     <Deploy />
   </Project>
+  <Project Path="AuLitBaba_Console/AuLitBaba_Console.csproj" Id="c530cf66-e0bf-4bd8-9b7a-105336542613" />
+  <Project Path="Console/Console.csproj" Id="7318634e-94b1-4ee4-bcf4-e481bf4b293a" />
   <Project Path="Copy_DBSlide/Copy_AdventureWorks.sqlproj" Id="317462b3-976c-42e5-b417-f2bc9ad01e01">
     <Build />
     <Deploy />

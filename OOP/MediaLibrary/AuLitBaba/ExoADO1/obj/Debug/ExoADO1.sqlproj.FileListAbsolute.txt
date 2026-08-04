@@ -1,0 +1,6 @@
+C:\Users\antoi\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\ExoADO1\bin\Debug\ExoADO1.dacpac
+C:\Users\antoi\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\ExoADO1\bin\Debug\ExoADO1.dll
+C:\Users\antoi\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\ExoADO1\bin\Debug\ExoADO1.pdb
+C:\Users\antoi\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\ExoADO1\obj\Debug\ExoADO1.sqlproj.AssemblyReference.cache
+C:\Users\antoi\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\ExoADO1\obj\Debug\ExoADO1.dll
+C:\Users\antoi\Documents\FormaDev\OOP\MediaLibrary\AuLitBaba\ExoADO1\obj\Debug\ExoADO1.pdb

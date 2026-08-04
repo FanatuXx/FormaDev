@@ -60,6 +60,7 @@
     <Folder Include="Vues" />
     <Folder Include="Procédures" />
     <Folder Include="Trigger" />
+    <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Section.sql" />
@@ -73,5 +74,12 @@
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ExoADO1.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ExoADO1.publish.xml" />
+    <None Include="ExoADO1_1.publish.xml" />
   </ItemGroup>
 </Project>

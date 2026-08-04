@@ -16,5 +16,5 @@
     CONSTRAINT [CK_Student_YearResult]
         CHECK ([YearResult] BETWEEN 0 AND 20),
     CONSTRAINT [CK_Student_BirthDate]
-        CHECK ([BirthDate] > '1930-01-01')
+        CHECK ([BirthDate] > '1930-01-01') 
 )
