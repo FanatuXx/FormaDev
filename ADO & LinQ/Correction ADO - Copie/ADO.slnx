@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="ADO/ADO.sqlproj" Id="bf3624d7-7f04-4eb7-ba2a-340ec924c3d5">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="ADO_console/ADO_console.csproj" />
+</Solution>
