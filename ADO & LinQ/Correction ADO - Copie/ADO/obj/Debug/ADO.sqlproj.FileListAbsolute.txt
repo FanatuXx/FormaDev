@@ -1,0 +1,10 @@
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\ADO & LinQ\Correction ADO - Copie\ADO\bin\Debug\ADO.dacpac
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\ADO & LinQ\Correction ADO - Copie\ADO\bin\Debug\ADO.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\ADO & LinQ\Correction ADO - Copie\ADO\bin\Debug\ADO.pdb
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\ADO & LinQ\Correction ADO - Copie\ADO\obj\Debug\ADO.sqlproj.AssemblyReference.cache
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\ADO & LinQ\Correction ADO - Copie\ADO\obj\Debug\Model.xml
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\ADO & LinQ\Correction ADO - Copie\ADO\obj\Debug\refactor.xml
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\ADO & LinQ\Correction ADO - Copie\ADO\obj\Debug\postdeploy.sql
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\ADO & LinQ\Correction ADO - Copie\ADO\obj\Debug\predeploy.sql
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\ADO & LinQ\Correction ADO - Copie\ADO\obj\Debug\ADO.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\ADO & LinQ\Correction ADO - Copie\ADO\obj\Debug\ADO.pdb

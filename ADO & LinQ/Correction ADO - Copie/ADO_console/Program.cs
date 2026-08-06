@@ -1,6 +1,8 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using ADO_console.Model;
+using ADO_console.Repository;
+using Microsoft.Data.SqlClient;
 
-string connectionString = "votreConnexionString";
+string connectionString = "Data Source=GOS-VDI205\\TFTIC;Integrated Security=True;Persist Security Info=False;Pooling=False;Multiple Active Result Sets=False;Connect Timeout=60;Encrypt=True;Trust Server Certificate=True;Command Timeout=0";
 
 using (SqlConnection connection = new SqlConnection(connectionString))
 {
@@ -12,28 +14,20 @@ using (SqlConnection connection = new SqlConnection(connectionString))
 	connection.Close();
 	*/
 
-	using (SqlCommand command = connection.CreateCommand())
+	StudentRepository studentRepository = new StudentRepository(connection);
+
+	List<Student> students = studentRepository.GetAll();
+
+	foreach(Student student in students)
 	{
-		connection.Open();
-		command.CommandText = $"""
-			SELECT Id, FirstName, LastName
-			FROM V_Student;
-			""";
-
-		using (SqlDataReader reader = command.ExecuteReader())
-		{
-			while (reader.Read())
-			{
-				Console.WriteLine($"{reader["Id"]}: {reader["FirstName"]} {reader["LastName"]}");
-			}
-		}
-
-		command.CommandText = $"""
-			SELECT AVG(CONVERT(FLOAT,YearResult))
-			FROM Student;
-			""";
-
-		Console.WriteLine(command.ExecuteScalar());
+        Console.WriteLine($"{student.Id} - {student.LastName}");
 	}
+
+		//command.CommandText = $"""
+		//	SELECT AVG(CONVERT(FLOAT,YearResult))
+		//	FROM Student;
+		//	""";
+
+	
 }
 	
