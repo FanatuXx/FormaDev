@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Exo_Linq_App/1.0.0": {
+        "dependencies": {
+          "Exo_Linq_Context": "1.0.0"
+        },
+        "runtime": {
+          "Exo_Linq_App.dll": {}
+        }
+      },
+      "Exo_Linq_Context/1.0.0": {
+        "runtime": {
+          "Exo_Linq_Context.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exo_Linq_App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Exo_Linq_Context/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

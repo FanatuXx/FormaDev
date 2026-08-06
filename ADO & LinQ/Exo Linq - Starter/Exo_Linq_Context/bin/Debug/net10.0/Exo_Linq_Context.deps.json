@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Exo_Linq_Context/1.0.0": {
+        "runtime": {
+          "Exo_Linq_Context.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exo_Linq_Context/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

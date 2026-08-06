@@ -69,3 +69,42 @@ foreach (string value in words)
 {
     Console.WriteLine(value);
 }
+
+
+//Single
+
+Animal myAnimal = animals
+                    .Where(animal => animal.Id == 1)
+                    .SingleOrDefault();
+
+if (myAnimal is not null)
+{
+    Console.WriteLine($"{myAnimal.Id} - {myAnimal.Name}");
+}
+
+//First 
+myAnimal = animals
+           .Where(animal => animal.NbPatte > 0)
+           .FirstOrDefault();
+
+if (myAnimal is not null)
+{
+    Console.WriteLine($"{myAnimal.Id} - {myAnimal.Name}");
+}
+
+//Order by
+IEnumerable<Animal> animals3 = animals
+                                .OrderBy(animal => animal.Name.Length); // Le "animal =>" désigne à la fonction l'élément sur lequel il va devoir trier selon la condition "animal.Name.Length"
+foreach (var animal in animals3)
+{
+    Console.WriteLine($"{animal.Id} - {animal.Name}");
+}
+
+//Then by                                                               //Pour trier par ordre décroissant : OrderByDescending ou ThenByDescending
+animals3 = animals
+           .OrderBy(animal => animal.NbPatte)
+           .ThenBy(animal => animal.Name);
+foreach (var animal in animals3)
+{
+    Console.WriteLine($"{animal.Id} - {animal.Name}");
+}   
