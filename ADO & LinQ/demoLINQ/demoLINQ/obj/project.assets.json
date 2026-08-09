@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\a.dufour\\.nuget\\packages\\": {},
+    "C:\\Users\\antoi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ADO & LinQ\\demoLINQ\\demoLINQ\\demoLINQ.csproj",
+      "projectUniqueName": "C:\\Users\\antoi\\Documents\\FormaDev\\ADO & LinQ\\demoLINQ\\demoLINQ\\demoLINQ.csproj",
       "projectName": "demoLINQ",
-      "projectPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ADO & LinQ\\demoLINQ\\demoLINQ\\demoLINQ.csproj",
-      "packagesPath": "C:\\Users\\a.dufour\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ADO & LinQ\\demoLINQ\\demoLINQ\\obj\\",
+      "projectPath": "C:\\Users\\antoi\\Documents\\FormaDev\\ADO & LinQ\\demoLINQ\\demoLINQ\\demoLINQ.csproj",
+      "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\antoi\\Documents\\FormaDev\\ADO & LinQ\\demoLINQ\\demoLINQ\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\a.dufour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

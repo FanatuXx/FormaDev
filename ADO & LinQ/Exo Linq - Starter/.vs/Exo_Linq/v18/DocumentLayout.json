@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\a.dufour\\Downloads\\Exo Linq - Starter\\",
+  "WorkspaceRootPath": "C:\\Users\\antoi\\Documents\\FormaDev\\ADO \u0026 LinQ\\Exo Linq - Starter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FA3B587-C294-4236-82C8-5AC1DD6EE01D}|Exo_Linq_App\\Exo_Linq_App.csproj|c:\\users\\a.dufour\\downloads\\exo linq - starter\\exo_linq_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FA3B587-C294-4236-82C8-5AC1DD6EE01D}|Exo_Linq_App\\Exo_Linq_App.csproj|c:\\users\\antoi\\documents\\formadev\\ado \u0026 linq\\exo linq - starter\\exo_linq_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FA3B587-C294-4236-82C8-5AC1DD6EE01D}|Exo_Linq_App\\Exo_Linq_App.csproj|solutionrelative:exo_linq_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CCFFA4B-9DEB-4AD8-8654-481001F9593F}|Exo_Linq_Context\\Exo_Linq_Context.csproj|c:\\users\\antoi\\documents\\formadev\\ado \u0026 linq\\exo linq - starter\\exo_linq_context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CCFFA4B-9DEB-4AD8-8654-481001F9593F}|Exo_Linq_Context\\Exo_Linq_Context.csproj|solutionrelative:exo_linq_context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +30,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\ADO \u0026 LinQ\\Exo Linq - Starter\\Exo_Linq_Context\\DataContext.cs",
+              "RelativeDocumentMoniker": "Exo_Linq_Context\\DataContext.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\ADO \u0026 LinQ\\Exo Linq - Starter\\Exo_Linq_Context\\DataContext.cs",
+              "RelativeToolTip": "Exo_Linq_Context\\DataContext.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwEsAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T12:29:17.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\Downloads\\Exo Linq - Starter\\Exo_Linq_App\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\ADO \u0026 LinQ\\Exo Linq - Starter\\Exo_Linq_App\\Program.cs",
               "RelativeDocumentMoniker": "Exo_Linq_App\\Program.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\Downloads\\Exo Linq - Starter\\Exo_Linq_App\\Program.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\ADO \u0026 LinQ\\Exo Linq - Starter\\Exo_Linq_App\\Program.cs",
               "RelativeToolTip": "Exo_Linq_App\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGoBAAAAAAAAAAAiwIABAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-06T12:20:43.377Z",
               "EditorCaption": ""

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Exo_Linq_Context")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df32c406dca849f083781e9b414ef61fa9d964bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Exo_Linq_Context")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Exo_Linq_Context")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

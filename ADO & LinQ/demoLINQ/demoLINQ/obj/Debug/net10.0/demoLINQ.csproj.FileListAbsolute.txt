@@ -13,3 +13,18 @@ C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\ADO & LinQ\demoLI
 C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\obj\Debug\net10.0\demoLINQ.pdb
 C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\obj\Debug\net10.0\demoLINQ.genruntimeconfig.cache
 C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\obj\Debug\net10.0\ref\demoLINQ.dll
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\bin\Debug\net10.0\demoLINQ.exe
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\bin\Debug\net10.0\demoLINQ.deps.json
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\bin\Debug\net10.0\demoLINQ.runtimeconfig.json
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\bin\Debug\net10.0\demoLINQ.dll
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\bin\Debug\net10.0\demoLINQ.pdb
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\obj\Debug\net10.0\demoLINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\obj\Debug\net10.0\demoLINQ.AssemblyInfoInputs.cache
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\obj\Debug\net10.0\demoLINQ.AssemblyInfo.cs
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\obj\Debug\net10.0\demoLINQ.csproj.CoreCompileInputs.cache
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\obj\Debug\net10.0\demoLINQ.sourcelink.json
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\obj\Debug\net10.0\demoLINQ.dll
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\obj\Debug\net10.0\refint\demoLINQ.dll
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\obj\Debug\net10.0\demoLINQ.pdb
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\obj\Debug\net10.0\demoLINQ.genruntimeconfig.cache
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\demoLINQ\demoLINQ\obj\Debug\net10.0\ref\demoLINQ.dll

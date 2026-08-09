@@ -9,3 +9,15 @@ C:\Users\a.dufour\Downloads\Exo Linq - Starter\Exo_Linq_Context\obj\Debug\net10.
 C:\Users\a.dufour\Downloads\Exo Linq - Starter\Exo_Linq_Context\obj\Debug\net10.0\refint\Exo_Linq_Context.dll
 C:\Users\a.dufour\Downloads\Exo Linq - Starter\Exo_Linq_Context\obj\Debug\net10.0\Exo_Linq_Context.pdb
 C:\Users\a.dufour\Downloads\Exo Linq - Starter\Exo_Linq_Context\obj\Debug\net10.0\ref\Exo_Linq_Context.dll
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\Exo Linq - Starter\Exo_Linq_Context\bin\Debug\net10.0\Exo_Linq_Context.deps.json
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\Exo Linq - Starter\Exo_Linq_Context\bin\Debug\net10.0\Exo_Linq_Context.dll
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\Exo Linq - Starter\Exo_Linq_Context\bin\Debug\net10.0\Exo_Linq_Context.pdb
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\Exo Linq - Starter\Exo_Linq_Context\obj\Debug\net10.0\Exo_Linq_Context.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\Exo Linq - Starter\Exo_Linq_Context\obj\Debug\net10.0\Exo_Linq_Context.AssemblyInfoInputs.cache
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\Exo Linq - Starter\Exo_Linq_Context\obj\Debug\net10.0\Exo_Linq_Context.AssemblyInfo.cs
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\Exo Linq - Starter\Exo_Linq_Context\obj\Debug\net10.0\Exo_Linq_Context.csproj.CoreCompileInputs.cache
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\Exo Linq - Starter\Exo_Linq_Context\obj\Debug\net10.0\Exo_Linq_Context.sourcelink.json
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\Exo Linq - Starter\Exo_Linq_Context\obj\Debug\net10.0\Exo_Linq_Context.dll
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\Exo Linq - Starter\Exo_Linq_Context\obj\Debug\net10.0\refint\Exo_Linq_Context.dll
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\Exo Linq - Starter\Exo_Linq_Context\obj\Debug\net10.0\Exo_Linq_Context.pdb
+C:\Users\antoi\Documents\FormaDev\ADO & LinQ\Exo Linq - Starter\Exo_Linq_Context\obj\Debug\net10.0\ref\Exo_Linq_Context.dll
