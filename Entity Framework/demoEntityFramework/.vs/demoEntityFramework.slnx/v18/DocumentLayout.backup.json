@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\demoEntityFramework\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{50ACE1DD-E877-657E-7CEB-21CC7A76B959}|demoEntityFramework\\demoEntityFramework.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\demoentityframework\\demoentityframework\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50ACE1DD-E877-657E-7CEB-21CC7A76B959}|demoEntityFramework\\demoEntityFramework.csproj|solutionrelative:demoentityframework\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50ACE1DD-E877-657E-7CEB-21CC7A76B959}|demoEntityFramework\\demoEntityFramework.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\demoentityframework\\demoentityframework\\models\\adventureworks2017context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50ACE1DD-E877-657E-7CEB-21CC7A76B959}|demoEntityFramework\\demoEntityFramework.csproj|solutionrelative:demoentityframework\\models\\adventureworks2017context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\demoEntityFramework\\demoEntityFramework\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "demoEntityFramework\\Models\\Address.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\demoEntityFramework\\demoEntityFramework\\Models\\Address.cs",
+              "RelativeToolTip": "demoEntityFramework\\Models\\Address.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T09:42:38.043Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
@@ -26,13 +43,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AdventureWorks2017Context.cs",
               "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\demoEntityFramework\\demoEntityFramework\\Models\\AdventureWorks2017Context.cs",
               "RelativeDocumentMoniker": "demoEntityFramework\\Models\\AdventureWorks2017Context.cs",
               "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\demoEntityFramework\\demoEntityFramework\\Models\\AdventureWorks2017Context.cs",
               "RelativeToolTip": "demoEntityFramework\\Models\\AdventureWorks2017Context.cs",
-              "ViewState": "AgIAALwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAMMAAAAAAAAAAAA8wMkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-10T07:57:35.716Z",
               "EditorCaption": ""
