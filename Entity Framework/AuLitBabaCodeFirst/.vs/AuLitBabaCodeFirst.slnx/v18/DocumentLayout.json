@@ -3,48 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\migrations\\20260810130129_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\migrations\\20260810130129_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\pastrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\pastrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\pastry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\pastry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\bed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\bed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\pastry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\pastry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\pastrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\pastrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\migrations\\20260810130129_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\migrations\\20260810130129_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Program.cs",
               "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Program.cs",
@@ -79,72 +79,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\appsettings.json",
               "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\appsettings.json",
               "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\appsettings.json",
               "RelativeToolTip": "AuLitBabaCodeFirst\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-08-10T09:12:05.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "AuLitBabaCodeFirst\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAwDQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvzQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-10T09:07:27.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "20260810130129_initDb.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Migrations\\20260810130129_initDb.cs",
               "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Migrations\\20260810130129_initDb.cs",
               "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Migrations\\20260810130129_initDb.cs",
               "RelativeToolTip": "AuLitBabaCodeFirst\\Migrations\\20260810130129_initDb.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-10T13:01:29.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeToolTip": "AuLitBabaCodeFirst\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-10T14:43:32.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Reservation.cs",
               "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\Reservation.cs",
               "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Reservation.cs",
               "RelativeToolTip": "AuLitBabaCodeFirst\\Model\\Entities\\Reservation.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBYAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-10T08:58:28.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "PastryCommand.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\PastryCommand.cs",
               "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\PastryCommand.cs",
@@ -157,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Subscription.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Subscription.cs",
               "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\Subscription.cs",
@@ -170,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Pastry.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Pastry.cs",
               "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\Pastry.cs",
@@ -183,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Bed.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Bed.cs",
               "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\Bed.cs",
@@ -196,13 +196,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Client.cs",
               "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\Client.cs",
               "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Client.cs",
               "RelativeToolTip": "AuLitBabaCodeFirst\\Model\\Entities\\Client.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAzwBoAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-10T08:27:59.509Z",
               "EditorCaption": ""
