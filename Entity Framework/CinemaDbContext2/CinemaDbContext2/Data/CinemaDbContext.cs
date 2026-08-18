@@ -64,12 +64,15 @@ namespace CinemaDbContext2.Data
 
                 entity.Property(e => e.PrixTicket)
                 .HasColumnType("decimal(18,2)");
+
+                entity.Property(e => e.AgeMinimum)
+                .HasDefaultValue(0);
             });
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=GOS-VDI205\\TFTIC;Database=CinemaDb;Trusted_Connection=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=CinemaDb;Trusted_Connection=True;TrustServerCertificate=True;");
         }
     }
 }

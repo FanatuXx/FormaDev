@@ -12,6 +12,6 @@ namespace CinemaDbContext2.Models.Entities
         public string Ville { get; set; } = string.Empty;
 
         public ICollection<Salle> Salles { get; set; } = new List<Salle>();
-        public ICollection<Film> Films { get; set; } = new List<Film>();
+        //public ICollection<Film> Films { get; set; } = new List<Film>();
     }
 }

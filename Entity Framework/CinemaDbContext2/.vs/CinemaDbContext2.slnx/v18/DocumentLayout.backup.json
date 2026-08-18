@@ -1,34 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\",
+  "WorkspaceRootPath": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D9FEE5C-42FA-4B70-8DF2-66962CD8DE99}|CinemaDbContext2\\CinemaDbContext2.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\cinemadbcontext2\\cinemadbcontext2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D9FEE5C-42FA-4B70-8DF2-66962CD8DE99}|CinemaDbContext2\\CinemaDbContext2.csproj|solutionrelative:cinemadbcontext2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEC1FABA-FC83-862F-41B0-18685CA8E1F6}|CinemaDbContext2\\CinemaDbContext2.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\cinemadbcontext2\\cinemadbcontext2\\models\\entities\\salle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEC1FABA-FC83-862F-41B0-18685CA8E1F6}|CinemaDbContext2\\CinemaDbContext2.csproj|solutionrelative:cinemadbcontext2\\models\\entities\\salle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D9FEE5C-42FA-4B70-8DF2-66962CD8DE99}|CinemaDbContext2\\CinemaDbContext2.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\cinemadbcontext2\\cinemadbcontext2\\data\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D9FEE5C-42FA-4B70-8DF2-66962CD8DE99}|CinemaDbContext2\\CinemaDbContext2.csproj|solutionrelative:cinemadbcontext2\\data\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D9FEE5C-42FA-4B70-8DF2-66962CD8DE99}|CinemaDbContext2\\CinemaDbContext2.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\cinemadbcontext2\\cinemadbcontext2\\models\\entities\\salle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D9FEE5C-42FA-4B70-8DF2-66962CD8DE99}|CinemaDbContext2\\CinemaDbContext2.csproj|solutionrelative:cinemadbcontext2\\models\\entities\\salle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D9FEE5C-42FA-4B70-8DF2-66962CD8DE99}|CinemaDbContext2\\CinemaDbContext2.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\cinemadbcontext2\\cinemadbcontext2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8D9FEE5C-42FA-4B70-8DF2-66962CD8DE99}|CinemaDbContext2\\CinemaDbContext2.csproj|solutionrelative:cinemadbcontext2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D9FEE5C-42FA-4B70-8DF2-66962CD8DE99}|CinemaDbContext2\\CinemaDbContext2.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\cinemadbcontext2\\cinemadbcontext2\\models\\entities\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D9FEE5C-42FA-4B70-8DF2-66962CD8DE99}|CinemaDbContext2\\CinemaDbContext2.csproj|solutionrelative:cinemadbcontext2\\models\\entities\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D9FEE5C-42FA-4B70-8DF2-66962CD8DE99}|CinemaDbContext2\\CinemaDbContext2.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\cinemadbcontext2\\cinemadbcontext2\\models\\entities\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D9FEE5C-42FA-4B70-8DF2-66962CD8DE99}|CinemaDbContext2\\CinemaDbContext2.csproj|solutionrelative:cinemadbcontext2\\models\\entities\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D9FEE5C-42FA-4B70-8DF2-66962CD8DE99}|CinemaDbContext2\\CinemaDbContext2.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\cinemadbcontext2\\cinemadbcontext2\\cinemadbcontext2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8D9FEE5C-42FA-4B70-8DF2-66962CD8DE99}|CinemaDbContext2\\CinemaDbContext2.csproj|solutionrelative:cinemadbcontext2\\cinemadbcontext2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{EEC1FABA-FC83-862F-41B0-18685CA8E1F6}|CinemaDbContext2\\CinemaDbContext2.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\cinemadbcontext2\\cinemadbcontext2\\data\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEC1FABA-FC83-862F-41B0-18685CA8E1F6}|CinemaDbContext2\\CinemaDbContext2.csproj|solutionrelative:cinemadbcontext2\\data\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,99 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CinemaDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\Data\\CinemaDbContext.cs",
-              "RelativeDocumentMoniker": "CinemaDbContext2\\Data\\CinemaDbContext.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\Data\\CinemaDbContext.cs",
-              "RelativeToolTip": "CinemaDbContext2\\Data\\CinemaDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T14:19:59.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Salle.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\Models\\Entities\\Salle.cs",
-              "RelativeDocumentMoniker": "CinemaDbContext2\\Models\\Entities\\Salle.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\Models\\Entities\\Salle.cs",
-              "RelativeToolTip": "CinemaDbContext2\\Models\\Entities\\Salle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T14:11:03.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\Program.cs",
-              "RelativeDocumentMoniker": "CinemaDbContext2\\Program.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\Program.cs",
-              "RelativeToolTip": "CinemaDbContext2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAB2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T14:45:04.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\appsettings.json",
-              "RelativeDocumentMoniker": "CinemaDbContext2\\appsettings.json",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\appsettings.json",
-              "RelativeToolTip": "CinemaDbContext2\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-10T14:42:11.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Film.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\Models\\Entities\\Film.cs",
-              "RelativeDocumentMoniker": "CinemaDbContext2\\Models\\Entities\\Film.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\Models\\Entities\\Film.cs",
-              "RelativeToolTip": "CinemaDbContext2\\Models\\Entities\\Film.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T14:11:12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Cinema.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\Models\\Entities\\Cinema.cs",
-              "RelativeDocumentMoniker": "CinemaDbContext2\\Models\\Entities\\Cinema.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\Models\\Entities\\Cinema.cs",
-              "RelativeToolTip": "CinemaDbContext2\\Models\\Entities\\Cinema.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T14:08:19.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CinemaDbContext2",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\CinemaDbContext2.csproj",
-              "RelativeDocumentMoniker": "CinemaDbContext2\\CinemaDbContext2.csproj",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\CinemaDbContext2.csproj",
-              "RelativeToolTip": "CinemaDbContext2\\CinemaDbContext2.csproj",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-10T14:06:46.572Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
@@ -138,6 +27,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CinemaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\Data\\CinemaDbContext.cs",
+              "RelativeDocumentMoniker": "CinemaDbContext2\\Data\\CinemaDbContext.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\Data\\CinemaDbContext.cs",
+              "RelativeToolTip": "CinemaDbContext2\\Data\\CinemaDbContext.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowEQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T14:19:59.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Salle.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\Models\\Entities\\Salle.cs",
+              "RelativeDocumentMoniker": "CinemaDbContext2\\Models\\Entities\\Salle.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\CinemaDbContext2\\CinemaDbContext2\\Models\\Entities\\Salle.cs",
+              "RelativeToolTip": "CinemaDbContext2\\Models\\Entities\\Salle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T14:11:03.274Z",
+              "EditorCaption": ""
             }
           ]
         }

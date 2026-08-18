@@ -1,46 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\",
+  "WorkspaceRootPath": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\pastrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\pastrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\migrations\\20260810130129_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\migrations\\20260810130129_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\migrations\\20260810130129_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\migrations\\20260810130129_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\pastry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\pastry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\pastrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\pastrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\bed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\bed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\pastry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\pastry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B142131C-CDCB-4C2C-875F-3822B6A89C7E}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\bed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\bed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|c:\\users\\antoi\\documents\\formadev\\entity framework\\aulitbabacodefirst\\aulitbabacodefirst\\model\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B676218-9533-D30F-B3D6-332B6BD2D76B}|AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj|solutionrelative:aulitbabacodefirst\\model\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,133 +66,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20260810130129_initDb.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Migrations\\20260810130129_initDb.cs",
-              "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Migrations\\20260810130129_initDb.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Migrations\\20260810130129_initDb.cs",
-              "RelativeToolTip": "AuLitBabaCodeFirst\\Migrations\\20260810130129_initDb.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T13:01:29.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Program.cs",
               "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Program.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Program.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Program.cs",
               "RelativeToolTip": "AuLitBabaCodeFirst\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAACkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-10T10:28:52.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\appsettings.json",
               "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\appsettings.json",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\appsettings.json",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\appsettings.json",
               "RelativeToolTip": "AuLitBabaCodeFirst\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-08-10T09:12:05.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "AuLitBabaCodeFirst\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA8wCQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T09:07:27.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AuLitBabaCodeFirst\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T09:07:27.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260810130129_initDb.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Migrations\\20260810130129_initDb.cs",
+              "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Migrations\\20260810130129_initDb.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Migrations\\20260810130129_initDb.cs",
+              "RelativeToolTip": "AuLitBabaCodeFirst\\Migrations\\20260810130129_initDb.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T13:01:29.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "AuLitBabaCodeFirst\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T14:43:32.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Reservation.cs",
               "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\Reservation.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Reservation.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Reservation.cs",
               "RelativeToolTip": "AuLitBabaCodeFirst\\Model\\Entities\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBYAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T08:58:28.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PastryCommand.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\PastryCommand.cs",
-              "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\PastryCommand.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\PastryCommand.cs",
-              "RelativeToolTip": "AuLitBabaCodeFirst\\Model\\Entities\\PastryCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T08:55:46.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Subscription.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Subscription.cs",
-              "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\Subscription.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Subscription.cs",
-              "RelativeToolTip": "AuLitBabaCodeFirst\\Model\\Entities\\Subscription.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T08:53:58.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-10T08:58:28.616Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Pastry.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Pastry.cs",
-              "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\Pastry.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Pastry.cs",
-              "RelativeToolTip": "AuLitBabaCodeFirst\\Model\\Entities\\Pastry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "PastryCommand.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\PastryCommand.cs",
+              "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\PastryCommand.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\PastryCommand.cs",
+              "RelativeToolTip": "AuLitBabaCodeFirst\\Model\\Entities\\PastryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T08:52:03.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Bed.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Bed.cs",
-              "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\Bed.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Bed.cs",
-              "RelativeToolTip": "AuLitBabaCodeFirst\\Model\\Entities\\Bed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T08:50:40.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-10T08:55:46.47Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Client.cs",
-              "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\Client.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Client.cs",
-              "RelativeToolTip": "AuLitBabaCodeFirst\\Model\\Entities\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABcAAAAAAAAAA==",
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Subscription.cs",
+              "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\Subscription.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Subscription.cs",
+              "RelativeToolTip": "AuLitBabaCodeFirst\\Model\\Entities\\Subscription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T08:27:59.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-10T08:53:58.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pastry.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Pastry.cs",
+              "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\Pastry.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Pastry.cs",
+              "RelativeToolTip": "AuLitBabaCodeFirst\\Model\\Entities\\Pastry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T08:52:03.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Bed.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Bed.cs",
+              "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\Bed.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Bed.cs",
+              "RelativeToolTip": "AuLitBabaCodeFirst\\Model\\Entities\\Bed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T08:50:40.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "AuLitBabaCodeFirst\\Model\\Entities\\Client.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\Model\\Entities\\Client.cs",
+              "RelativeToolTip": "AuLitBabaCodeFirst\\Model\\Entities\\Client.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T08:27:59.509Z"
             }
           ]
         }

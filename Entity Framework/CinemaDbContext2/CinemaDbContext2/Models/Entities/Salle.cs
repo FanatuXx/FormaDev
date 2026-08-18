@@ -11,6 +11,7 @@ namespace CinemaDbContext2.Models.Entities
         public int NombrePlaces { get; set; }
         public bool Est3D { get; set; }
         public int CinemaId { get; set; }
+        public DateTime DateMiseEnService { get; set; }
 
         public Cinema Cinema { get; set; } = null!;
     }

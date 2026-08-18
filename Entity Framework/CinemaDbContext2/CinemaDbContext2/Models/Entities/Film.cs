@@ -11,8 +11,9 @@ namespace CinemaDbContext2.Models.Entities
         public int DureeMinutes { get; set; }
         public bool Est3D { get; set; }
         public int PrixTicket { get; set; }
+        public int AgeMinimum { get; set; }
 
-        public ICollection<Cinema> Cinemas { get; set; } = new List<Cinema>();
+        //public ICollection<Cinema> Cinemas { get; set; } = new List<Cinema>();
 
     }
 }

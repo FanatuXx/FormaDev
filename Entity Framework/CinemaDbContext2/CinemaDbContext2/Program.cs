@@ -8,6 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+builder.Services.AddDbContext<CinemaDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))); //Permet d'aller rechercher la connectionString pour se connecter à la db
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
