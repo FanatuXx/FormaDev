@@ -1,0 +1,300 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\asp \u0026 mvc\\label\\label\\label\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|solutionrelative:label\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\asp \u0026 mvc\\label\\label\\label\\views\\album\\byartist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|solutionrelative:label\\views\\album\\byartist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\asp \u0026 mvc\\label\\label\\label\\views\\member\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|solutionrelative:label\\views\\member\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\asp \u0026 mvc\\label\\label\\label\\controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|solutionrelative:label\\controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\asp \u0026 mvc\\label\\label\\label\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|solutionrelative:label\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\asp \u0026 mvc\\label\\label\\label\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|solutionrelative:label\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\asp \u0026 mvc\\label\\label\\label\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|solutionrelative:label\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\asp \u0026 mvc\\label\\label\\label\\views\\album\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|solutionrelative:label\\views\\album\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\asp \u0026 mvc\\label\\label\\label\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|solutionrelative:label\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\asp \u0026 mvc\\label\\label\\label\\views\\artist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|solutionrelative:label\\views\\artist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\asp \u0026 mvc\\label\\label\\label\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|solutionrelative:label\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\asp \u0026 mvc\\label\\label\\label\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|solutionrelative:label\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\asp \u0026 mvc\\label\\label\\label\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|solutionrelative:label\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\asp \u0026 mvc\\label\\label\\label\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|solutionrelative:label\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\asp \u0026 mvc\\label\\label\\label\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|solutionrelative:label\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\asp \u0026 mvc\\label\\label\\label\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95B4C387-7A92-454E-99B4-6AB8FD38DE81}|Label\\Label.csproj|solutionrelative:label\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArtistController.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Controllers\\ArtistController.cs",
+              "RelativeDocumentMoniker": "Label\\Controllers\\ArtistController.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Controllers\\ArtistController.cs",
+              "RelativeToolTip": "Label\\Controllers\\ArtistController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T09:56:23.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Views\\Album\\Index.cshtml",
+              "RelativeDocumentMoniker": "Label\\Views\\Album\\Index.cshtml",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Views\\Album\\Index.cshtml",
+              "RelativeToolTip": "Label\\Views\\Album\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-24T10:17:01.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "Label\\Models\\Member.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Models\\Member.cs",
+              "RelativeToolTip": "Label\\Models\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T11:57:20.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Views\\Member\\Index.cshtml",
+              "RelativeDocumentMoniker": "Label\\Views\\Member\\Index.cshtml",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Views\\Member\\Index.cshtml",
+              "RelativeToolTip": "Label\\Views\\Member\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAACMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-24T13:13:18.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Views\\Artist\\Index.cshtml",
+              "RelativeDocumentMoniker": "Label\\Views\\Artist\\Index.cshtml",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Views\\Artist\\Index.cshtml",
+              "RelativeToolTip": "Label\\Views\\Artist\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-24T10:04:54.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "Label\\Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "Label\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T11:57:10.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Models\\Artist.cs",
+              "RelativeDocumentMoniker": "Label\\Models\\Artist.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Models\\Artist.cs",
+              "RelativeToolTip": "Label\\Models\\Artist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T09:59:44.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ByArtist.cshtml",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Views\\Album\\ByArtist.cshtml",
+              "RelativeDocumentMoniker": "Label\\Views\\Album\\ByArtist.cshtml",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Views\\Album\\ByArtist.cshtml",
+              "RelativeToolTip": "Label\\Views\\Album\\ByArtist.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-24T14:01:12.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlbumController.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Controllers\\AlbumController.cs",
+              "RelativeDocumentMoniker": "Label\\Controllers\\AlbumController.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Controllers\\AlbumController.cs",
+              "RelativeToolTip": "Label\\Controllers\\AlbumController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T10:09:51.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Label\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Label\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T12:00:45.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Label\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Label\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-24T09:41:49.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Album.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Models\\Album.cs",
+              "RelativeDocumentMoniker": "Label\\Models\\Album.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Models\\Album.cs",
+              "RelativeToolTip": "Label\\Models\\Album.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T10:08:31.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Label\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Label\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T09:26:20.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "Label\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "Label\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-24T09:32:54.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Label\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Models\\User.cs",
+              "RelativeToolTip": "Label\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T09:23:38.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Label\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\ASP \u0026 MVC\\Label\\Label\\Label\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Label\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-24T10:17:13.317Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
