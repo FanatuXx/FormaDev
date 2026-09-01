@@ -1,0 +1,122 @@
+﻿@page "/DemoForm"
+
+<h3>Demo Form</h3>
+
+<div>
+    <table class="table">
+        <tr>
+            <th>Code</th>
+            <th>Description</th>
+        </tr>
+        @foreach(Error error in Errors)
+        {
+            <tr>
+                <td>@error.Code</td>
+                <td>@error.Description</td>
+            </tr>
+        }
+    </table>
+</div>
+
+<hr />
+
+<h3>Simple Form</h3>
+
+<div>
+    <EditForm Model="SimpleForm" OnValidSubmit="OnValidSubmitSimpleForm">
+        <DataAnnotationsValidator />
+        <div>
+            <label>Code :</label>
+            <InputText @bind-Value="SimpleForm.Code" />
+            <ValidationMessage For="() => SimpleForm.Code" />
+        </div>
+        <div>
+            <label>Desciption :</label>
+            <InputText @bind-Value="SimpleForm.Description" />
+            <ValidationMessage For="() => SimpleForm.Description" />
+        </div>
+        <div>
+            <input type="submit" value="Send" class="btn btn-danger" />
+        </div>
+    </EditForm>
+</div>
+
+<hr />
+
+<h3>Extended Form</h3>
+
+<div>
+    <EditForm EditContext="EditContext" OnValidSubmit="OnValidSubmitExtendedForm">
+        <DataAnnotationsValidator />
+        <ValidationSummary Model="ExtendedForm" />
+        <div>
+            <label>Code :</label>
+            <InputText @bind-Value="ExtendedForm.Code" />
+            <ValidationMessage For="() => ExtendedForm.Code" />
+        </div>
+        <div>
+            <label>Desciption :</label>
+            <InputText @bind-Value="ExtendedForm.Description" />
+            <ValidationMessage For="() => ExtendedForm.Description" />
+        </div>
+        <div>
+            <input type="submit" value="Send" class="btn btn-danger" />
+        </div>
+    </EditForm>
+</div>
+
+@code {
+    public record Error(string Code, string Description);
+    private List<Error> Errors = new List<Error>();
+
+    ErrorForm SimpleForm = new();
+
+    private void OnValidSubmitSimpleForm()
+    {
+        Errors.Add(new Error(SimpleForm.Code, SimpleForm.Description));
+    }
+
+    ErrorForm ExtendedForm = default!;
+    EditContext EditContext = default!;
+    ValidationMessageStore MessageStore = default!;
+
+    private void OnValidSubmitExtendedForm()
+    {
+        Errors.Add(new Error(ExtendedForm.Code, ExtendedForm.Description));
+    }
+
+    protected override void OnInitialized()
+    {
+        ExtendedForm = new ErrorForm();
+        EditContext = new EditContext(ExtendedForm);
+        MessageStore = new ValidationMessageStore(EditContext);
+
+        EditContext.OnFieldChanged += (sender, eventArgs) => ValidateFields((EditContext)sender!, MessageStore, eventArgs.FieldIdentifier);
+    }
+
+    private void ValidateFields(EditContext editContext, ValidationMessageStore messageStore, FieldIdentifier fieldIdentifier)
+    {
+        messageStore.Clear();
+
+        if(Errors.Any(e => e.Code == ExtendedForm.Code))
+        {
+            messageStore.Add(fieldIdentifier, "The Code already exists.");
+            editContext.NotifyValidationStateChanged();
+        }
+
+        if(ExtendedForm.Code == "66")
+        {
+            messageStore.Add(editContext.Field(""), "We can't kill the jedi!!");            
+        }
+    }
+
+    class ErrorForm
+    {
+        [Required]
+        [StringLength(50, MinimumLength = 1)]
+        public string Code { get; set; } = "";
+        [Required]
+        [StringLength(50, MinimumLength = 1)]
+        public string Description { get; set; } = "";
+    }
+}

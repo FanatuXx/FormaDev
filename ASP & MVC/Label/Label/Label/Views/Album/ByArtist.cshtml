@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = $"Liste des albums de {ViewBag[Membe]}";
+}
+
+<h2 class="mb-4">Liste des albums de l'artiste</h2>
+
+<table class="table table-striped table-hover align-middle">
+    <thead class="table-dark">
+        <tr>
+            <th>ID de l'album</th>
+            <th>Titre</th>
+            <th>Année de sortie</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Album album in Model)
+        {
+            <tr>
+                <td>@album.Id</td>
+                <td>@album.Title</td>
+                <td>@album.Year</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,24 @@
+﻿@using System.Text.Json;
+
+<h3>Maison</h3>
+
+@code {
+
+    HttpClient httpClient = new HttpClient()
+    {
+        BaseAddress = new Uri("https://localhost:7050/api/")
+    };
+
+    Maison[] maisons = HttpClient.GetFromJsonAsync<Maison[]>("maison", new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+    if(maisons is not null)
+    {
+        foreach (Maison maison in maisons)
+        {
+            Console.WriteLine($"{maison.Id}");
+        }
+    }
+
+    record Maison(Guid Id, string Name, string Fondateur, string Couleur, string Embleme);
+
+}

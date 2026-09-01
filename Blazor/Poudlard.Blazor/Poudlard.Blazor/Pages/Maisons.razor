@@ -1,0 +1,48 @@
+﻿@page "/maisons"
+
+<h3>Maisons</h3>
+
+@if(maisons is null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Fondateur</th>
+                <th>Couleur</th>
+                <th>Empleme</th>
+                <th></th>
+            </tr>
+        </thead>   
+        <tbody>
+            @foreach (Maison maison in maisons)
+            {
+                <tr>
+                    <td>@maison.Id.ToString("D").ToUpperInvariant()</td>
+                    <td>@maison.Nom</td>
+                    <td>@maison.Fondateur</td>
+                    <td>@maison.Couleur</td>
+                    <td>@maison.Embleme</td>
+                    <td><a href="Sorciers/@maison.Id">Sorciers</a></td>
+                </tr>
+            }
+        </tbody>        
+    </table>
+}
+
+@code {
+    record Maison(Guid Id, string Nom, string Fondateur, string Couleur, string Embleme);
+
+    private Maison[]? maisons = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        HttpClient httpClient = factory.CreateClient("Poudlard");
+        maisons = await httpClient.GetFromJsonAsync<Maison[]>("maison", new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
+    }
+}

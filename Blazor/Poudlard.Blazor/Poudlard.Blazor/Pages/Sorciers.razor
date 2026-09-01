@@ -1,0 +1,10 @@
+﻿@page "/Sorciers/{MaisonId:guid}"
+
+<h3>Sorciers</h3>
+
+<p>@MaisonId</p>
+
+@code {
+    [Parameter]
+    public Guid MaisonId { get; set; }
+}

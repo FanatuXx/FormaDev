@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Blazor\\Poudlard.Blazor\\Poudlard.Blazor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC7BB0A2-B823-4A9F-A2EE-0D388CF3D676}|Poudlard.Blazor\\Poudlard.Blazor.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\blazor\\poudlard.blazor\\poudlard.blazor\\poudlard.blazor\\components\\pages\\poudlardmaison.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC7BB0A2-B823-4A9F-A2EE-0D388CF3D676}|Poudlard.Blazor\\Poudlard.Blazor.csproj|solutionrelative:poudlard.blazor\\components\\pages\\poudlardmaison.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC7BB0A2-B823-4A9F-A2EE-0D388CF3D676}|Poudlard.Blazor\\Poudlard.Blazor.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\blazor\\poudlard.blazor\\poudlard.blazor\\poudlard.blazor\\components\\pages\\poudlardmaison.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC7BB0A2-B823-4A9F-A2EE-0D388CF3D676}|Poudlard.Blazor\\Poudlard.Blazor.csproj|solutionrelative:poudlard.blazor\\components\\pages\\poudlardmaison.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC7BB0A2-B823-4A9F-A2EE-0D388CF3D676}|Poudlard.Blazor\\Poudlard.Blazor.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\blazor\\poudlard.blazor\\poudlard.blazor\\poudlard.blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC7BB0A2-B823-4A9F-A2EE-0D388CF3D676}|Poudlard.Blazor\\Poudlard.Blazor.csproj|solutionrelative:poudlard.blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PoudlardMaison.razor.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Blazor\\Poudlard.Blazor\\Poudlard.Blazor\\Poudlard.Blazor\\Components\\Pages\\PoudlardMaison.razor.cs",
+              "RelativeDocumentMoniker": "Poudlard.Blazor\\Components\\Pages\\PoudlardMaison.razor.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Blazor\\Poudlard.Blazor\\Poudlard.Blazor\\Poudlard.Blazor\\Components\\Pages\\PoudlardMaison.razor.cs*",
+              "RelativeToolTip": "Poudlard.Blazor\\Components\\Pages\\PoudlardMaison.razor.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T10:21:12.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Blazor\\Poudlard.Blazor\\Poudlard.Blazor\\Poudlard.Blazor\\Program.cs",
+              "RelativeDocumentMoniker": "Poudlard.Blazor\\Program.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Blazor\\Poudlard.Blazor\\Poudlard.Blazor\\Poudlard.Blazor\\Program.cs",
+              "RelativeToolTip": "Poudlard.Blazor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T10:08:47.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PoudlardMaison.razor",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Blazor\\Poudlard.Blazor\\Poudlard.Blazor\\Poudlard.Blazor\\Components\\Pages\\PoudlardMaison.razor",
+              "RelativeDocumentMoniker": "Poudlard.Blazor\\Components\\Pages\\PoudlardMaison.razor",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Blazor\\Poudlard.Blazor\\Poudlard.Blazor\\Poudlard.Blazor\\Components\\Pages\\PoudlardMaison.razor*",
+              "RelativeToolTip": "Poudlard.Blazor\\Components\\Pages\\PoudlardMaison.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-20T10:02:57.439Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
