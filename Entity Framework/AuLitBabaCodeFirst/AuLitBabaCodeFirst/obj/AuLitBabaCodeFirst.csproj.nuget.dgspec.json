@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj": {}
+    "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj": {}
   },
   "projects": {
-    "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj": {
+    "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj",
+        "projectUniqueName": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj",
         "projectName": "AuLitBabaCodeFirst",
-        "projectPath": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj",
-        "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antoi\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\obj\\",
+        "projectPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst.csproj",
+        "packagesPath": "C:\\Users\\a.dufour\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\Entity Framework\\AuLitBabaCodeFirst\\AuLitBabaCodeFirst\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\a.dufour\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
