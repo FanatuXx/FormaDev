@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/02 Domain/">
+    <Project Path="PFF.Domain/PFF.Domain.csproj" />
+  </Folder>
+  <Folder Name="/03 App/">
+    <Project Path="PFF/PFF.csproj" />
+  </Folder>
+  <Folder Name="/99 Tools/">
+    <Project Path="Tools/Tools.csproj" />
+  </Folder>
+</Solution>
