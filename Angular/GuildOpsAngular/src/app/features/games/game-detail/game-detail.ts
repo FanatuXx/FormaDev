@@ -5,8 +5,8 @@ import { GameDetails } from '../../../shared/models/game.model';
 
 @Component({
   imports: [],
-  selector: 'app-game-details',
-  styleUrl: './game-details.css',
+  selector: 'app-game-detail',
+  styleUrl: './game-detail.css',
   templateUrl: './game-detail.html',
 })
 export class GameDetail implements OnInit {
