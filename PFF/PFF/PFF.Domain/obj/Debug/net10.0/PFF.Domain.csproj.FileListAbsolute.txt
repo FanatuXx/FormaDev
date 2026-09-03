@@ -1,0 +1,15 @@
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.csproj.AssemblyReference.cache
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.AssemblyInfoInputs.cache
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.AssemblyInfo.cs
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.csproj.CoreCompileInputs.cache
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.sourcelink.json
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\bin\Debug\net10.0\PFF.Domain.deps.json
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\bin\Debug\net10.0\PFF.Domain.runtimeconfig.json
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\bin\Debug\net10.0\PFF.Domain.dll
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\bin\Debug\net10.0\PFF.Domain.pdb
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.dll
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\refint\PFF.Domain.dll
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.pdb
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.genruntimeconfig.cache
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\ref\PFF.Domain.dll

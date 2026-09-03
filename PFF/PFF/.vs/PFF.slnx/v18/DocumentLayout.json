@@ -1,26 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\",
+  "WorkspaceRootPath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5027E8DD-84A1-4F1E-9451-5ECC0EFC5B4B}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\pff\\pff\\pff.domain\\model\\entities\\praticioner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5027E8DD-84A1-4F1E-9451-5ECC0EFC5B4B}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\model\\entities\\praticioner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\configurations\\consultationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\configurations\\consultationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AAD3F1E-1D27-495F-BB4A-330E47A71989}|PFF\\PFF.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\pff\\pff\\pff\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7AAD3F1E-1D27-495F-BB4A-330E47A71989}|PFF\\PFF.csproj|solutionrelative:pff\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\configurations\\medicineconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\configurations\\medicineconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AAD3F1E-1D27-495F-BB4A-330E47A71989}|PFF\\PFF.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\pff\\pff\\pff\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7AAD3F1E-1D27-495F-BB4A-330E47A71989}|PFF\\PFF.csproj|solutionrelative:pff\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\configurations\\pathologyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\configurations\\pathologyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{317D04CB-41B4-4CCA-B19D-B6443AD9E164}|Tools\\Tools.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\pff\\pff\\tools\\tools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{317D04CB-41B4-4CCA-B19D-B6443AD9E164}|Tools\\Tools.csproj|solutionrelative:tools\\tools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\configurations\\prescriptionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\configurations\\prescriptionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5027E8DD-84A1-4F1E-9451-5ECC0EFC5B4B}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\pff\\pff\\pff.domain\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5027E8DD-84A1-4F1E-9451-5ECC0EFC5B4B}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\configurations\\patientconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\configurations\\patientconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\model\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\model\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\model\\entities\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\model\\entities\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\model\\entities\\consultation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\model\\entities\\consultation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\model\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\model\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\model\\entities\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\model\\entities\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\model\\entities\\vitalsignsmonitoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\model\\entities\\vitalsignsmonitoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\model\\entities\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\model\\entities\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\model\\entities\\patientaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\model\\entities\\patientaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\model\\entities\\pathology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\model\\entities\\pathology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AF9679-1D50-060B-F1EB-89BE36C0ECB7}|PFF\\PFF.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37AF9679-1D50-060B-F1EB-89BE36C0ECB7}|PFF\\PFF.csproj|solutionrelative:pff\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AF9679-1D50-060B-F1EB-89BE36C0ECB7}|PFF\\PFF.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37AF9679-1D50-060B-F1EB-89BE36C0ECB7}|PFF\\PFF.csproj|solutionrelative:pff\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D4A677C-FEED-93AC-CD67-9EF0FCEFC24C}|Tools\\Tools.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\tools\\tools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5D4A677C-FEED-93AC-CD67-9EF0FCEFC24C}|Tools\\Tools.csproj|solutionrelative:tools\\tools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AF9679-1D50-060B-F1EB-89BE36C0ECB7}|PFF\\PFF.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AF9679-1D50-060B-F1EB-89BE36C0ECB7}|PFF\\PFF.csproj|solutionrelative:pff\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,60 +86,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Praticioner.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Praticioner.cs",
-              "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\Praticioner.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Praticioner.cs",
-              "RelativeToolTip": "PFF.Domain\\Model\\Entities\\Praticioner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T12:05:34.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "PFF\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF\\Properties\\launchSettings.json",
-              "RelativeToolTip": "PFF\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-02T12:03:06.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF\\appsettings.json",
-              "RelativeDocumentMoniker": "PFF\\appsettings.json",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF\\appsettings.json",
-              "RelativeToolTip": "PFF\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-02T11:58:13.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Tools",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\Tools\\Tools.csproj",
-              "RelativeDocumentMoniker": "Tools\\Tools.csproj",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\Tools\\Tools.csproj",
-              "RelativeToolTip": "Tools\\Tools.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-02T11:53:59.227Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
@@ -95,10 +99,244 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "PatientConfig.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\PatientConfig.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Configurations\\PatientConfig.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\PatientConfig.cs",
+              "RelativeToolTip": "PFF.Domain\\Configurations\\PatientConfig.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwEoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T14:11:58.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PathologyConfig.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\PathologyConfig.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Configurations\\PathologyConfig.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\PathologyConfig.cs",
+              "RelativeToolTip": "PFF.Domain\\Configurations\\PathologyConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T14:03:24.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MedicineConfig.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\MedicineConfig.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Configurations\\MedicineConfig.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\MedicineConfig.cs",
+              "RelativeToolTip": "PFF.Domain\\Configurations\\MedicineConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T13:44:37.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PrescriptionConfig.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\PrescriptionConfig.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Configurations\\PrescriptionConfig.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\PrescriptionConfig.cs",
+              "RelativeToolTip": "PFF.Domain\\Configurations\\PrescriptionConfig.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T12:59:19.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsultationConfig.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\ConsultationConfig.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Configurations\\ConsultationConfig.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\ConsultationConfig.cs",
+              "RelativeToolTip": "PFF.Domain\\Configurations\\ConsultationConfig.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T12:46:12.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Model\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PFF.Domain\\Model\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T09:28:47.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Pathology.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Pathology.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\Pathology.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Pathology.cs",
+              "RelativeToolTip": "PFF.Domain\\Model\\Entities\\Pathology.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T08:04:18.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VitalSignsMonitoring.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\VitalSignsMonitoring.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\VitalSignsMonitoring.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\VitalSignsMonitoring.cs",
+              "RelativeToolTip": "PFF.Domain\\Model\\Entities\\VitalSignsMonitoring.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T08:00:06.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Prescription.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\Prescription.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Prescription.cs",
+              "RelativeToolTip": "PFF.Domain\\Model\\Entities\\Prescription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T07:55:52.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Consultation.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Consultation.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\Consultation.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Consultation.cs",
+              "RelativeToolTip": "PFF.Domain\\Model\\Entities\\Consultation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T07:49:18.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Patient.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\Patient.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Patient.cs",
+              "RelativeToolTip": "PFF.Domain\\Model\\Entities\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T07:41:16.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Worker.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\Worker.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Worker.cs",
+              "RelativeToolTip": "PFF.Domain\\Model\\Entities\\Worker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T12:05:34.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PFF\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PFF\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-02T12:03:06.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\appsettings.json",
+              "RelativeDocumentMoniker": "PFF\\appsettings.json",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\appsettings.json",
+              "RelativeToolTip": "PFF\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-02T11:58:13.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Tools.csproj",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\Tools.csproj",
+              "RelativeDocumentMoniker": "Tools\\Tools.csproj",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\Tools.csproj",
+              "RelativeToolTip": "Tools\\Tools.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-02T11:53:59.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Medicine.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Medicine.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\Medicine.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Medicine.cs",
+              "RelativeToolTip": "PFF.Domain\\Model\\Entities\\Medicine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T07:58:16.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PatientAddress.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\PatientAddress.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\PatientAddress.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\PatientAddress.cs",
+              "RelativeToolTip": "PFF.Domain\\Model\\Entities\\PatientAddress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T07:51:15.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\Program.cs",
+              "RelativeDocumentMoniker": "PFF\\Program.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\Program.cs",
+              "RelativeToolTip": "PFF\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T09:53:49.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\ApplicationDbContext.cs",
               "RelativeToolTip": "PFF.Domain\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
