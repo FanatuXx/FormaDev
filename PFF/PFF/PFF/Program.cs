@@ -1,7 +1,16 @@
+using PFF.Domain;
+using Microsoft.EntityFrameworkCore;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<ApplicationDbContext>(o =>
+{
+    o.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=DuneDB;Integrated Security=True;Encrypt=True;Trust Server Certificate=True");
+});
 
 var app = builder.Build();
 

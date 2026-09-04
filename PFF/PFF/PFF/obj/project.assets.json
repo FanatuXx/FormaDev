@@ -3193,9 +3193,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\PFF.csproj",
-      "projectName": "PFF",
-      "projectPath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\PFF.csproj",
+      "projectUniqueName": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\PFF.App.csproj",
+      "projectName": "PFF.App",
+      "projectPath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\PFF.App.csproj",
       "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\obj\\",
       "projectStyle": "PackageReference",

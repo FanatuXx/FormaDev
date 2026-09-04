@@ -1,0 +1,15 @@
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\Tools\bin\Release\net10.0\PFF.Tools.deps.json
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\Tools\bin\Release\net10.0\PFF.Tools.runtimeconfig.json
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\Tools\bin\Release\net10.0\PFF.Tools.dll
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\Tools\bin\Release\net10.0\PFF.Tools.pdb
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\Tools\obj\Release\net10.0\PFF.Tools.csproj.AssemblyReference.cache
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\Tools\obj\Release\net10.0\PFF.Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\Tools\obj\Release\net10.0\PFF.Tools.AssemblyInfoInputs.cache
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\Tools\obj\Release\net10.0\PFF.Tools.AssemblyInfo.cs
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\Tools\obj\Release\net10.0\PFF.Tools.csproj.CoreCompileInputs.cache
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\Tools\obj\Release\net10.0\PFF.Tools.sourcelink.json
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\Tools\obj\Release\net10.0\PFF.Tools.dll
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\Tools\obj\Release\net10.0\refint\PFF.Tools.dll
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\Tools\obj\Release\net10.0\PFF.Tools.pdb
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\Tools\obj\Release\net10.0\PFF.Tools.genruntimeconfig.cache
+C:\Users\antoi\Documents\FormaDev\PFF\PFF\Tools\obj\Release\net10.0\ref\PFF.Tools.dll

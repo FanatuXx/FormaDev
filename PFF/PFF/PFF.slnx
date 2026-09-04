@@ -3,7 +3,7 @@
     <Project Path="PFF.Domain/PFF.Domain.csproj" />
   </Folder>
   <Folder Name="/03 App/">
-    <Project Path="PFF/PFF.csproj" />
+    <Project Path="PFF/PFF.App.csproj" />
   </Folder>
   <Folder Name="/99 Tools/">
     <Project Path="Tools/PFF.Tools.csproj" />
