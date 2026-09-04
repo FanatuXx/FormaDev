@@ -15,7 +15,7 @@ namespace PFF.Domain.Configurations
 
             builder.ToTable("Pathologie", t =>
             {
-                t.HasCheckConstraint("CK_Pathologie_Nom", "LEN(TRIM(Name)) > 0");
+                t.HasCheckConstraint("CK_Pathologie_Nom", "LEN(TRIM(Nom)) > 0");
             });
 
             builder.Property(patho => patho.Name)

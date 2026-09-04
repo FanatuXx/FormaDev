@@ -15,7 +15,7 @@ namespace PFF.Domain.Model.Entities
         public virtual IList<Prescription> Prescriptions { get; set; } = new List<Prescription>();
         public virtual IList<VitalSign> VitalSigns { get; set; } = new List<VitalSign>();
 
-        public virtual IList<Pathology> Pathologies { get; set; } = new List<Pathology>();
+        public virtual IEnumerable<Pathology> Pathologies { get; set; } = new List<Pathology>();
 
 
     }

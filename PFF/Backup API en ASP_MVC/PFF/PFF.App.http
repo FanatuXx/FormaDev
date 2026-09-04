@@ -1,0 +1,6 @@
+@PFF.App_HostAddress = http://localhost:5038
+
+GET {{Poudlard.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

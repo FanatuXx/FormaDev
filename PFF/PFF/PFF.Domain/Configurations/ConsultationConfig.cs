@@ -35,15 +35,15 @@ namespace PFF.Domain.Configurations
                 .HasForeignKey(c => c.PatientId);
 
             builder.HasMany(c => c.Workers)
-                .WithMany(w => w.Consultations);
-                //.UsingEntity("Consultations_Travailleurs_JoinTable");
+                .WithMany(w => w.Consultations)
+                .UsingEntity("Consultations_Travailleurs_JoinTable");
 
             builder.HasMany(c => c.Prescriptions)
                 .WithOne(pr => pr.Consultation);
 
             builder.HasMany(c => c.Pathologies)
-                .WithMany(patho => patho.Consultations);
-                //.UsingEntity("Consultations_Pathologies_JoinTable");
+                .WithMany(patho => patho.Consultations)
+                .UsingEntity("Consultations_Pathologies_JoinTable");
 
             builder.HasMany(c => c.VitalSigns)
                 .WithOne(vs => vs.Consultation);

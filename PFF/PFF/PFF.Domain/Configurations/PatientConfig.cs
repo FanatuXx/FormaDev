@@ -16,8 +16,8 @@ namespace PFF.Domain.Configurations
 
             builder.ToTable("Patient", t =>
             {
-                t.HasCheckConstraint("CK_Patient_Identification", "LEN(FirstName) > 0 OR LEN(LastName) > 0 OR LEN(Alias) > 0");
-                t.HasCheckConstraint("CK_Patient_DernièreVisite", "LastVisit >= RegistrationDate");
+                t.HasCheckConstraint("CK_Patient_Identification", "LEN(Prénom) > 0 OR LEN(Nom) > 0 OR LEN(Surnom) > 0");
+                t.HasCheckConstraint("CK_Patient_DernièreVisite", "DateDernièreVisite >= DateInscription");
             });
 
 

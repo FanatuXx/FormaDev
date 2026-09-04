@@ -12,7 +12,7 @@ namespace PFF.Domain.Configurations
 
             builder.ToTable("Prescription", t =>
             {
-                t.HasCheckConstraint("CK_Prescription_Dates", "StartDate < EndDate");
+                t.HasCheckConstraint("CK_Prescription_Dates", "DateDébut < DateFin");
             });
 
             builder.Property(pre => pre.StartDate)
@@ -32,15 +32,18 @@ namespace PFF.Domain.Configurations
 
             builder.HasOne(pre => pre.Worker)
                 .WithMany(pra => pra.Prescriptions)
-                .HasForeignKey(pre => pre.WorkerSSIN);
+                .HasForeignKey(pre => pre.WorkerSSIN)
+                .OnDelete(DeleteBehavior.NoAction);
 
             builder.HasOne(pre => pre.Consultation)
                 .WithMany(c => c.Prescriptions)
-                .HasForeignKey(pre => pre.ConsultationId);
+                .HasForeignKey(pre => pre.ConsultationId)
+                .OnDelete(DeleteBehavior.NoAction);
 
             builder.HasOne(pre => pre.Patient)
                 .WithMany(p => p.Prescriptions)
-                .HasForeignKey(pre => pre.PatientId);
+                .HasForeignKey(pre => pre.PatientId)
+                .OnDelete(DeleteBehavior.NoAction);
 
             builder.HasMany(pre => pre.Medicines)
                 .WithMany(m => m.Prescriptions);

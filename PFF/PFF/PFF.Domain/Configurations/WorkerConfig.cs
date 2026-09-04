@@ -17,7 +17,7 @@ namespace PFF.Domain.Configurations
 
             builder.ToTable("Travailleur", t =>
             {
-                t.HasCheckConstraint("CK_Travailleur_Noms", "LEN(TRIM(FirstName)) > 0 AND LEN(TRIM(LastName)) > 0");
+                t.HasCheckConstraint("CK_Travailleur_Noms", "LEN(TRIM(Prénom)) > 0 AND LEN(TRIM(Nom)) > 0");
                 t.HasCheckConstraint("CK_Travailleur_Email", "Email LIKE '%_@__%.__%'");
             });
 

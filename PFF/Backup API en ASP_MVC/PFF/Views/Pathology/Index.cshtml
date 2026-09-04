@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Pathology>
+
+@{
+    ViewBag.Title = "Liste des pathologies";
+}
+
+
+
+<div class="row">
+    <div class="col-md-10">
+        @if (TempData["ErrorMessage"] is not null)
+        {
+            <div class="alert-danger">
+                <p>@TempData["ErrorMessage"]</p>
+            </div>
+        }
+
+
+        <a asp-action="Create" asp-controller="Album">Ajouter une nouvelle pathologie</a>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nom</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Pathology pathology in Model)
+                {
+                    <tr>
+                        <td>@pathology.Id</td>
+                        <td>@pathology.Name</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
