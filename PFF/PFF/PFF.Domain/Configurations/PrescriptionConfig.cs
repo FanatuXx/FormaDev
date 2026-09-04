@@ -18,7 +18,7 @@ namespace PFF.Domain.Configurations
             builder.Property(pre => pre.StartDate)
                 .IsRequired()
                 .HasColumnType("DATETIME")
-                .HasColumnName("DateDebut");
+                .HasColumnName("DateDébut");
 
             builder.Property(pre => pre.EndDate)
                 .IsRequired()
@@ -28,7 +28,7 @@ namespace PFF.Domain.Configurations
             builder.Property(pre => pre.TakeFrequency)
                 .IsRequired()
                 .HasColumnType("NVARCHAR(128)")
-                .HasColumnName("FrenquencePrise");
+                .HasColumnName("FréquencePrise");
 
             builder.HasOne(pre => pre.Worker)
                 .WithMany(pra => pra.Prescriptions)
@@ -43,8 +43,8 @@ namespace PFF.Domain.Configurations
                 .HasForeignKey(pre => pre.PatientId);
 
             builder.HasMany(pre => pre.Medicines)
-                .WithMany(m => m.Prescriptions)
-                .UsingEntity("Prescriptions_Medicaments_JoinTable");
+                .WithMany(m => m.Prescriptions);
+                //.UsingEntity("Prescriptions_Médicaments_JoinTable");
         }
     }
 }

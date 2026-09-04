@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PFF.Domain.Model.Entities
 {
-    public class VitalSignsMonitoring
+    public class VitalSign
     {
         public int Id { get; set; }
         public int HeartRate { get; set; }

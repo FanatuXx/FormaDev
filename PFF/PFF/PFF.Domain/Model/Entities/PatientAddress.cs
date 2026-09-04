@@ -6,6 +6,7 @@ namespace PFF.Domain.Model.Entities
 {
     public class PatientAddress
     {
+        public int Id { get; set; }
         public string Street { get; set; }
         public int Number { get; set; }
         public int ZipCode { get; set; }

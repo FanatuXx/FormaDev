@@ -29,7 +29,7 @@ namespace PFF.Domain.Configurations
             builder.Property(m => m.HowToTake)
                 .IsRequired()
                 .HasColumnType("NVARCHAR(128)")
-                .HasColumnName("MethodePrise");
+                .HasColumnName("MéthodePrise");
 
 
             builder.HasIndex(m => m.Name)
@@ -38,6 +38,7 @@ namespace PFF.Domain.Configurations
 
             builder.HasMany(m => m.Prescriptions)
                 .WithMany(pre => pre.Medicines);
+                //.UsingEntity("Médicaments_Prescriptions_JoinTable");
         }
     }
 }

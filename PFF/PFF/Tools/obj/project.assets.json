@@ -3730,9 +3730,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\Tools.csproj",
-      "projectName": "Tools",
-      "projectPath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\Tools.csproj",
+      "projectUniqueName": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj",
+      "projectName": "PFF.Tools",
+      "projectPath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj",
       "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\obj\\",
       "projectStyle": "PackageReference",

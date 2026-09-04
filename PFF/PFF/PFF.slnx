@@ -6,6 +6,6 @@
     <Project Path="PFF/PFF.csproj" />
   </Folder>
   <Folder Name="/99 Tools/">
-    <Project Path="Tools/Tools.csproj" />
+    <Project Path="Tools/PFF.Tools.csproj" />
   </Folder>
 </Solution>

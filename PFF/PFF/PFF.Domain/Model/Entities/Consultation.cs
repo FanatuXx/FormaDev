@@ -13,7 +13,7 @@ namespace PFF.Domain.Model.Entities
         public virtual Patient Patient { get; set; }
         public virtual IList<Worker> Workers { get; set; } = new List<Worker>(); //PAS SUR SI LISTE OU PAS
         public virtual IList<Prescription> Prescriptions { get; set; } = new List<Prescription>();
-        public virtual IList<VitalSignsMonitoring> VitalSignsMonitorings { get; set; } = new List<VitalSignsMonitoring>();
+        public virtual IList<VitalSign> VitalSigns { get; set; } = new List<VitalSign>();
 
         public virtual IList<Pathology> Pathologies { get; set; } = new List<Pathology>();
 

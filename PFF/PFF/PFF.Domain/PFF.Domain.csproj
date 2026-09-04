@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Commands\" />
-    <Folder Include="Errors\" />
     <Folder Include="Services\" />
     <Folder Include="Repositories\" />
     <Folder Include="Queries\" />
@@ -25,6 +24,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tools\PFF.Tools.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pyvsYinub64=",
+  "dgSpecHash": "mb2rX8b9w94=",
   "success": true,
-  "projectFilePath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\Tools.csproj",
+  "projectFilePath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\antoi\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\antoi\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",

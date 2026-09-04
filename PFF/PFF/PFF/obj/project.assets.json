@@ -1075,6 +1075,35 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "PFF.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.11",
+          "PFF.Tools": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PFF.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PFF.Domain.dll": {}
+        }
+      },
+      "PFF.Tools/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.11"
+        },
+        "compile": {
+          "bin/placeholder/PFF.Tools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PFF.Tools.dll": {}
+        }
       }
     }
   },
@@ -3135,6 +3164,16 @@
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "PFF.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PFF.Domain/PFF.Domain.csproj",
+      "msbuildProject": "../PFF.Domain/PFF.Domain.csproj"
+    },
+    "PFF.Tools/1.0.0": {
+      "type": "project",
+      "path": "../Tools/PFF.Tools.csproj",
+      "msbuildProject": "../Tools/PFF.Tools.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3142,7 +3181,9 @@
       "Microsoft.EntityFrameworkCore >= 10.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.11",
-      "Microsoft.EntityFrameworkCore.Tools >= 10.0.11"
+      "Microsoft.EntityFrameworkCore.Tools >= 10.0.11",
+      "PFF.Domain >= 1.0.0",
+      "PFF.Tools >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3178,7 +3219,14 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\PFF.Domain.csproj": {
+              "projectPath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\PFF.Domain.csproj"
+            },
+            "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj": {
+              "projectPath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

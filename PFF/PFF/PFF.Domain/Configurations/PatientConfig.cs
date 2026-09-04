@@ -73,12 +73,6 @@ namespace PFF.Domain.Configurations
 
             builder.HasMany(patient => patient.Consultations)
                 .WithOne(c => c.Patient);
-
-
-
-
-
-
         }
     }
 }

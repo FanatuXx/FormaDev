@@ -15,6 +15,7 @@ namespace PFF.Domain.Model.Entities
         public DateTime BirthDate { get; set; }
         public string Email { get; set; }
         public int PhoneNumber { get; set; }
+        public string Occupation { get; set; }
         public string Street { get; set; }
         public int Number { get; set; }
         public int ZipCode { get; set; }
