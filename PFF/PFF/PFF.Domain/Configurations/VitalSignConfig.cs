@@ -35,13 +35,25 @@ namespace PFF.Domain.Configurations
                 .HasColumnType("DECIMAL(3, 1)")
                 .HasColumnName("Température");
 
-            builder.Property(vs => vs.RespiratoryRate)
-                .HasColumnType("INT")
-                .HasColumnName("FréquenceRespiratoire");
-
             builder.Property(vs => vs.OxygenSaturation)
                 .HasColumnType("INT")
                 .HasColumnName("Saturation");
+
+            builder.Property(vs => vs.Height)
+                .HasColumnType("FLOAT")
+                .HasColumnName("Taille");
+
+            builder.Property(vs => vs.Weight)
+                .HasColumnType("INT")
+                .HasColumnName("Poids");
+
+            builder.Property(vs => vs.BMI)
+                .HasColumnType("FLOAT")
+                .HasColumnName("IMC");
+
+            builder.Property(vs => vs.BloodSugar)
+                .HasColumnType("FLOAT")
+                .HasColumnName("Glycémie");
 
 
             builder.HasOne(vs => vs.Consultation)

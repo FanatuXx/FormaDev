@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PFF.Tools")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09683bf3f0ee11e95488728880c3147d4cdcd314")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbec0e96e23f7329b6afb8e9ed6a53f171353bf4")]
 [assembly: System.Reflection.AssemblyProductAttribute("PFF.Tools")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PFF.Tools")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

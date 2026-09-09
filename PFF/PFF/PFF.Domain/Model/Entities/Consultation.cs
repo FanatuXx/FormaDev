@@ -6,8 +6,13 @@ namespace PFF.Domain.Model.Entities
     public class Consultation
     {
         public int Id { get; set; }
-        public DateTime Date { get; set; } = DateTime.Now;
+        public string Motive { get; set; }
+        public string Subjective { get; set; }
+        public string Objective { get; set; }
+        public string Assessment { get; set; }
+        public string Plan { get; set; }
         public string Description { get; set; }
+        public DateTime Date { get; set; } = DateTime.Now;
         public int PathologyId { get; set; }
         public int PatientId { get; set; }
         public virtual Patient Patient { get; set; }

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D4D051F9-9FCC-4A4F-866A-98D8CE2A8AF7}|PFF.Api\\PFF.Api.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\pff\\pff\\pff.api\\dtos\\createpathologydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4D051F9-9FCC-4A4F-866A-98D8CE2A8AF7}|PFF.Api\\PFF.Api.csproj|solutionrelative:pff.api\\dtos\\createpathologydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D051F9-9FCC-4A4F-866A-98D8CE2A8AF7}|PFF.Api\\PFF.Api.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\pff\\pff\\pff.api\\pff.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D4D051F9-9FCC-4A4F-866A-98D8CE2A8AF7}|PFF.Api\\PFF.Api.csproj|solutionrelative:pff.api\\pff.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\pff\\pff\\pff.domain\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{1A2BCFF3-2EA4-3B8A-9B21-7EFF4A922396}|Tools\\PFF.Tools.csproj|solutionrelative:tools\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4D051F9-9FCC-4A4F-866A-98D8CE2A8AF7}|PFF.Api\\PFF.Api.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\pff\\pff\\pff.api\\dtos\\createpathologydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4D051F9-9FCC-4A4F-866A-98D8CE2A8AF7}|PFF.Api\\PFF.Api.csproj|solutionrelative:pff.api\\dtos\\createpathologydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\pff\\pff\\pff.domain\\commands\\createpathologycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\commands\\createpathologycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D4D051F9-9FCC-4A4F-866A-98D8CE2A8AF7}|PFF.Api\\PFF.Api.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\pff\\pff\\pff.api\\infrastructure\\controllerbaseextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4D051F9-9FCC-4A4F-866A-98D8CE2A8AF7}|PFF.Api\\PFF.Api.csproj|solutionrelative:pff.api\\infrastructure\\controllerbaseextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4D051F9-9FCC-4A4F-866A-98D8CE2A8AF7}|PFF.Api\\PFF.Api.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\pff\\pff\\pff.api\\pff.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D4D051F9-9FCC-4A4F-866A-98D8CE2A8AF7}|PFF.Api\\PFF.Api.csproj|solutionrelative:pff.api\\pff.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\pff\\pff\\pff.domain\\pff.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -249,7 +249,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -261,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\Program.cs",
               "RelativeDocumentMoniker": "PFF.Api\\Program.cs",
@@ -269,12 +269,11 @@
               "RelativeToolTip": "PFF.Api\\Program.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAABgAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T08:04:17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T08:04:17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "CreatePathologyDto.cs",
               "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\Dtos\\CreatePathologyDto.cs",
               "RelativeDocumentMoniker": "PFF.Api\\Dtos\\CreatePathologyDto.cs",
@@ -287,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ControllerBaseExtensions.cs",
               "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\Infrastructure\\ControllerBaseExtensions.cs",
               "RelativeDocumentMoniker": "PFF.Api\\Infrastructure\\ControllerBaseExtensions.cs",
@@ -295,12 +294,11 @@
               "RelativeToolTip": "PFF.Api\\Infrastructure\\ControllerBaseExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T07:45:42.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T07:45:42.514Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PathologyController.cs",
               "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\Controllers\\PathologyController.cs",
               "RelativeDocumentMoniker": "PFF.Api\\Controllers\\PathologyController.cs",
@@ -308,25 +306,23 @@
               "RelativeToolTip": "PFF.Api\\Controllers\\PathologyController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T07:30:53.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T07:30:53.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PFF.Api",
+              "DocumentIndex": 1,
+              "Title": "PFF.Api.csproj",
               "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\PFF.Api.csproj",
               "RelativeDocumentMoniker": "PFF.Api\\PFF.Api.csproj",
               "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\PFF.Api.csproj",
               "RelativeToolTip": "PFF.Api\\PFF.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-09T07:29:07.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T07:29:07.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\appsettings.json",
               "RelativeDocumentMoniker": "PFF.Api\\appsettings.json",
@@ -334,25 +330,23 @@
               "RelativeToolTip": "PFF.Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-09T07:24:57.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T07:24:57.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\ApplicationDbContext.cs",
               "RelativeToolTip": "PFF.Domain\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T09:28:47.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T09:28:47.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "PFF.Api\\Properties\\launchSettings.json",
@@ -360,12 +354,11 @@
               "RelativeToolTip": "PFF.Api\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-09T08:17:13.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T08:17:13.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Pathology.cs",
               "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Pathology.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\Pathology.cs",
@@ -373,12 +366,11 @@
               "RelativeToolTip": "PFF.Domain\\Model\\Entities\\Pathology.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T08:04:18.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T08:04:18.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "PFF.Api\\appsettings.Development.json",
@@ -386,12 +378,11 @@
               "RelativeToolTip": "PFF.Api\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-09T08:20:01.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T08:20:01.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Result.cs",
               "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\Tools\\Results\\Result.cs",
               "RelativeDocumentMoniker": "Tools\\Results\\Result.cs",
@@ -399,12 +390,11 @@
               "RelativeToolTip": "Tools\\Results\\Result.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T09:23:42.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T09:23:42.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CreatePathologyCommand.cs",
               "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Commands\\CreatePathologyCommand.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Commands\\CreatePathologyCommand.cs",
@@ -412,8 +402,7 @@
               "RelativeToolTip": "PFF.Domain\\Commands\\CreatePathologyCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T12:12:55.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T12:12:55.664Z"
             },
             {
               "$type": "Document",
@@ -435,8 +424,7 @@
               "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj",
               "RelativeToolTip": "Tools\\PFF.Tools.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-04T14:28:12.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T14:28:12.631Z"
             },
             {
               "$type": "Document",
@@ -448,8 +436,7 @@
               "RelativeToolTip": "PFF.Domain\\PFF.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-04T14:28:20.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T14:28:20.138Z"
             },
             {
               "$type": "Document",
@@ -472,8 +459,7 @@
               "RelativeToolTip": "PFF.Domain\\Queries\\GetPathologiesQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T13:22:39.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T13:22:39.533Z"
             },
             {
               "$type": "Document",
@@ -485,8 +471,7 @@
               "RelativeToolTip": "PFF.Domain\\Services\\PathologyService.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAADwvxUAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T12:18:17.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T12:18:17.334Z"
             },
             {
               "$type": "Document",
@@ -498,8 +483,7 @@
               "RelativeToolTip": "Tools\\PFF.Tools.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-02T11:53:59.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T11:53:59.227Z"
             },
             {
               "$type": "Document",
@@ -522,8 +506,7 @@
               "RelativeToolTip": "PFF.Domain\\Repositories\\IPathologyRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T12:16:06.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T12:16:06.098Z"
             },
             {
               "$type": "Document",
@@ -546,8 +529,7 @@
               "RelativeToolTip": "PFF.Domain\\Model\\Entities\\Medicine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T07:58:16.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T07:58:16.566Z"
             },
             {
               "$type": "Document",
@@ -559,8 +541,7 @@
               "RelativeToolTip": "PFF.Domain\\Model\\Entities\\Consultation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T07:49:18.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T07:49:18.413Z"
             },
             {
               "$type": "Document",
@@ -594,8 +575,7 @@
               "RelativeToolTip": "PFF.Domain\\Model\\Entities\\Patient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T07:41:16.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T07:41:16.158Z"
             },
             {
               "$type": "Document",
@@ -607,8 +587,7 @@
               "RelativeToolTip": "PFF.Domain\\Model\\Entities\\PatientAddress.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T07:51:15.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T07:51:15.252Z"
             },
             {
               "$type": "Document",
@@ -631,8 +610,7 @@
               "RelativeToolTip": "PFF.Domain\\Model\\Entities\\Prescription.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T07:55:52.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T07:55:52.57Z"
             },
             {
               "$type": "Document",
@@ -655,8 +633,7 @@
               "RelativeToolTip": "PFF.Domain\\Model\\Entities\\VitalSign.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T08:00:06.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T08:00:06.911Z"
             },
             {
               "$type": "Document",
@@ -668,8 +645,7 @@
               "RelativeToolTip": "PFF.Domain\\Model\\Entities\\Worker.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T12:05:34.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T12:05:34.885Z"
             },
             {
               "$type": "Document",
@@ -714,8 +690,7 @@
               "RelativeToolTip": "PFF.Domain\\Migrations\\20260904115928_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T11:59:28.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T11:59:28.909Z"
             },
             {
               "$type": "Document",
@@ -738,8 +713,7 @@
               "RelativeToolTip": "PFF.Domain\\Configurations\\ConsultationConfig.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwCsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T12:46:12.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T12:46:12.321Z"
             },
             {
               "$type": "Document",
@@ -773,8 +747,7 @@
               "RelativeToolTip": "PFF.Domain\\Configurations\\MedicineConfig.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwCcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T13:44:37.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T13:44:37.57Z"
             },
             {
               "$type": "Document",
@@ -786,8 +759,7 @@
               "RelativeToolTip": "PFF.Domain\\Configurations\\PathologyConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T14:03:24.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T14:03:24.07Z"
             },
             {
               "$type": "Document",
@@ -799,8 +771,7 @@
               "RelativeToolTip": "PFF.Domain\\Configurations\\PatientAddressConfig.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T07:30:51.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T07:30:51.783Z"
             },
             {
               "$type": "Document",
@@ -812,8 +783,7 @@
               "RelativeToolTip": "PFF.Domain\\Configurations\\PatientConfig.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAxwBMAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T14:11:58.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T14:11:58.223Z"
             },
             {
               "$type": "Document",
@@ -825,8 +795,7 @@
               "RelativeToolTip": "PFF.Domain\\Configurations\\PrescriptionConfig.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwB4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T12:59:19.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T12:59:19.032Z"
             },
             {
               "$type": "Document",
@@ -838,8 +807,7 @@
               "RelativeToolTip": "PFF.Domain\\Configurations\\VitalSignConfig.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAuwBUAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T07:49:43.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T07:49:43.77Z"
             },
             {
               "$type": "Document",
@@ -851,8 +819,7 @@
               "RelativeToolTip": "PFF.Domain\\Configurations\\WorkerConfig.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAQwBMAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T08:26:46.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T08:26:46.321Z"
             },
             {
               "$type": "Document",
@@ -864,8 +831,7 @@
               "RelativeToolTip": "PFF.Domain\\Errors\\PrescriptionErrors.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T09:46:29.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T09:46:29.749Z"
             },
             {
               "$type": "Document",
@@ -888,8 +854,7 @@
               "RelativeToolTip": "PFF.Domain\\Errors\\PathologyErrors.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T09:41:43.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T09:41:43.294Z"
             },
             {
               "$type": "Document",
@@ -923,8 +888,7 @@
               "RelativeToolTip": "PFF.Domain\\Errors\\ConsultationErrors.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T09:40:38.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T09:40:38.124Z"
             },
             {
               "$type": "Document",
@@ -936,8 +900,7 @@
               "RelativeToolTip": "PFF.Domain\\Errors\\VitalSignErrors.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T09:42:45.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T09:42:45.55Z"
             },
             {
               "$type": "Document",
@@ -949,8 +912,7 @@
               "RelativeToolTip": "Tools\\CommandQuerySeparation\\IQueryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T09:31:50.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T09:31:50.033Z"
             },
             {
               "$type": "Document",
@@ -962,8 +924,7 @@
               "RelativeToolTip": "PFF.Domain\\Errors\\WorkerErrors.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T09:34:12.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T09:34:12.699Z"
             },
             {
               "$type": "Document",
@@ -975,8 +936,7 @@
               "RelativeToolTip": "PFF.Domain\\Errors\\PatientErrors.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T09:39:16.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T09:39:16.59Z"
             },
             {
               "$type": "Document",
@@ -988,8 +948,7 @@
               "RelativeToolTip": "Tools\\CommandQuerySeparation\\IQueryDefinition.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T09:31:42.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T09:31:42.612Z"
             },
             {
               "$type": "Document",
@@ -1001,8 +960,7 @@
               "RelativeToolTip": "Tools\\CommandQuerySeparation\\ICommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T09:29:43.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T09:29:43.663Z"
             },
             {
               "$type": "Document",
@@ -1014,8 +972,7 @@
               "RelativeToolTip": "Tools\\CommandQuerySeparation\\ICommandDefinition.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T09:29:38.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T09:29:38.056Z"
             },
             {
               "$type": "Document",
@@ -1027,8 +984,7 @@
               "RelativeToolTip": "Tools\\Results\\Error.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T09:24:38.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T09:24:38.965Z"
             },
             {
               "$type": "Document",
@@ -1040,8 +996,7 @@
               "RelativeToolTip": "PFF.Domain\\Errors\\PatientAddressErrors.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T09:44:06.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T09:44:06.913Z"
             },
             {
               "$type": "Document",
@@ -1053,8 +1008,7 @@
               "RelativeToolTip": "PFF.Domain\\Errors\\MedicineErrors.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T09:45:24.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T09:45:24.508Z"
             }
           ]
         }

@@ -16,8 +16,9 @@ namespace PFF.Domain.Configurations
 
             builder.ToTable("Patient", t =>
             {
-                t.HasCheckConstraint("CK_Patient_Identification", "LEN(Prénom) > 0 OR LEN(Nom) > 0 OR LEN(Surnom) > 0");
-                t.HasCheckConstraint("CK_Patient_DernièreVisite", "DateDernièreVisite >= DateInscription");
+                t.HasCheckConstraint("CK_Patient_Identification", "LEN(TRIM(Prénom)) > 0 OR LEN(TRIM(Nom)) > 0 OR LEN(TRIM(Surnom)) > 0");
+                t.HasCheckConstraint("CK_Patient_DernièreVisite", "DateDernièreVisite >= DateInscription AND DateDernièreVisite <= GETDATE()");
+                t.HasCheckConstraint("CK_Patient_Mutuelle", "LEN(TRIM(Mutuelle)) > 0 ");
             });
 
 
@@ -50,6 +51,10 @@ namespace PFF.Domain.Configurations
                 .HasColumnType("NVARCHAR(50)")
                 .HasColumnName("NuméroTéléphone");
 
+            builder.Property(patient => patient.Allergies)
+                .HasColumnType("NVARCHAR(256")
+                .HasColumnName("Allergies");
+
             builder.Property(patient => patient.RegistrationDate)
                 .IsRequired()
                 .HasColumnType("DATETIME")
@@ -58,6 +63,40 @@ namespace PFF.Domain.Configurations
             builder.Property(patient => patient.LastVisit)
                 .HasColumnType("DATETIME")
                 .HasColumnName("DateDernièreVisite");
+
+            builder.Property(patient => patient.IsInsured)
+                .HasColumnType("LOGICAL")
+                .HasColumnName("Assuré");
+
+            builder.Property(patient => patient.Insurance)
+                .HasColumnType("NVARCHAR(128)")
+                .HasColumnName("Mutuelle");
+
+            builder.Property(patient => patient.InsuranceEndDate)
+                .HasColumnType("DATETIME")
+                .HasColumnName("ExpirationMutuelle");
+
+            builder.Property(patient => patient.HasInsuranceCard)
+                .HasColumnType("LOGICAL")
+                .HasColumnName("CarteMédicale");
+
+            builder.Property(patient => patient.InsuranceCardEndDate)
+                .HasColumnType("DATETIME")
+                .HasColumnName("ExpirationCarteMédicale");
+
+            builder.Property(patient => patient.IsAtFedasil)
+                .HasColumnType("LOGICAL")
+                .HasColumnName("Fedasil");
+
+            builder.Property(patient => patient.DrugType)
+                .HasColumnType("NVARCHAR(50)")
+                .HasColumnName("ProduitConsommé")
+                .HasConversion<string>();
+
+            builder.Property(patient => patient.ConsumptionFrequency)
+                .HasColumnType("NVARCHAR(128)")
+                .HasColumnName("FréquenceConsommation")
+                .HasConversion<string>();
 
 
             builder.HasIndex(patient => patient.SSIN)

@@ -37,8 +37,10 @@ namespace PFF.Domain.Configurations
 
 
             builder.HasMany(m => m.Prescriptions)
-                .WithMany(pre => pre.Medicines)
-                .UsingEntity("Médicaments_Prescriptions_JoinTable");
+                .WithMany(pre => pre.Medicines);
+
+            builder.HasMany(m => m.ChronicTreatments)
+                .WithMany(ct => ct.Medicines);
         }
     }
 }
