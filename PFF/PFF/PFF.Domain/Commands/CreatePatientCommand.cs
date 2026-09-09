@@ -1,0 +1,35 @@
+﻿using PFF.Domain.Model.Entities;
+using PFF.Domain.Model.Enum;
+using PFF.Tools.CommandQuerySeparation;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace PFF.Domain.Commands
+{
+    public record CreatePatientCommand(
+        int SSIN, 
+        int IdNumber, 
+        string FirstName, 
+        string LastName, 
+        string Alias, 
+        string Gender, 
+        DateTime BirthDate,
+        int PhoneNumber,
+        string Allergies, 
+        bool IsInsured, 
+        string Insurance,
+        DateTime InsuranceEndDate,
+        bool HasInsuranceCard,
+        DateTime InsuranceCardEndDate,
+        bool IsAtFedasil,
+        int Income,
+        string Status,
+        bool IsWorking,
+        DrugTypeEnum DrugType,
+        ConsumptionFrequencyEnum ConsumptionFrequency,
+        DateTime RegistrationDate,
+        DateTime LastVisit) : ICommandDefinition
+    {
+    }
+}

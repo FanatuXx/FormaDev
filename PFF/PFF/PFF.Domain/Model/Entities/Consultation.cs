@@ -12,8 +12,8 @@ namespace PFF.Domain.Model.Entities
         public string Assessment { get; set; }
         public string Plan { get; set; }
         public string Description { get; set; }
-        public DateTime Date { get; set; } = DateTime.Now;
-        public int PathologyId { get; set; }
+        public DateTime Date { get; set; }
+        public int PathologyId { get; set; } 
         public int PatientId { get; set; }
         public virtual Patient Patient { get; set; }
         public virtual IList<Worker> Workers { get; set; } = new List<Worker>(); //PAS SUR SI LISTE OU PAS
