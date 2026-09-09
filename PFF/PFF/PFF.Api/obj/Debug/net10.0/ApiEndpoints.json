@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "PFF.Api.Controllers.PathologyController",
+    "Method": "Get",
+    "RelativePath": "api/Pathology",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFF.Api.Controllers.PathologyController",
+    "Method": "Post",
+    "RelativePath": "api/Pathology",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PFF.Api.Dtos.CreatePathologyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
