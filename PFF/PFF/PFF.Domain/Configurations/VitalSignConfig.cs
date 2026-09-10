@@ -18,7 +18,6 @@ namespace PFF.Domain.Configurations
             {
                 t.HasCheckConstraint("CK_Paramètres_FréquenceCardiaque", "FréquenceCardiaque <= 220");
                 t.HasCheckConstraint("CK_Paramètres_Température", "Température >= 30 AND Température <= 45");
-                t.HasCheckConstraint("CK_Paramètres_FréquenceRespiratoire", "FréquenceRespiratoire >= 1 AND FréquenceRespiratoire <= 60");
                 t.HasCheckConstraint("CK_Paramètres_Saturation", "Saturation >= 1 AND Saturation <= 100");
             });
 

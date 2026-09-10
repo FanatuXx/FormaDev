@@ -24,5 +24,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFF.Api.Controllers.PatientController",
+    "Method": "Get",
+    "RelativePath": "api/Patient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PFF.Api.Controllers.PatientController",
+    "Method": "Post",
+    "RelativePath": "api/Patient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PFF.Api.Dtos.CreatePatientDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

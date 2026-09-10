@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Fvxkw+T2XpQ=",
+  "dgSpecHash": "HJpxspu0LCw=",
   "success": true,
   "projectFilePath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a.dufour\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\a.dufour\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",
     "C:\\Users\\a.dufour\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\a.dufour\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\10.0.12\\microsoft.aspnetcore.jsonpatch.10.0.12.nupkg.sha512",
+    "C:\\Users\\a.dufour\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\10.0.12\\microsoft.aspnetcore.mvc.newtonsoftjson.10.0.12.nupkg.sha512",
     "C:\\Users\\a.dufour\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
     "C:\\Users\\a.dufour\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\a.dufour\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",
@@ -50,6 +52,7 @@
     "C:\\Users\\a.dufour\\.nuget\\packages\\microsoft.visualstudio.solutionpersistence\\1.0.52\\microsoft.visualstudio.solutionpersistence.1.0.52.nupkg.sha512",
     "C:\\Users\\a.dufour\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
     "C:\\Users\\a.dufour\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
+    "C:\\Users\\a.dufour\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\a.dufour\\.nuget\\packages\\scalar.aspnetcore\\2.17.2\\scalar.aspnetcore.2.17.2.nupkg.sha512",
     "C:\\Users\\a.dufour\\.nuget\\packages\\system.clientmodel\\1.8.0\\system.clientmodel.1.8.0.nupkg.sha512",
     "C:\\Users\\a.dufour\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",

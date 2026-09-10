@@ -12,15 +12,15 @@ using PFF.Domain;
 namespace PFF.Domain.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260904115928_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20260910093649_V2.2")]
+    partial class V22
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "10.0.11")
+                .HasAnnotation("ProductVersion", "10.0.12")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -55,19 +55,35 @@ namespace PFF.Domain.Migrations
                     b.ToTable("Consultations_Travailleurs_JoinTable");
                 });
 
-            modelBuilder.Entity("Médicaments_Prescriptions_JoinTable", b =>
+            modelBuilder.Entity("PFF.Domain.Model.Entities.ChronicTreatment", b =>
                 {
-                    b.Property<int>("MedicinesId")
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("PrescriptionsId")
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Dosage")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR(256)")
+                        .HasColumnName("Posologie");
+
+                    b.Property<int>("PathologyId")
                         .HasColumnType("int");
 
-                    b.HasKey("MedicinesId", "PrescriptionsId");
+                    b.Property<int>("PatientId")
+                        .HasColumnType("int");
 
-                    b.HasIndex("PrescriptionsId");
+                    b.HasKey("Id");
 
-                    b.ToTable("Médicaments_Prescriptions_JoinTable");
+                    b.HasIndex("PathologyId");
+
+                    b.HasIndex("PatientId");
+
+                    b.ToTable("TTChronique", null, t =>
+                        {
+                            t.HasCheckConstraint("CK_TTChronique_Posologie", "LEN(Posologie) > 0");
+                        });
                 });
 
             modelBuilder.Entity("PFF.Domain.Model.Entities.Consultation", b =>
@@ -78,6 +94,11 @@ namespace PFF.Domain.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Assessment")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR(256)")
+                        .HasColumnName("Évaluation");
+
                     b.Property<DateTime>("Date")
                         .HasColumnType("DATETIME")
                         .HasColumnName("Date");
@@ -87,11 +108,31 @@ namespace PFF.Domain.Migrations
                         .HasColumnType("NVARCHAR(256)")
                         .HasColumnName("Description");
 
+                    b.Property<string>("Motive")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR(256)")
+                        .HasColumnName("Motif");
+
+                    b.Property<string>("Objective")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR(256)")
+                        .HasColumnName("Objectif");
+
                     b.Property<int>("PathologyId")
                         .HasColumnType("int");
 
                     b.Property<int>("PatientId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Plan")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR(256)")
+                        .HasColumnName("Plan");
+
+                    b.Property<string>("Subjective")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR(256)")
+                        .HasColumnName("Subjectif");
 
                     b.HasKey("Id");
 
@@ -167,61 +208,117 @@ namespace PFF.Domain.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Alias")
-                        .IsRequired()
                         .HasColumnType("NVARCHAR(50)")
                         .HasColumnName("Surnom");
+
+                    b.Property<string>("Allergies")
+                        .HasColumnType("NVARCHAR(256)")
+                        .HasColumnName("Allergies");
 
                     b.Property<DateTime>("BirthDate")
                         .HasColumnType("DATETIME")
                         .HasColumnName("DateNaissance");
 
-                    b.Property<string>("FirstName")
+                    b.Property<string>("ConsumptionFrequency")
                         .IsRequired()
+                        .HasColumnType("NVARCHAR(128)")
+                        .HasColumnName("FréquenceConsommation");
+
+                    b.Property<string>("DrugType")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR(50)")
+                        .HasColumnName("ProduitConsommé");
+
+                    b.Property<string>("FirstName")
                         .HasColumnType("NVARCHAR(50)")
                         .HasColumnName("Prénom");
 
                     b.Property<string>("Gender")
-                        .IsRequired()
                         .HasColumnType("NVARCHAR(50)")
                         .HasColumnName("Genre");
 
+                    b.Property<bool>("HasInsuranceCard")
+                        .HasColumnType("BIT")
+                        .HasColumnName("CarteMédicale");
+
+                    b.Property<string>("IdNumber")
+                        .HasColumnType("NVARCHAR(50)")
+                        .HasColumnName("NuméroID");
+
+                    b.Property<int>("Income")
+                        .HasColumnType("INT")
+                        .HasColumnName("Revenus");
+
+                    b.Property<string>("Insurance")
+                        .HasColumnType("NVARCHAR(128)")
+                        .HasColumnName("Mutuelle");
+
+                    b.Property<DateTime?>("InsuranceCardEndDate")
+                        .HasColumnType("DATETIME")
+                        .HasColumnName("ExpirationCarteMédicale");
+
+                    b.Property<DateTime?>("InsuranceEndDate")
+                        .HasColumnType("DATETIME")
+                        .HasColumnName("ExpirationMutuelle");
+
+                    b.Property<bool>("IsAtFedasil")
+                        .HasColumnType("BIT")
+                        .HasColumnName("Fedasil");
+
+                    b.Property<bool>("IsInsured")
+                        .HasColumnType("BIT")
+                        .HasColumnName("Assuré");
+
+                    b.Property<bool>("IsWorking")
+                        .HasColumnType("BIT")
+                        .HasColumnName("Travail");
+
                     b.Property<string>("LastName")
-                        .IsRequired()
                         .HasColumnType("NVARCHAR(50)")
                         .HasColumnName("Nom");
 
                     b.Property<DateTime>("LastVisit")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("DATETIME")
-                        .HasColumnName("DateDernièreVisite");
+                        .HasColumnName("DateDernièreVisite")
+                        .HasDefaultValueSql("GETDATE()");
 
                     b.Property<int>("PatientAddressId")
                         .HasColumnType("int");
 
                     b.Property<string>("PhoneNumber")
-                        .IsRequired()
                         .HasColumnType("NVARCHAR(50)")
                         .HasColumnName("NuméroTéléphone");
 
                     b.Property<DateTime>("RegistrationDate")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("DATETIME")
-                        .HasColumnName("DateInscription");
+                        .HasColumnName("DateInscription")
+                        .HasDefaultValueSql("GETDATE()");
 
-                    b.Property<int>("SSIN")
-                        .HasColumnType("INT")
+                    b.Property<string>("SSIN")
+                        .HasColumnType("NVARCHAR(50)")
                         .HasColumnName("NISS");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("NVARCHAR(128)")
+                        .HasColumnName("Statut");
 
                     b.HasKey("Id");
 
                     b.HasIndex("PatientAddressId");
 
                     b.HasIndex("SSIN")
-                        .IsUnique();
+                        .IsUnique()
+                        .HasFilter("[NISS] IS NOT NULL");
 
                     b.ToTable("Patient", null, t =>
                         {
-                            t.HasCheckConstraint("CK_Patient_DernièreVisite", "DateDernièreVisite >= DateInscription");
+                            t.HasCheckConstraint("CK_Patient_DernièreVisite", "DateDernièreVisite >= DateInscription AND DateDernièreVisite <= GETDATE()");
 
-                            t.HasCheckConstraint("CK_Patient_Identification", "LEN(Prénom) > 0 OR LEN(Nom) > 0 OR LEN(Surnom) > 0");
+                            t.HasCheckConstraint("CK_Patient_Identification", "LEN(TRIM(Prénom)) > 0 OR LEN(TRIM(Nom)) > 0 OR LEN(TRIM(Surnom)) > 0");
+
+                            t.HasCheckConstraint("CK_Patient_Mutuelle", "LEN(TRIM(Mutuelle)) > 0 ");
                         });
                 });
 
@@ -314,10 +411,18 @@ namespace PFF.Domain.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<double>("BMI")
+                        .HasColumnType("FLOAT")
+                        .HasColumnName("IMC");
+
                     b.Property<string>("BloodPressure")
                         .IsRequired()
                         .HasColumnType("NVARCHAR(50)")
                         .HasColumnName("PressionArtérielle");
+
+                    b.Property<double>("BloodSugar")
+                        .HasColumnType("FLOAT")
+                        .HasColumnName("Glycémie");
 
                     b.Property<int>("ConsultationId")
                         .HasColumnType("int");
@@ -326,17 +431,21 @@ namespace PFF.Domain.Migrations
                         .HasColumnType("INT")
                         .HasColumnName("FréquenceCardiaque");
 
+                    b.Property<double>("Height")
+                        .HasColumnType("FLOAT")
+                        .HasColumnName("Taille");
+
                     b.Property<int>("OxygenSaturation")
                         .HasColumnType("INT")
                         .HasColumnName("Saturation");
 
-                    b.Property<int>("RespiratoryRate")
-                        .HasColumnType("INT")
-                        .HasColumnName("FréquenceRespiratoire");
-
                     b.Property<decimal>("Temperature")
                         .HasColumnType("DECIMAL(3, 1)")
                         .HasColumnName("Température");
+
+                    b.Property<int>("Weight")
+                        .HasColumnType("INT")
+                        .HasColumnName("Poids");
 
                     b.HasKey("Id");
 
@@ -345,8 +454,6 @@ namespace PFF.Domain.Migrations
                     b.ToTable("ParamètresVitaux", null, t =>
                         {
                             t.HasCheckConstraint("CK_Paramètres_FréquenceCardiaque", "FréquenceCardiaque <= 220");
-
-                            t.HasCheckConstraint("CK_Paramètres_FréquenceRespiratoire", "FréquenceRespiratoire >= 1 AND FréquenceRespiratoire <= 60");
 
                             t.HasCheckConstraint("CK_Paramètres_Saturation", "Saturation >= 1 AND Saturation <= 100");
 
@@ -430,6 +537,36 @@ namespace PFF.Domain.Migrations
                         });
                 });
 
+            modelBuilder.Entity("Prescriptions_Médicaments_JoinTable", b =>
+                {
+                    b.Property<int>("MedicinesId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PrescriptionsId")
+                        .HasColumnType("int");
+
+                    b.HasKey("MedicinesId", "PrescriptionsId");
+
+                    b.HasIndex("PrescriptionsId");
+
+                    b.ToTable("Prescriptions_Médicaments_JoinTable");
+                });
+
+            modelBuilder.Entity("TTChronique_Médicaments_JoinTable", b =>
+                {
+                    b.Property<int>("ChronicTreatmentsId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MedicinesId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ChronicTreatmentsId", "MedicinesId");
+
+                    b.HasIndex("MedicinesId");
+
+                    b.ToTable("TTChronique_Médicaments_JoinTable");
+                });
+
             modelBuilder.Entity("Consultations_Pathologies_JoinTable", b =>
                 {
                     b.HasOne("PFF.Domain.Model.Entities.Consultation", null)
@@ -460,19 +597,23 @@ namespace PFF.Domain.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Médicaments_Prescriptions_JoinTable", b =>
+            modelBuilder.Entity("PFF.Domain.Model.Entities.ChronicTreatment", b =>
                 {
-                    b.HasOne("PFF.Domain.Model.Entities.Medicine", null)
-                        .WithMany()
-                        .HasForeignKey("MedicinesId")
+                    b.HasOne("PFF.Domain.Model.Entities.Pathology", "Pathology")
+                        .WithMany("ChronicTreatments")
+                        .HasForeignKey("PathologyId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("PFF.Domain.Model.Entities.Prescription", null)
-                        .WithMany()
-                        .HasForeignKey("PrescriptionsId")
+                    b.HasOne("PFF.Domain.Model.Entities.Patient", "Patient")
+                        .WithMany("ChronicTreatments")
+                        .HasForeignKey("PatientId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Pathology");
+
+                    b.Navigation("Patient");
                 });
 
             modelBuilder.Entity("PFF.Domain.Model.Entities.Consultation", b =>
@@ -535,6 +676,36 @@ namespace PFF.Domain.Migrations
                     b.Navigation("Consultation");
                 });
 
+            modelBuilder.Entity("Prescriptions_Médicaments_JoinTable", b =>
+                {
+                    b.HasOne("PFF.Domain.Model.Entities.Medicine", null)
+                        .WithMany()
+                        .HasForeignKey("MedicinesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("PFF.Domain.Model.Entities.Prescription", null)
+                        .WithMany()
+                        .HasForeignKey("PrescriptionsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("TTChronique_Médicaments_JoinTable", b =>
+                {
+                    b.HasOne("PFF.Domain.Model.Entities.ChronicTreatment", null)
+                        .WithMany()
+                        .HasForeignKey("ChronicTreatmentsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("PFF.Domain.Model.Entities.Medicine", null)
+                        .WithMany()
+                        .HasForeignKey("MedicinesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("PFF.Domain.Model.Entities.Consultation", b =>
                 {
                     b.Navigation("Prescriptions");
@@ -542,8 +713,15 @@ namespace PFF.Domain.Migrations
                     b.Navigation("VitalSigns");
                 });
 
+            modelBuilder.Entity("PFF.Domain.Model.Entities.Pathology", b =>
+                {
+                    b.Navigation("ChronicTreatments");
+                });
+
             modelBuilder.Entity("PFF.Domain.Model.Entities.Patient", b =>
                 {
+                    b.Navigation("ChronicTreatments");
+
                     b.Navigation("Consultations");
 
                     b.Navigation("Prescriptions");

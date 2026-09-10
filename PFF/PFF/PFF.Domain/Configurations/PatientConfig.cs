@@ -23,8 +23,12 @@ namespace PFF.Domain.Configurations
 
 
             builder.Property(patient => patient.SSIN)
-                .HasColumnType("INT")
+                .HasColumnType("NVARCHAR(50)")
                 .HasColumnName("NISS");
+
+            builder.Property(patient => patient.IdNumber)
+                .HasColumnType("NVARCHAR(50)")
+                .HasColumnName("NuméroID");
 
             builder.Property(patient => patient.FirstName)
                 .HasColumnType("NVARCHAR(50)")
@@ -52,20 +56,22 @@ namespace PFF.Domain.Configurations
                 .HasColumnName("NuméroTéléphone");
 
             builder.Property(patient => patient.Allergies)
-                .HasColumnType("NVARCHAR(256")
+                .HasColumnType("NVARCHAR(256)")
                 .HasColumnName("Allergies");
 
             builder.Property(patient => patient.RegistrationDate)
                 .IsRequired()
                 .HasColumnType("DATETIME")
-                .HasColumnName("DateInscription");
+                .HasColumnName("DateInscription")
+                .HasDefaultValueSql("GETDATE()");
 
             builder.Property(patient => patient.LastVisit)
                 .HasColumnType("DATETIME")
-                .HasColumnName("DateDernièreVisite");
+                .HasColumnName("DateDernièreVisite")
+                .HasDefaultValueSql("GETDATE()");
 
             builder.Property(patient => patient.IsInsured)
-                .HasColumnType("LOGICAL")
+                .HasColumnType("BIT")
                 .HasColumnName("Assuré");
 
             builder.Property(patient => patient.Insurance)
@@ -77,7 +83,7 @@ namespace PFF.Domain.Configurations
                 .HasColumnName("ExpirationMutuelle");
 
             builder.Property(patient => patient.HasInsuranceCard)
-                .HasColumnType("LOGICAL")
+                .HasColumnType("BIT")
                 .HasColumnName("CarteMédicale");
 
             builder.Property(patient => patient.InsuranceCardEndDate)
@@ -85,7 +91,7 @@ namespace PFF.Domain.Configurations
                 .HasColumnName("ExpirationCarteMédicale");
 
             builder.Property(patient => patient.IsAtFedasil)
-                .HasColumnType("LOGICAL")
+                .HasColumnType("BIT")
                 .HasColumnName("Fedasil");
 
             builder.Property(patient => patient.DrugType)
@@ -97,6 +103,18 @@ namespace PFF.Domain.Configurations
                 .HasColumnType("NVARCHAR(128)")
                 .HasColumnName("FréquenceConsommation")
                 .HasConversion<string>();
+
+            builder.Property(patient => patient.Income)
+                .HasColumnType("INT")
+                .HasColumnName("Revenus");
+
+            builder.Property(patient => patient.Status)
+                .HasColumnType("NVARCHAR(128)")
+                .HasColumnName("Statut");
+
+            builder.Property(patient => patient.IsWorking)
+                .HasColumnType("BIT")
+                .HasColumnName("Travail");
 
 
             builder.HasIndex(patient => patient.SSIN)

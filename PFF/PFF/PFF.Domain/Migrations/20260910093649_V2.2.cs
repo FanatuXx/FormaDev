@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace PFF.Domain.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class V22 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -90,22 +90,36 @@ namespace PFF.Domain.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    NISS = table.Column<int>(type: "INT", nullable: false),
-                    Prénom = table.Column<string>(type: "NVARCHAR(50)", nullable: false),
-                    Nom = table.Column<string>(type: "NVARCHAR(50)", nullable: false),
-                    Surnom = table.Column<string>(type: "NVARCHAR(50)", nullable: false),
-                    Genre = table.Column<string>(type: "NVARCHAR(50)", nullable: false),
+                    NISS = table.Column<string>(type: "NVARCHAR(50)", nullable: true),
+                    NuméroID = table.Column<string>(type: "NVARCHAR(50)", nullable: true),
+                    Prénom = table.Column<string>(type: "NVARCHAR(50)", nullable: true),
+                    Nom = table.Column<string>(type: "NVARCHAR(50)", nullable: true),
+                    Surnom = table.Column<string>(type: "NVARCHAR(50)", nullable: true),
+                    Genre = table.Column<string>(type: "NVARCHAR(50)", nullable: true),
                     DateNaissance = table.Column<DateTime>(type: "DATETIME", nullable: false),
-                    NuméroTéléphone = table.Column<string>(type: "NVARCHAR(50)", nullable: false),
-                    DateInscription = table.Column<DateTime>(type: "DATETIME", nullable: false),
-                    DateDernièreVisite = table.Column<DateTime>(type: "DATETIME", nullable: false),
+                    NuméroTéléphone = table.Column<string>(type: "NVARCHAR(50)", nullable: true),
+                    Allergies = table.Column<string>(type: "NVARCHAR(256)", nullable: true),
+                    Assuré = table.Column<bool>(type: "BIT", nullable: false),
+                    Mutuelle = table.Column<string>(type: "NVARCHAR(128)", nullable: true),
+                    ExpirationMutuelle = table.Column<DateTime>(type: "DATETIME", nullable: true),
+                    CarteMédicale = table.Column<bool>(type: "BIT", nullable: false),
+                    ExpirationCarteMédicale = table.Column<DateTime>(type: "DATETIME", nullable: true),
+                    Fedasil = table.Column<bool>(type: "BIT", nullable: false),
+                    Revenus = table.Column<int>(type: "INT", nullable: false),
+                    Statut = table.Column<string>(type: "NVARCHAR(128)", nullable: true),
+                    Travail = table.Column<bool>(type: "BIT", nullable: false),
+                    ProduitConsommé = table.Column<string>(type: "NVARCHAR(50)", nullable: false),
+                    FréquenceConsommation = table.Column<string>(type: "NVARCHAR(128)", nullable: false),
+                    DateInscription = table.Column<DateTime>(type: "DATETIME", nullable: false, defaultValueSql: "GETDATE()"),
+                    DateDernièreVisite = table.Column<DateTime>(type: "DATETIME", nullable: false, defaultValueSql: "GETDATE()"),
                     PatientAddressId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Patient", x => x.Id);
-                    table.CheckConstraint("CK_Patient_DernièreVisite", "DateDernièreVisite >= DateInscription");
-                    table.CheckConstraint("CK_Patient_Identification", "LEN(Prénom) > 0 OR LEN(Nom) > 0 OR LEN(Surnom) > 0");
+                    table.CheckConstraint("CK_Patient_DernièreVisite", "DateDernièreVisite >= DateInscription AND DateDernièreVisite <= GETDATE()");
+                    table.CheckConstraint("CK_Patient_Identification", "LEN(TRIM(Prénom)) > 0 OR LEN(TRIM(Nom)) > 0 OR LEN(TRIM(Surnom)) > 0");
+                    table.CheckConstraint("CK_Patient_Mutuelle", "LEN(TRIM(Mutuelle)) > 0 ");
                     table.ForeignKey(
                         name: "FK_Patient_AddressePatient_PatientAddressId",
                         column: x => x.PatientAddressId,
@@ -120,8 +134,13 @@ namespace PFF.Domain.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Date = table.Column<DateTime>(type: "DATETIME", nullable: false),
+                    Motif = table.Column<string>(type: "NVARCHAR(256)", nullable: false),
+                    Subjectif = table.Column<string>(type: "NVARCHAR(256)", nullable: false),
+                    Objectif = table.Column<string>(type: "NVARCHAR(256)", nullable: false),
+                    Évaluation = table.Column<string>(type: "NVARCHAR(256)", nullable: false),
+                    Plan = table.Column<string>(type: "NVARCHAR(256)", nullable: false),
                     Description = table.Column<string>(type: "NVARCHAR(256)", nullable: false),
+                    Date = table.Column<DateTime>(type: "DATETIME", nullable: false),
                     PathologyId = table.Column<int>(type: "int", nullable: false),
                     PatientId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -131,6 +150,34 @@ namespace PFF.Domain.Migrations
                     table.CheckConstraint("CK_Consultation_Date", "Date <= GETDATE()");
                     table.ForeignKey(
                         name: "FK_Consultation_Patient_PatientId",
+                        column: x => x.PatientId,
+                        principalTable: "Patient",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "TTChronique",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Posologie = table.Column<string>(type: "NVARCHAR(256)", nullable: false),
+                    PathologyId = table.Column<int>(type: "int", nullable: false),
+                    PatientId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_TTChronique", x => x.Id);
+                    table.CheckConstraint("CK_TTChronique_Posologie", "LEN(Posologie) > 0");
+                    table.ForeignKey(
+                        name: "FK_TTChronique_Pathologie_PathologyId",
+                        column: x => x.PathologyId,
+                        principalTable: "Pathologie",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_TTChronique_Patient_PatientId",
                         column: x => x.PatientId,
                         principalTable: "Patient",
                         principalColumn: "Id",
@@ -194,15 +241,17 @@ namespace PFF.Domain.Migrations
                     FréquenceCardiaque = table.Column<int>(type: "INT", nullable: false),
                     PressionArtérielle = table.Column<string>(type: "NVARCHAR(50)", nullable: false),
                     Température = table.Column<decimal>(type: "DECIMAL(3,1)", nullable: false),
-                    FréquenceRespiratoire = table.Column<int>(type: "INT", nullable: false),
                     Saturation = table.Column<int>(type: "INT", nullable: false),
+                    Taille = table.Column<double>(type: "FLOAT", nullable: false),
+                    Poids = table.Column<int>(type: "INT", nullable: false),
+                    IMC = table.Column<double>(type: "FLOAT", nullable: false),
+                    Glycémie = table.Column<double>(type: "FLOAT", nullable: false),
                     ConsultationId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_ParamètresVitaux", x => x.Id);
                     table.CheckConstraint("CK_Paramètres_FréquenceCardiaque", "FréquenceCardiaque <= 220");
-                    table.CheckConstraint("CK_Paramètres_FréquenceRespiratoire", "FréquenceRespiratoire >= 1 AND FréquenceRespiratoire <= 60");
                     table.CheckConstraint("CK_Paramètres_Saturation", "Saturation >= 1 AND Saturation <= 100");
                     table.CheckConstraint("CK_Paramètres_Température", "Température >= 30 AND Température <= 45");
                     table.ForeignKey(
@@ -248,7 +297,31 @@ namespace PFF.Domain.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Médicaments_Prescriptions_JoinTable",
+                name: "TTChronique_Médicaments_JoinTable",
+                columns: table => new
+                {
+                    ChronicTreatmentsId = table.Column<int>(type: "int", nullable: false),
+                    MedicinesId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_TTChronique_Médicaments_JoinTable", x => new { x.ChronicTreatmentsId, x.MedicinesId });
+                    table.ForeignKey(
+                        name: "FK_TTChronique_Médicaments_JoinTable_Médicament_MedicinesId",
+                        column: x => x.MedicinesId,
+                        principalTable: "Médicament",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_TTChronique_Médicaments_JoinTable_TTChronique_ChronicTreatmentsId",
+                        column: x => x.ChronicTreatmentsId,
+                        principalTable: "TTChronique",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Prescriptions_Médicaments_JoinTable",
                 columns: table => new
                 {
                     MedicinesId = table.Column<int>(type: "int", nullable: false),
@@ -256,15 +329,15 @@ namespace PFF.Domain.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Médicaments_Prescriptions_JoinTable", x => new { x.MedicinesId, x.PrescriptionsId });
+                    table.PrimaryKey("PK_Prescriptions_Médicaments_JoinTable", x => new { x.MedicinesId, x.PrescriptionsId });
                     table.ForeignKey(
-                        name: "FK_Médicaments_Prescriptions_JoinTable_Médicament_MedicinesId",
+                        name: "FK_Prescriptions_Médicaments_JoinTable_Médicament_MedicinesId",
                         column: x => x.MedicinesId,
                         principalTable: "Médicament",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Médicaments_Prescriptions_JoinTable_Prescription_PrescriptionsId",
+                        name: "FK_Prescriptions_Médicaments_JoinTable_Prescription_PrescriptionsId",
                         column: x => x.PrescriptionsId,
                         principalTable: "Prescription",
                         principalColumn: "Id",
@@ -293,11 +366,6 @@ namespace PFF.Domain.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Médicaments_Prescriptions_JoinTable_PrescriptionsId",
-                table: "Médicaments_Prescriptions_JoinTable",
-                column: "PrescriptionsId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_ParamètresVitaux_ConsultationId",
                 table: "ParamètresVitaux",
                 column: "ConsultationId");
@@ -312,7 +380,8 @@ namespace PFF.Domain.Migrations
                 name: "IX_Patient_NISS",
                 table: "Patient",
                 column: "NISS",
-                unique: true);
+                unique: true,
+                filter: "[NISS] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Patient_PatientAddressId",
@@ -333,6 +402,26 @@ namespace PFF.Domain.Migrations
                 name: "IX_Prescription_WorkerSSIN",
                 table: "Prescription",
                 column: "WorkerSSIN");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Prescriptions_Médicaments_JoinTable_PrescriptionsId",
+                table: "Prescriptions_Médicaments_JoinTable",
+                column: "PrescriptionsId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_TTChronique_PathologyId",
+                table: "TTChronique",
+                column: "PathologyId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_TTChronique_PatientId",
+                table: "TTChronique",
+                column: "PatientId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_TTChronique_Médicaments_JoinTable_MedicinesId",
+                table: "TTChronique_Médicaments_JoinTable",
+                column: "MedicinesId");
         }
 
         /// <inheritdoc />
@@ -345,25 +434,31 @@ namespace PFF.Domain.Migrations
                 name: "Consultations_Travailleurs_JoinTable");
 
             migrationBuilder.DropTable(
-                name: "Médicaments_Prescriptions_JoinTable");
-
-            migrationBuilder.DropTable(
                 name: "ParamètresVitaux");
 
             migrationBuilder.DropTable(
-                name: "Pathologie");
+                name: "Prescriptions_Médicaments_JoinTable");
+
+            migrationBuilder.DropTable(
+                name: "TTChronique_Médicaments_JoinTable");
+
+            migrationBuilder.DropTable(
+                name: "Prescription");
 
             migrationBuilder.DropTable(
                 name: "Médicament");
 
             migrationBuilder.DropTable(
-                name: "Prescription");
+                name: "TTChronique");
 
             migrationBuilder.DropTable(
                 name: "Consultation");
 
             migrationBuilder.DropTable(
                 name: "Travailleur");
+
+            migrationBuilder.DropTable(
+                name: "Pathologie");
 
             migrationBuilder.DropTable(
                 name: "Patient");

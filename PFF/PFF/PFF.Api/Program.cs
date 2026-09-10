@@ -14,7 +14,7 @@ IConfiguration configuration = builder.Configuration;
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddNewtonsoftJson();
 
 builder.Services.AddCors(c => c.AddPolicy(policyName, o =>
 {

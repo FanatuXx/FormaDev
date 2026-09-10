@@ -170,3 +170,6 @@ C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Api\o
 C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Api\obj\Debug\net10.0\PFF.Api.pdb
 C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Api\obj\Debug\net10.0\PFF.Api.genruntimeconfig.cache
 C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Api\obj\Debug\net10.0\ref\PFF.Api.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Api\bin\Debug\net10.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Api\bin\Debug\net10.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Api\bin\Debug\net10.0\Newtonsoft.Json.Bson.dll

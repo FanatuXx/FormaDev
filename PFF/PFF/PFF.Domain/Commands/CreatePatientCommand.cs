@@ -8,28 +8,28 @@ using System.Text;
 namespace PFF.Domain.Commands
 {
     public record CreatePatientCommand(
-        int SSIN, 
-        int IdNumber, 
+        string SSIN, 
+        string IdNumber, 
         string FirstName, 
         string LastName, 
         string Alias, 
         string Gender, 
         DateTime BirthDate,
-        int PhoneNumber,
+        string PhoneNumber,
         string Allergies, 
         bool IsInsured, 
         string Insurance,
-        DateTime InsuranceEndDate,
+        DateTime? InsuranceEndDate,
         bool HasInsuranceCard,
-        DateTime InsuranceCardEndDate,
+        DateTime? InsuranceCardEndDate,
         bool IsAtFedasil,
         int Income,
         string Status,
         bool IsWorking,
         DrugTypeEnum DrugType,
         ConsumptionFrequencyEnum ConsumptionFrequency,
-        DateTime RegistrationDate,
-        DateTime LastVisit) : ICommandDefinition
+        DateTime? RegistrationDate,
+        DateTime? LastVisit) : ICommandDefinition
     {
     }
 }
