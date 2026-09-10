@@ -6,14 +6,14 @@ namespace PFF.Domain.Model.Enum
 {
     public enum DrugTypeEnum
     {
-        Crack = 0,
-        Opioids = 1,
-        Alcohol = 2,
-        Medications, Benzodiazepines = 3,
-        Amphetamines, MDMA, Ecstasy = 4,
-        Cannabis = 5,
-        LSD = 6,
-        Ketamine = 7,
-        NSP = 8
+        crack = 0,
+        opioids = 1,
+        alcohol = 2,
+        medications = 3,
+        amphetamines = 4,
+        cannabis = 5,
+        lsd = 6,
+        ketamine = 7,
+        nsp = 8
     }
 }

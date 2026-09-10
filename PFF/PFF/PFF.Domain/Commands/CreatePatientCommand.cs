@@ -13,7 +13,7 @@ namespace PFF.Domain.Commands
         string? FirstName, 
         string? LastName, 
         string? Alias, 
-        string? Gender, 
+        GenderEnum? Gender, 
         DateTime BirthDate,
         string? PhoneNumber,
         string? Allergies, 

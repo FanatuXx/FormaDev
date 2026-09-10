@@ -6,12 +6,12 @@ namespace PFF.Domain.Model.Enum
 {
     public enum ConsumptionFrequencyEnum
     {
-        MultipleTimesADay = 0,
-        OnceADay = 1,
-        BetweenOnceADayAndOnceAWeek = 2,
-        OnceAWeek = 3,
-        BetweenOnceAWeekAndOnceAMonth = 4,
-        OnceAMonth = 5,
-        LessThanOnceAMonth = 6
+        multipleTimesADay = 0,
+        onceADay = 1,
+        betweenOnceADayAndOnceAWeek = 2,
+        onceAWeek = 3,
+        betweenOnceAWeekAndOnceAMonth = 4,
+        onceAMonth = 5,
+        lessThanOnceAMonth = 6
     }
 }
