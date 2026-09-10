@@ -217,12 +217,10 @@ namespace PFF.Domain.Migrations
                         .HasColumnName("DateNaissance");
 
                     b.Property<string>("ConsumptionFrequency")
-                        .IsRequired()
                         .HasColumnType("NVARCHAR(128)")
                         .HasColumnName("FréquenceConsommation");
 
                     b.Property<string>("DrugType")
-                        .IsRequired()
                         .HasColumnType("NVARCHAR(50)")
                         .HasColumnName("ProduitConsommé");
 
@@ -234,7 +232,7 @@ namespace PFF.Domain.Migrations
                         .HasColumnType("NVARCHAR(50)")
                         .HasColumnName("Genre");
 
-                    b.Property<bool>("HasInsuranceCard")
+                    b.Property<bool?>("HasInsuranceCard")
                         .HasColumnType("BIT")
                         .HasColumnName("CarteMédicale");
 
@@ -242,7 +240,7 @@ namespace PFF.Domain.Migrations
                         .HasColumnType("NVARCHAR(50)")
                         .HasColumnName("NuméroID");
 
-                    b.Property<int>("Income")
+                    b.Property<int?>("Income")
                         .HasColumnType("INT")
                         .HasColumnName("Revenus");
 
@@ -258,15 +256,15 @@ namespace PFF.Domain.Migrations
                         .HasColumnType("DATETIME")
                         .HasColumnName("ExpirationMutuelle");
 
-                    b.Property<bool>("IsAtFedasil")
+                    b.Property<bool?>("IsAtFedasil")
                         .HasColumnType("BIT")
                         .HasColumnName("Fedasil");
 
-                    b.Property<bool>("IsInsured")
+                    b.Property<bool?>("IsInsured")
                         .HasColumnType("BIT")
                         .HasColumnName("Assuré");
 
-                    b.Property<bool>("IsWorking")
+                    b.Property<bool?>("IsWorking")
                         .HasColumnType("BIT")
                         .HasColumnName("Travail");
 
@@ -280,7 +278,7 @@ namespace PFF.Domain.Migrations
                         .HasColumnName("DateDernièreVisite")
                         .HasDefaultValueSql("GETDATE()");
 
-                    b.Property<int>("PatientAddressId")
+                    b.Property<int?>("PatientAddressId")
                         .HasColumnType("int");
 
                     b.Property<string>("PhoneNumber")
@@ -314,8 +312,6 @@ namespace PFF.Domain.Migrations
                             t.HasCheckConstraint("CK_Patient_DernièreVisite", "DateDernièreVisite >= DateInscription AND DateDernièreVisite <= GETDATE()");
 
                             t.HasCheckConstraint("CK_Patient_Identification", "LEN(TRIM(Prénom)) > 0 OR LEN(TRIM(Nom)) > 0 OR LEN(TRIM(Surnom)) > 0");
-
-                            t.HasCheckConstraint("CK_Patient_Mutuelle", "LEN(TRIM(Mutuelle)) > 0 ");
                         });
                 });
 
@@ -628,9 +624,7 @@ namespace PFF.Domain.Migrations
                 {
                     b.HasOne("PFF.Domain.Model.Entities.PatientAddress", "PatientAddress")
                         .WithMany("Patients")
-                        .HasForeignKey("PatientAddressId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("PatientAddressId");
 
                     b.Navigation("PatientAddress");
                 });

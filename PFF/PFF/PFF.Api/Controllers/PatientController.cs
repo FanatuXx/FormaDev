@@ -52,8 +52,8 @@ namespace PFF.Api.Controllers
                 dto.IsWorking, 
                 dto.DrugType,
                 dto.ConsumptionFrequency,
-                dto.RegistrationDate,
-                dto.LastVisit 
+                DateTime.Now,
+                DateTime.Now
                 ));
 
             if (result.IsFailure)

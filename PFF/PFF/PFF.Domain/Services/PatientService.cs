@@ -59,7 +59,7 @@ namespace PFF.Domain.Services
                 return Result.Success();
             }
 
-            catch (Exception)
+            catch (Exception ex)
             {
                 return PatientErrors.PatientException;
             }

@@ -30,11 +30,6 @@
         ],
         "requestBody": {
           "content": {
-            "application/json-patch+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreatePathologyDto"
-              }
-            },
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/CreatePathologyDto"
@@ -77,11 +72,6 @@
         ],
         "requestBody": {
           "content": {
-            "application/json-patch+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreatePatientDto"
-              }
-            },
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/CreatePatientDto"
@@ -133,38 +123,68 @@
         "type": "object",
         "properties": {
           "ssin": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "idNumber": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "firstName": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "lastName": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "alias": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "gender": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "birthDate": {
             "type": "string",
             "format": "date-time"
           },
           "phoneNumber": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "allergies": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "isInsured": {
-            "type": "boolean"
+            "type": [
+              "null",
+              "boolean"
+            ]
           },
           "insurance": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "insuranceEndDate": {
             "type": [
@@ -174,7 +194,10 @@
             "format": "date-time"
           },
           "hasInsuranceCard": {
-            "type": "boolean"
+            "type": [
+              "null",
+              "boolean"
+            ]
           },
           "insuranceCardEndDate": {
             "type": [
@@ -184,41 +207,51 @@
             "format": "date-time"
           },
           "isAtFedasil": {
-            "type": "boolean"
+            "type": [
+              "null",
+              "boolean"
+            ]
           },
           "income": {
             "pattern": "^-?(?:0|[1-9]\\d*)$",
             "type": [
+              "null",
               "integer",
               "string"
             ],
             "format": "int32"
           },
           "status": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "isWorking": {
-            "type": "boolean"
+            "type": [
+              "null",
+              "boolean"
+            ]
           },
           "drugType": {
-            "$ref": "#/components/schemas/DrugTypeEnum"
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/DrugTypeEnum"
+              }
+            ]
           },
           "consumptionFrequency": {
-            "$ref": "#/components/schemas/ConsumptionFrequencyEnum"
-          },
-          "registrationDate": {
-            "type": [
-              "null",
-              "string"
-            ],
-            "format": "date-time"
-          },
-          "lastVisit": {
-            "type": [
-              "null",
-              "string"
-            ],
-            "format": "date-time"
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/ConsumptionFrequencyEnum"
+              }
+            ]
           }
         }
       },
