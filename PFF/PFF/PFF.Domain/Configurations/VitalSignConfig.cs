@@ -18,7 +18,6 @@ namespace PFF.Domain.Configurations
             {
                 t.HasCheckConstraint("CK_Paramètres_FréquenceCardiaque", "FréquenceCardiaque <= 220");
                 t.HasCheckConstraint("CK_Paramètres_Température", "Température >= 30 AND Température <= 45");
-                t.HasCheckConstraint("CK_Paramètres_FréquenceRespiratoire", "FréquenceRespiratoire >= 1 AND FréquenceRespiratoire <= 60");
                 t.HasCheckConstraint("CK_Paramètres_Saturation", "Saturation >= 1 AND Saturation <= 100");
             });
 
@@ -35,13 +34,25 @@ namespace PFF.Domain.Configurations
                 .HasColumnType("DECIMAL(3, 1)")
                 .HasColumnName("Température");
 
-            builder.Property(vs => vs.RespiratoryRate)
-                .HasColumnType("INT")
-                .HasColumnName("FréquenceRespiratoire");
-
             builder.Property(vs => vs.OxygenSaturation)
                 .HasColumnType("INT")
                 .HasColumnName("Saturation");
+
+            builder.Property(vs => vs.Height)
+                .HasColumnType("FLOAT")
+                .HasColumnName("Taille");
+
+            builder.Property(vs => vs.Weight)
+                .HasColumnType("INT")
+                .HasColumnName("Poids");
+
+            builder.Property(vs => vs.BMI)
+                .HasColumnType("FLOAT")
+                .HasColumnName("IMC");
+
+            builder.Property(vs => vs.BloodSugar)
+                .HasColumnType("FLOAT")
+                .HasColumnName("Glycémie");
 
 
             builder.HasOne(vs => vs.Consultation)

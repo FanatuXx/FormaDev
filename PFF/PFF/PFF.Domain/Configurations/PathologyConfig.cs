@@ -30,7 +30,6 @@ namespace PFF.Domain.Configurations
 
             builder.HasMany(patho => patho.Consultations)
                 .WithMany(c => c.Pathologies);
-                //.UsingEntity("Pathologies_Consultations_JoinTable");
         }
     }
 }

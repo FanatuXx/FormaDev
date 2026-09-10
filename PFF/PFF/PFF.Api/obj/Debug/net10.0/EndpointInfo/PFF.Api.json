@@ -1,0 +1,238 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "PFF.Api | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:7050"
+    },
+    {
+      "url": "http://localhost:5100"
+    }
+  ],
+  "paths": {
+    "/api/Pathology": {
+      "get": {
+        "tags": [
+          "Pathology"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Pathology"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePathologyDto"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePathologyDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePathologyDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePathologyDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Patient": {
+      "get": {
+        "tags": [
+          "Patient"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Patient"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePatientDto"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePatientDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePatientDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePatientDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ConsumptionFrequencyEnum": {
+        "type": "integer"
+      },
+      "CreatePathologyDto": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "maxLength": 128,
+            "minLength": 1,
+            "type": "string"
+          }
+        }
+      },
+      "CreatePatientDto": {
+        "required": [
+          "birthDate"
+        ],
+        "type": "object",
+        "properties": {
+          "ssin": {
+            "type": "string"
+          },
+          "idNumber": {
+            "type": "string"
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "alias": {
+            "type": "string"
+          },
+          "gender": {
+            "type": "string"
+          },
+          "birthDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "phoneNumber": {
+            "type": "string"
+          },
+          "allergies": {
+            "type": "string"
+          },
+          "isInsured": {
+            "type": "boolean"
+          },
+          "insurance": {
+            "type": "string"
+          },
+          "insuranceEndDate": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "hasInsuranceCard": {
+            "type": "boolean"
+          },
+          "insuranceCardEndDate": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "isAtFedasil": {
+            "type": "boolean"
+          },
+          "income": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "status": {
+            "type": "string"
+          },
+          "isWorking": {
+            "type": "boolean"
+          },
+          "drugType": {
+            "$ref": "#/components/schemas/DrugTypeEnum"
+          },
+          "consumptionFrequency": {
+            "$ref": "#/components/schemas/ConsumptionFrequencyEnum"
+          },
+          "registrationDate": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "lastVisit": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "DrugTypeEnum": {
+        "type": "integer"
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Pathology"
+    },
+    {
+      "name": "Patient"
+    }
+  ]
+}

@@ -46,8 +46,8 @@ namespace PFF.Domain.Configurations
                 .OnDelete(DeleteBehavior.NoAction);
 
             builder.HasMany(pre => pre.Medicines)
-                .WithMany(m => m.Prescriptions);
-                //.UsingEntity("Prescriptions_Médicaments_JoinTable");
+                .WithMany(m => m.Prescriptions)
+                .UsingEntity("Prescriptions_Médicaments_JoinTable");
         }
     }
 }

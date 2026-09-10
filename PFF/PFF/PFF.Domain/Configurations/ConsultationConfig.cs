@@ -20,14 +20,34 @@ namespace PFF.Domain.Configurations
             });
 
 
-            builder.Property(c => c.Date)
-                .IsRequired()
-                .HasColumnType("DATETIME")
-                .HasColumnName("Date");
+            builder.Property(c => c.Motive)
+                .HasColumnType("NVARCHAR(256)")
+                .HasColumnName("Motif");
+
+            builder.Property(c => c.Subjective)
+                .HasColumnType("NVARCHAR(256)")
+                .HasColumnName("Subjectif");
+
+            builder.Property(c => c.Objective)
+                .HasColumnType("NVARCHAR(256)")
+                .HasColumnName("Objectif");
+
+            builder.Property(c => c.Assessment)
+                .HasColumnType("NVARCHAR(256)")
+                .HasColumnName("Évaluation");
+
+            builder.Property(c => c.Plan)
+                .HasColumnType("NVARCHAR(256)")
+                .HasColumnName("Plan");
 
             builder.Property(c => c.Description)
                 .HasColumnType("NVARCHAR(256)")
                 .HasColumnName("Description");
+
+            builder.Property(c => c.Date)
+                .IsRequired()
+                .HasColumnType("DATETIME")
+                .HasColumnName("Date");
 
 
             builder.HasOne(c => c.Patient)

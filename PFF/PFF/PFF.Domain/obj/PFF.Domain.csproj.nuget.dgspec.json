@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\PFF.Domain.csproj": {}
+    "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\PFF.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\PFF.Domain.csproj": {
+    "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\PFF.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\PFF.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\PFF.Domain.csproj",
         "projectName": "PFF.Domain",
-        "projectPath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\PFF.Domain.csproj",
-        "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\obj\\",
+        "projectPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\PFF.Domain.csproj",
+        "packagesPath": "C:\\Users\\a.dufour\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\a.dufour\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -34,8 +34,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj": {
-                "projectPath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj"
+              "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj": {
+                "projectPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj"
               }
             }
           }
@@ -50,16 +50,20 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[10.0.11, )"
+              "version": "[10.0.12, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -102,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -380,20 +384,20 @@
         }
       }
     },
-    "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj": {
+    "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj",
+        "projectUniqueName": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj",
         "projectName": "PFF.Tools",
-        "projectPath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj",
-        "packagesPath": "C:\\Users\\antoi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\obj\\",
+        "projectPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj",
+        "packagesPath": "C:\\Users\\a.dufour\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\Tools\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\antoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\a.dufour\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -422,16 +426,20 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[10.0.11, )"
+              "version": "[10.0.12, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -474,7 +482,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

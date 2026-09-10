@@ -16,3 +16,21 @@ C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\ref\PFF.D
 C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\bin\Debug\net10.0\PFF.Tools.dll
 C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\bin\Debug\net10.0\PFF.Tools.pdb
 C:\Users\antoi\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.csproj.Up2Date
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\bin\Debug\net10.0\PFF.Domain.deps.json
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\bin\Debug\net10.0\PFF.Domain.runtimeconfig.json
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\bin\Debug\net10.0\PFF.Domain.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\bin\Debug\net10.0\PFF.Domain.pdb
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\bin\Debug\net10.0\PFF.Tools.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\bin\Debug\net10.0\PFF.Tools.pdb
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.csproj.AssemblyReference.cache
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.AssemblyInfoInputs.cache
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.AssemblyInfo.cs
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.csproj.CoreCompileInputs.cache
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.sourcelink.json
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.csproj.Up2Date
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\refint\PFF.Domain.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.pdb
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\PFF.Domain.genruntimeconfig.cache
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\PFF\PFF\PFF.Domain\obj\Debug\net10.0\ref\PFF.Domain.dll
