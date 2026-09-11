@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PFF.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f33d1d1bd20866339b8bb2c1ae31d914168a90c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57173e5b8704b6680263f6406eff390d7cabe998")]
 [assembly: System.Reflection.AssemblyProductAttribute("PFF.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PFF.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

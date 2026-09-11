@@ -1,5 +1,7 @@
 import { ConsumptionFrequency } from "../enum/consumption-frequency.enum";
 import { DrugType } from "../enum/drug-type.enum";
+import { Gender } from "../enum/gender.enum";
+import { ResidenceStatus } from "../enum/residence-status.enum";
 
 export interface Patient {
     id: number,
@@ -8,7 +10,7 @@ export interface Patient {
     firstName: string | null,
     lastName: string | null, 
     alias: string | null,
-    gender: string | null,
+    gender: Gender | null,
     birthDate: Date,
     phoneNumber: string | null,
     allergies: string | null,
@@ -19,7 +21,7 @@ export interface Patient {
     insuranceCardEndDate: Date | null,
     isAtFedasil: boolean | null,
     income: number | null,
-    status: string | null,
+    status: ResidenceStatus | null,
     isWorking: boolean | null,
     drugType: DrugType | null,
     consumptionFrequency: ConsumptionFrequency | null
@@ -28,13 +30,13 @@ export interface Patient {
     patientAddressId: number | null
 }
 
-export interface CreatePatient {
+export interface CreatePatientRequest {
     ssin: string | null,
     idNumber: string | null,
     firstName: string | null,
     lastName: string | null, 
     alias: string | null,
-    gender: string | null,
+    gender: Gender | null,
     birthDate: Date,
     phoneNumber: string | null,
     allergies: string | null,
@@ -45,7 +47,7 @@ export interface CreatePatient {
     insuranceCardEndDate: Date | null,
     isAtFedasil: boolean | null,
     income: number | null,
-    status: string | null,
+    status: ResidenceStatus | null,
     isWorking: boolean | null,
     drugType: DrugType | null,
     consumptionFrequency: ConsumptionFrequency | null

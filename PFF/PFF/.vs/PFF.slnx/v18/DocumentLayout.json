@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\model\\enum\\residencestatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\model\\enum\\residencestatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|c:\\users\\antoi\\documents\\formadev\\pff\\pff\\pff.domain\\model\\enum\\genderenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9234AE76-D9F3-8832-E609-A3CF827AC3EB}|PFF.Domain\\PFF.Domain.csproj|solutionrelative:pff.domain\\model\\enum\\genderenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -326,7 +330,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -338,20 +342,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetPatientsQuery.cs",
-              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Queries\\GetPatientsQuery.cs",
-              "RelativeDocumentMoniker": "PFF.Domain\\Queries\\GetPatientsQuery.cs",
-              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Queries\\GetPatientsQuery.cs",
-              "RelativeToolTip": "PFF.Domain\\Queries\\GetPatientsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ResidenceStatusEnum.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Enum\\ResidenceStatusEnum.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Model\\Enum\\ResidenceStatusEnum.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Enum\\ResidenceStatusEnum.cs",
+              "RelativeToolTip": "PFF.Domain\\Model\\Enum\\ResidenceStatusEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T14:21:06.494Z",
+              "WhenOpened": "2026-09-11T12:34:58.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IPatientRepository.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Repositories\\IPatientRepository.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Repositories\\IPatientRepository.cs",
@@ -359,12 +363,11 @@
               "RelativeToolTip": "PFF.Domain\\Repositories\\IPatientRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T14:15:01.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T14:15:01.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PatientService.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Services\\PatientService.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Services\\PatientService.cs",
@@ -372,12 +375,11 @@
               "RelativeToolTip": "PFF.Domain\\Services\\PatientService.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAqwDMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T14:16:49.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T14:16:49.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CreatePatientDto.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\Dtos\\CreatePatientDto.cs",
               "RelativeDocumentMoniker": "PFF.Api\\Dtos\\CreatePatientDto.cs",
@@ -385,12 +387,11 @@
               "RelativeToolTip": "PFF.Api\\Dtos\\CreatePatientDto.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAIA7wA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T14:48:47.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T14:48:47.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PatientController.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\Controllers\\PatientController.cs",
               "RelativeDocumentMoniker": "PFF.Api\\Controllers\\PatientController.cs",
@@ -398,12 +399,11 @@
               "RelativeToolTip": "PFF.Api\\Controllers\\PatientController.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAhwDEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T14:45:39.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T14:45:39.536Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GenderEnum.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Enum\\GenderEnum.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Model\\Enum\\GenderEnum.cs",
@@ -417,6 +417,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "GetPatientsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Queries\\GetPatientsQuery.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Queries\\GetPatientsQuery.cs",
+              "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Queries\\GetPatientsQuery.cs",
+              "RelativeToolTip": "PFF.Domain\\Queries\\GetPatientsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T14:21:06.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CreatePatientCommand.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Commands\\CreatePatientCommand.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Commands\\CreatePatientCommand.cs",
@@ -424,12 +436,11 @@
               "RelativeToolTip": "PFF.Domain\\Commands\\CreatePatientCommand.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAYwA8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T14:07:57.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T14:07:57.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PatientConfig.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\PatientConfig.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Configurations\\PatientConfig.cs",
@@ -437,12 +448,11 @@
               "RelativeToolTip": "PFF.Domain\\Configurations\\PatientConfig.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwE0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T14:11:58.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T14:11:58.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Patient.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\Patient.cs",
@@ -450,12 +460,11 @@
               "RelativeToolTip": "PFF.Domain\\Model\\Entities\\Patient.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAADwvxAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T07:41:16.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T07:41:16.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ConsumptionFrequencyEnum.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Enum\\ConsumptionFrequencyEnum.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Model\\Enum\\ConsumptionFrequencyEnum.cs",
@@ -463,12 +472,11 @@
               "RelativeToolTip": "PFF.Domain\\Model\\Enum\\ConsumptionFrequencyEnum.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T12:33:15.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T12:33:15.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "DrugTypeEnum.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Enum\\DrugTypeEnum.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Model\\Enum\\DrugTypeEnum.cs",
@@ -476,12 +484,11 @@
               "RelativeToolTip": "PFF.Domain\\Model\\Enum\\DrugTypeEnum.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T12:18:27.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T12:18:27.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "PFF.Api\\Properties\\launchSettings.json",
@@ -489,24 +496,22 @@
               "RelativeToolTip": "PFF.Api\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-09T08:17:13.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T08:17:13.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PFF.Api",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\PFF.Api.csproj",
               "RelativeDocumentMoniker": "PFF.Api\\PFF.Api.csproj",
               "ToolTip": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\PFF.Api.csproj",
               "RelativeToolTip": "PFF.Api\\PFF.Api.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-10T13:49:00.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-10T13:49:00.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "ChronicTreatment.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\ChronicTreatment.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\ChronicTreatment.cs",
@@ -518,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "VitalSignConfig.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\VitalSignConfig.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Configurations\\VitalSignConfig.cs",
@@ -530,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\ApplicationDbContext.cs",
@@ -542,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ConsultationConfig.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\ConsultationConfig.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Configurations\\ConsultationConfig.cs",
@@ -554,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "PathologyErrors.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Errors\\PathologyErrors.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Errors\\PathologyErrors.cs",
@@ -566,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\Program.cs",
               "RelativeDocumentMoniker": "PFF.Api\\Program.cs",
@@ -574,12 +579,11 @@
               "RelativeToolTip": "PFF.Api\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAC8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T08:04:17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T08:04:17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\appsettings.json",
               "RelativeDocumentMoniker": "PFF.Api\\appsettings.json",
@@ -587,12 +591,11 @@
               "RelativeToolTip": "PFF.Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-09T07:24:57.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T07:24:57.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 76,
               "Title": "20260910120837_V3.2.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Migrations\\20260910120837_V3.2.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Migrations\\20260910120837_V3.2.cs",
@@ -604,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "20260910120911_V3.3.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Migrations\\20260910120911_V3.3.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Migrations\\20260910120911_V3.3.cs",
@@ -616,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 78,
               "Title": "20260910120334_V3.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Migrations\\20260910120334_V3.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Migrations\\20260910120334_V3.cs",
@@ -628,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "CreatePathologyCommand.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Commands\\CreatePathologyCommand.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Commands\\CreatePathologyCommand.cs",
@@ -640,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 79,
               "Title": "20260910120706_V3.1.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Migrations\\20260910120706_V3.1.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Migrations\\20260910120706_V3.1.cs",
@@ -652,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CreatePathologyDto.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\Dtos\\CreatePathologyDto.cs",
               "RelativeDocumentMoniker": "PFF.Api\\Dtos\\CreatePathologyDto.cs",
@@ -664,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "PathologyService.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Services\\PathologyService.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Services\\PathologyService.cs",
@@ -676,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Medicine.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Medicine.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\Medicine.cs",
@@ -688,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "VitalSign.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\VitalSign.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\VitalSign.cs",
@@ -700,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "PathologyConfig.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\PathologyConfig.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Configurations\\PathologyConfig.cs",
@@ -712,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "IPathologyRepository.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Repositories\\IPathologyRepository.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Repositories\\IPathologyRepository.cs",
@@ -724,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Pathology.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Pathology.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\Pathology.cs",
@@ -736,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "PatientErrors.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Errors\\PatientErrors.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Errors\\PatientErrors.cs",
@@ -748,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "PatientAddress.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\PatientAddress.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\PatientAddress.cs",
@@ -760,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "PathologyController.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\Controllers\\PathologyController.cs",
               "RelativeDocumentMoniker": "PFF.Api\\Controllers\\PathologyController.cs",
@@ -772,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Prescription.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Prescription.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\Prescription.cs",
@@ -784,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Worker.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Worker.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\Worker.cs",
@@ -796,7 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Consultation.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Model\\Entities\\Consultation.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Model\\Entities\\Consultation.cs",
@@ -808,7 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "GetPathologiesQuery.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Queries\\GetPathologiesQuery.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Queries\\GetPathologiesQuery.cs",
@@ -820,7 +823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "ChronicTreatmentConfig.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\ChronicTreatmentConfig.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Configurations\\ChronicTreatmentConfig.cs",
@@ -832,7 +835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "MedicineConfig.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\MedicineConfig.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Configurations\\MedicineConfig.cs",
@@ -844,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "PatientAddressConfig.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\PatientAddressConfig.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Configurations\\PatientAddressConfig.cs",
@@ -856,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "PrescriptionConfig.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\PrescriptionConfig.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Configurations\\PrescriptionConfig.cs",
@@ -868,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "WorkerConfig.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\WorkerConfig.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Configurations\\WorkerConfig.cs",
@@ -880,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "PFF.Api.csproj",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\PFF.Api.csproj",
               "RelativeDocumentMoniker": "PFF.Api\\PFF.Api.csproj",
@@ -892,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "ControllerBaseExtensions.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\Infrastructure\\ControllerBaseExtensions.cs",
               "RelativeDocumentMoniker": "PFF.Api\\Infrastructure\\ControllerBaseExtensions.cs",
@@ -904,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "PFF.Api\\appsettings.Development.json",
@@ -916,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Result.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\Results\\Result.cs",
               "RelativeDocumentMoniker": "Tools\\Results\\Result.cs",
@@ -928,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "PFF\\Views\\Home\\Index.cshtml",
@@ -939,7 +942,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "PFF.Tools",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj",
               "RelativeDocumentMoniker": "Tools\\PFF.Tools.csproj",
@@ -950,7 +953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "PFF.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\PFF.Domain.csproj",
               "RelativeDocumentMoniker": "PFF.Domain\\PFF.Domain.csproj",
@@ -962,7 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\Views\\Pathology\\Index.cshtml",
               "RelativeDocumentMoniker": "PFF\\Views\\Pathology\\Index.cshtml",
@@ -973,7 +976,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "PFF.Tools.csproj",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\PFF.Tools.csproj",
               "RelativeDocumentMoniker": "Tools\\PFF.Tools.csproj",
@@ -985,7 +988,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "PFF.App.http",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\PFF.App.http",
               "RelativeDocumentMoniker": "PFF\\PFF.App.http",
@@ -996,7 +999,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\Program.cs",
               "RelativeDocumentMoniker": "PFF\\Program.cs",
@@ -1007,7 +1010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PFF\\Controllers\\HomeController.cs",
@@ -1018,7 +1021,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\Views\\Pathology\\Create.cshtml",
               "RelativeDocumentMoniker": "PFF\\Views\\Pathology\\Create.cshtml",
@@ -1029,7 +1032,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "PFF\\Properties\\launchSettings.json",
@@ -1040,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\appsettings.json",
               "RelativeDocumentMoniker": "PFF\\appsettings.json",
@@ -1051,7 +1054,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "PFF\\Views\\Home\\Privacy.cshtml",
@@ -1062,7 +1065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "PFF\\Views\\_ViewImports.cshtml",
@@ -1073,7 +1076,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "PathologyController.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\Controllers\\PathologyController.cs",
               "RelativeDocumentMoniker": "PFF\\Controllers\\PathologyController.cs",
@@ -1084,7 +1087,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "CreatePathologyForm.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF\\Models\\CreatePathologyForm.cs",
               "RelativeDocumentMoniker": "PFF\\Models\\CreatePathologyForm.cs",
@@ -1095,7 +1098,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "20260904115614_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Migrations\\20260904115614_InitialCreate.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Migrations\\20260904115614_InitialCreate.cs",
@@ -1106,7 +1109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "20260904115114_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Migrations\\20260904115114_InitialCreate.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Migrations\\20260904115114_InitialCreate.cs",
@@ -1117,7 +1120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "PrescriptionErrors.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Errors\\PrescriptionErrors.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Errors\\PrescriptionErrors.cs",
@@ -1129,7 +1132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "20260904103556_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Migrations\\20260904103556_InitialCreate.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Migrations\\20260904103556_InitialCreate.cs",
@@ -1140,7 +1143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "20260904103259_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Migrations\\20260904103259_InitialCreate.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Migrations\\20260904103259_InitialCreate.cs",
@@ -1151,7 +1154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "20260904103841_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Migrations\\20260904103841_InitialCreate.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Migrations\\20260904103841_InitialCreate.cs",
@@ -1162,7 +1165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "ConsultationErrors.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Errors\\ConsultationErrors.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Errors\\ConsultationErrors.cs",
@@ -1174,7 +1177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "VitalSignErrors.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Errors\\VitalSignErrors.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Errors\\VitalSignErrors.cs",
@@ -1186,7 +1189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "IQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\CommandQuerySeparation\\IQueryHandler.cs",
               "RelativeDocumentMoniker": "Tools\\CommandQuerySeparation\\IQueryHandler.cs",
@@ -1198,7 +1201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "WorkerErrors.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Errors\\WorkerErrors.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Errors\\WorkerErrors.cs",
@@ -1210,7 +1213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "IQueryDefinition.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\CommandQuerySeparation\\IQueryDefinition.cs",
               "RelativeDocumentMoniker": "Tools\\CommandQuerySeparation\\IQueryDefinition.cs",
@@ -1222,7 +1225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "ICommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\CommandQuerySeparation\\ICommandHandler.cs",
               "RelativeDocumentMoniker": "Tools\\CommandQuerySeparation\\ICommandHandler.cs",
@@ -1234,7 +1237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "ICommandDefinition.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\CommandQuerySeparation\\ICommandDefinition.cs",
               "RelativeDocumentMoniker": "Tools\\CommandQuerySeparation\\ICommandDefinition.cs",
@@ -1246,7 +1249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "Error.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\Tools\\Results\\Error.cs",
               "RelativeDocumentMoniker": "Tools\\Results\\Error.cs",
@@ -1258,7 +1261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "PatientAddressErrors.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Errors\\PatientAddressErrors.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Errors\\PatientAddressErrors.cs",
@@ -1270,7 +1273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "MedicineErrors.cs",
               "DocumentMoniker": "C:\\Users\\antoi\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Errors\\MedicineErrors.cs",
               "RelativeDocumentMoniker": "PFF.Domain\\Errors\\MedicineErrors.cs",
