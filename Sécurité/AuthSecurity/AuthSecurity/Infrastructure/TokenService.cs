@@ -1,11 +1,13 @@
 ﻿using AuthSecurity.Models;
 using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 
 namespace AuthSecurity.Infrastructure
 {
-    public class TokenService
+    public class TokenService : ITokenService
     {
         private const string _privateKey = "MaSuperCléPrivéeDeLaMortQuiTueOuPas!!!";
 
@@ -14,9 +16,24 @@ namespace AuthSecurity.Infrastructure
             byte[] secretKey = Encoding.Default.GetBytes(_privateKey);
             SymmetricSecurityKey symmetricKey = new SymmetricSecurityKey(secretKey);
 
-            //byte[] bytes = RandomNumberGenerator.GetBytes(256);
+            List<Claim> claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Sid, user.Id.ToString()),
+                new Claim(ClaimTypes.Name, $"{user.Prenom} {user.Nom}"),
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim(ClaimTypes.Role, user.Role)
 
-            string token = default!;
+            };
+
+            JwtSecurityToken Token = new JwtSecurityToken(
+                issuer: "https://localhost:7048", //Celui qui FOURNIT le Token
+                audience: "https://localhost:7048", //Celui qui UTILISER le Token
+                claims: claims, //Les infos sur lesquelles se base le Token
+                signingCredentials: new SigningCredentials(symmetricKey, SecurityAlgorithms.HmacSha256) //Signature ?
+            );
+
+            string token = new JwtSecurityTokenHandler().WriteToken(Token);
+
             return token;
 
         }

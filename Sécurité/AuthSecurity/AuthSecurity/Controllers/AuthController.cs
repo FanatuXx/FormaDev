@@ -1,4 +1,5 @@
-﻿using AuthSecurity.Models;
+﻿using AuthSecurity.Infrastructure;
+using AuthSecurity.Models;
 using AuthSecurity.Models.Dtos;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,9 +7,10 @@ namespace AuthSecurity.Controllers
 {
     [ApiController]
     [Route("auth")]
-    public class AuthController(IList<User> users) : ControllerBase
+    public class AuthController(IList<User> users, ITokenService tokenService) : ControllerBase
     {
         private readonly IList<User> _users = users;
+        private readonly ITokenService _tokenService = tokenService;
 
         [HttpPost("login")]
         public IActionResult Login(LoginDto dto)
@@ -18,7 +20,9 @@ namespace AuthSecurity.Controllers
             if(user is null)
                 return NotFound();
 
-            return Ok(user);
+            string token = _tokenService.GenerateToken(user);
+
+            return Ok(new UserDto(user.Id, user.Nom, user.Prenom, user.Email, user.Role, token));
         }
     }
 }
