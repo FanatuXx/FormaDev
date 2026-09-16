@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\S\u00E9curit\u00E9\\AuthSecurity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A3C97A-030B-465C-86F8-4C39DB8736FE}|AuthSecurity\\AuthSecurity.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\s\u00E9curit\u00E9\\authsecurity\\authsecurity\\infrastructure\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A3C97A-030B-465C-86F8-4C39DB8736FE}|AuthSecurity\\AuthSecurity.csproj|solutionrelative:authsecurity\\infrastructure\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A3C97A-030B-465C-86F8-4C39DB8736FE}|AuthSecurity\\AuthSecurity.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\s\u00E9curit\u00E9\\authsecurity\\authsecurity\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A3C97A-030B-465C-86F8-4C39DB8736FE}|AuthSecurity\\AuthSecurity.csproj|solutionrelative:authsecurity\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A3C97A-030B-465C-86F8-4C39DB8736FE}|AuthSecurity\\AuthSecurity.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\s\u00E9curit\u00E9\\authsecurity\\authsecurity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A3C97A-030B-465C-86F8-4C39DB8736FE}|AuthSecurity\\AuthSecurity.csproj|solutionrelative:authsecurity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A3C97A-030B-465C-86F8-4C39DB8736FE}|AuthSecurity\\AuthSecurity.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\s\u00E9curit\u00E9\\authsecurity\\authsecurity\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A3C97A-030B-465C-86F8-4C39DB8736FE}|AuthSecurity\\AuthSecurity.csproj|solutionrelative:authsecurity\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A3C97A-030B-465C-86F8-4C39DB8736FE}|AuthSecurity\\AuthSecurity.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\s\u00E9curit\u00E9\\authsecurity\\authsecurity\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A3C97A-030B-465C-86F8-4C39DB8736FE}|AuthSecurity\\AuthSecurity.csproj|solutionrelative:authsecurity\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A3C97A-030B-465C-86F8-4C39DB8736FE}|AuthSecurity\\AuthSecurity.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\s\u00E9curit\u00E9\\authsecurity\\authsecurity\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2A3C97A-030B-465C-86F8-4C39DB8736FE}|AuthSecurity\\AuthSecurity.csproj|solutionrelative:authsecurity\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A3C97A-030B-465C-86F8-4C39DB8736FE}|AuthSecurity\\AuthSecurity.csproj|c:\\users\\a.dufour\\onedrive - technofuturtic\\documents\\formadev\\s\u00E9curit\u00E9\\authsecurity\\authsecurity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2A3C97A-030B-465C-86F8-4C39DB8736FE}|AuthSecurity\\AuthSecurity.csproj|solutionrelative:authsecurity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\S\u00E9curit\u00E9\\AuthSecurity\\AuthSecurity\\Infrastructure\\TokenService.cs",
+              "RelativeDocumentMoniker": "AuthSecurity\\Infrastructure\\TokenService.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\S\u00E9curit\u00E9\\AuthSecurity\\AuthSecurity\\Infrastructure\\TokenService.cs",
+              "RelativeToolTip": "AuthSecurity\\Infrastructure\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T09:56:56.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\S\u00E9curit\u00E9\\AuthSecurity\\AuthSecurity\\Models\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "AuthSecurity\\Models\\Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\S\u00E9curit\u00E9\\AuthSecurity\\AuthSecurity\\Models\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "AuthSecurity\\Models\\Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T09:06:41.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\S\u00E9curit\u00E9\\AuthSecurity\\AuthSecurity\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthSecurity\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\S\u00E9curit\u00E9\\AuthSecurity\\AuthSecurity\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthSecurity\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T09:04:56.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\S\u00E9curit\u00E9\\AuthSecurity\\AuthSecurity\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AuthSecurity\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\S\u00E9curit\u00E9\\AuthSecurity\\AuthSecurity\\Models\\User.cs",
+              "RelativeToolTip": "AuthSecurity\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T09:00:17.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\S\u00E9curit\u00E9\\AuthSecurity\\AuthSecurity\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AuthSecurity\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\S\u00E9curit\u00E9\\AuthSecurity\\AuthSecurity\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AuthSecurity\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-16T08:14:21.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\S\u00E9curit\u00E9\\AuthSecurity\\AuthSecurity\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthSecurity\\appsettings.json",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\S\u00E9curit\u00E9\\AuthSecurity\\AuthSecurity\\appsettings.json",
+              "RelativeToolTip": "AuthSecurity\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-16T08:14:12.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\S\u00E9curit\u00E9\\AuthSecurity\\AuthSecurity\\Program.cs",
+              "RelativeDocumentMoniker": "AuthSecurity\\Program.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\S\u00E9curit\u00E9\\AuthSecurity\\AuthSecurity\\Program.cs",
+              "RelativeToolTip": "AuthSecurity\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T08:13:41.895Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
