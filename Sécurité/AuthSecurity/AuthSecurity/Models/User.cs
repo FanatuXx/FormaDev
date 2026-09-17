@@ -1,20 +1,12 @@
 ﻿namespace AuthSecurity.Models
 {
-    public class User
+    public class User(int id, string nom, string prenom, string email, string role)
     {
-        public User(int id, string nom, string prenom, string email, string role)
-        {
-            Id = id;
-            Nom = nom;
-            Prenom = prenom;
-            Email = email;
-            Role = role;
-        }
-
-        public int Id { get; set; }
-        public string Nom { get; set; }
-        public string Prenom { get; set; }
-        public string Email { get; set; }
-        public string Role { get; set; }
+        public int Id { get; set; } = id;
+        public string Nom { get; set; } = nom;
+        public string Prenom { get; set; } = prenom;
+        public string Email { get; set; } = email;
+        public string Role { get; set; } = role;
+        public string? RefreshToken { get; set; }
     }
 }

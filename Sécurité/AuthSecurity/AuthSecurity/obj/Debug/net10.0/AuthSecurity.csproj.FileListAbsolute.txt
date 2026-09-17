@@ -43,3 +43,13 @@ C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Sécurité\AuthSe
 C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Sécurité\AuthSecurity\AuthSecurity\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Sécurité\AuthSecurity\AuthSecurity\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Sécurité\AuthSecurity\AuthSecurity\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Sécurité\AuthSecurity\AuthSecurity\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Sécurité\AuthSecurity\AuthSecurity\bin\Debug\net10.0\Serilog.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Sécurité\AuthSecurity\AuthSecurity\bin\Debug\net10.0\Serilog.AspNetCore.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Sécurité\AuthSecurity\AuthSecurity\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Sécurité\AuthSecurity\AuthSecurity\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Sécurité\AuthSecurity\AuthSecurity\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Sécurité\AuthSecurity\AuthSecurity\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Sécurité\AuthSecurity\AuthSecurity\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Sécurité\AuthSecurity\AuthSecurity\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+C:\Users\a.dufour\OneDrive - TechnofuturTIC\Documents\FormaDev\Sécurité\AuthSecurity\AuthSecurity\bin\Debug\net10.0\Serilog.Sinks.File.dll

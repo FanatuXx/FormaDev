@@ -11,12 +11,19 @@
 
 using AuthSecurity.Infrastructure;
 using AuthSecurity.Models;
+using AuthSecurity.Worker;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.Logging.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Scalar.AspNetCore;
 using System.Text;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Host.UseSerilog((context, configuration) =>
+{
+    configuration.ReadFrom.Configuration(context.Configuration);
+});
 
 // Add services to the container.
 
@@ -37,10 +44,11 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         {
             ValidateIssuer = true,
             ValidateAudience = true,
-            ValidateLifetime = false,
+            ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
             ValidIssuer = "https://localhost:7048",
             ValidAudience = "https://localhost:7048",
+            ClockSkew = TimeSpan.FromMinutes(1),
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.Default.GetBytes("MaSuperCléPrivéeDeLaMortQuiTueOuPas!!!"))
         };
     });

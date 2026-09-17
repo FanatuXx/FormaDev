@@ -18,7 +18,7 @@ namespace AuthSecurity.Infrastructure
 
             List<Claim> claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Sid, user.Id.ToString()),
+                new Claim(ClaimTypes.Sid, user.Id.ToString()), //Sid = identifiant de session (session ID)
                 new Claim(ClaimTypes.Name, $"{user.Prenom} {user.Nom}"),
                 new Claim(ClaimTypes.Email, user.Email),
                 new Claim(ClaimTypes.Role, user.Role)
@@ -29,13 +29,29 @@ namespace AuthSecurity.Infrastructure
                 issuer: "https://localhost:7048", //Celui qui FOURNIT le Token
                 audience: "https://localhost:7048", //Celui qui UTILISER le Token
                 claims: claims, //Les infos sur lesquelles se base le Token
+                expires: DateTime.UtcNow.AddMinutes(2),
                 signingCredentials: new SigningCredentials(symmetricKey, SecurityAlgorithms.HmacSha256) //Signature ?
-            );
+            ); ;
 
             string token = new JwtSecurityTokenHandler().WriteToken(Token);
 
             return token;
+        }
 
+        public string GenerateRefreshToken()
+        {
+            return Convert.ToBase64String(RandomNumberGenerator.GetBytes(64));
+        }
+
+        public int GetUserIdFrom(string token)
+        {
+            JwtSecurityToken securityToken = new JwtSecurityToken(token);
+            Claim? sid = securityToken.Claims.SingleOrDefault(c => c.Type == ClaimTypes.Sid);
+
+            if (sid is null)
+                throw new InvalidOperationException("No Sid found");
+
+            return int.Parse(sid.Value);
         }
     }
 }
