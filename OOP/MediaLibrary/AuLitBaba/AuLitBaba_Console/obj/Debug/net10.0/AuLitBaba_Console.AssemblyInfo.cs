@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuLitBaba_Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9eb6a05b8ad9d769473c7d71fee764e08a8cdc8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64336e8fb6349029e1a85b546e0fc1e1945dd337")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuLitBaba_Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuLitBaba_Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

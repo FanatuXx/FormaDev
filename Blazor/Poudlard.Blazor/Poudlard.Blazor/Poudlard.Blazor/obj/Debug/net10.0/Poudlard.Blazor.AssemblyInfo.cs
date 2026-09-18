@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Poudlard.Blazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77a5fde2e7af9a8d4b00ef6087e79de2c183de41")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64336e8fb6349029e1a85b546e0fc1e1945dd337")]
 [assembly: System.Reflection.AssemblyProductAttribute("Poudlard.Blazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Poudlard.Blazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
