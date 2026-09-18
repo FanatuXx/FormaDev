@@ -1,0 +1,32 @@
+form > * {
+  display: block;
+  margin: 15px auto;
+}
+
+.password-strength {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.875rem;
+}
+
+.password-strength li {
+  color: #c75353;
+}
+
+.password-strength li.valid {
+  color: #2ead5d;
+}
+
+.password-strength li::before {
+  content: '❌ ';
+}
+
+.password-strength li.valid::before {
+  content: '✅ ';
+}
+
+.error {
+  color: #c75353;
+  font-size: .8rem;
+}

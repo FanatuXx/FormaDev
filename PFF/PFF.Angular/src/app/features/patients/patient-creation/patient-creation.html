@@ -1,1 +1,95 @@
-<p>new-patient works!</p>
+<a routerLink="/dashboard">Retour au dashboard</a>
+
+<h1>Nouvel usager :</h1>
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+  <label for="ssin">
+    NISS
+    <input type="text" name="ssin" id="ssin" formControlName="ssin">
+  </label>
+  @if (ssin.touched && ssin.invalid) {
+    @if (ssin.hasError('minlength')) {
+      <p class="error">Le champ doit faire minimum 11 caractères</p>
+    } @else if (ssin.hasError('maxlength')) {
+      <p class="error">Le champ doit faire maximum 15 caractères</p>
+    }
+  }
+
+  <label for="idNumber">
+    Numéro ID
+    <input type="text" name="idNumber" id="idNumber" formControlName="idNumber">
+  </label>
+  @if (ssin.touched && ssin.invalid) {
+    @if (ssin.hasError('minlength')) {
+      <p class="error">Le champ doit faire minimum 12 caractères</p>
+    } @else if (ssin.hasError('maxlength')) {
+      <p class="error">Le champ doit faire maximum 14 caractères</p>
+    }
+  }
+
+  <label for="firstName">
+    Prénom
+    <input type="text" name="firstName" id="firstName" formControlName="firstName">
+  </label>
+
+  <label for="lastName">
+    Nom
+    <input type="text" name="lastName" id="lastName" formControlName="lastName">
+  </label>
+
+  <label for="alias">
+    Nom
+    <input type="text" name="alias" id="alias" formControlName="alias">
+  </label>
+
+  <label for="gender">
+    Genre
+    <select id="gender" [formControl]="selectedGender">
+      <option [ngValue]="null">Choisissez un genre...</option>
+      <option *ngFor="let gender of genderList" [ngValue]="gender">
+        {{ gender }}
+      </option>
+    </select>
+  </label>
+
+https://dev.to/shane/working-with-enums-in-angular-html-templates-2io9
+
+
+
+
+
+
+
+
+
+
+
+  <button [disabled]="form.invalid">Créer le personnage</button>
+
+
+</form>
+
+
+
+
+      ssin: ['', [Validators.minLength(11), Validators.maxLength(15)]],
+      idNumber: ['', [Validators.minLength(12), Validators.maxLength(14)]],
+      firstName: [''],
+      lastName: [''],
+      alias: [''],
+      gender: [''],
+      birthDate: ['', legalAgeValidator],
+      phoneNumber: ['', [Validators.minLength(9), Validators.maxLength(16)]],
+      allergies: [''],
+      isInsured: [''],
+      insurance: ['', [Validators.minLength(2), Validators.maxLength(50)]],
+      insuranceEndDate: [''],
+      hasInsuranceCard: [''],
+      insuranceCardEndDate: [''],
+      isAtFedasil: [''],
+      income: ['', [Validators.min(0)]],
+      status: [''],
+      isWorking: [''],
+      drugType: [''],
+      consumptionFrequency: ['']

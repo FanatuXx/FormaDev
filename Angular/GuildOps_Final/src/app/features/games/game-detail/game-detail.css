@@ -1,0 +1,8 @@
+.columns {
+  display: flex;
+  gap: 1rem;
+}
+
+section {
+  width: 50%;
+}

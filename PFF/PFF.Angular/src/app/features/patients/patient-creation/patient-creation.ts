@@ -1,28 +1,51 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, OnInit, signal } from '@angular/core';
 import { PatientsService } from '../../../core/services/patients.service';
-import { Router } from '@angular/router';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router, RouterLink } from '@angular/router';
+import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { legalAgeValidator } from '../../../shared/validators/legal-age.validator';
-import { CreatePatientRequest } from '../../../shared/models/patient.model';
+import { Gender } from '../../../shared/enum/gender.enum';
+import { DrugType } from '../../../shared/enum/drug-type.enum';
+import { ConsumptionFrequency } from '../../../shared/enum/consumption-frequency.enum';
+import { ResidenceStatus } from '../../../shared/enum/residence-status.enum';
 
 @Component({
   selector: 'app-patient-creation',
-  imports: [],
+  imports: [RouterLink, ReactiveFormsModule],
   templateUrl: './patient-creation.html',
   styleUrl: './patient-creation.css',
 })
-export class PatientCreation {
-  private readonly patientsService = inject(PatientsService);
+export class PatientCreation implements OnInit {
+  private readonly patientsService: PatientsService = inject(PatientsService);
+  private readonly formBuilder: FormBuilder = inject(FormBuilder);
   private readonly router = inject(Router);
+  eGender = Gender;
 
-  readonly form: FormGroup = inject(FormBuilder).group({
+  form!: FormGroup;
+
+  // readonly genders = signal<Gender[]>([]);
+  // readonly drugs = signal<DrugType[]>([]);
+  // readonly consumptionFrequencies = signal<ConsumptionFrequency[]>([]);
+  // readonly residenceStatus = signal<ResidenceStatus[]>([]);
+
+  genderList = Object.values(Gender);
+  drugList = Object.values(DrugType);
+  consumptionFrequenciesList = Object.values(ConsumptionFrequency);
+  statusList = Object.values(ResidenceStatus);
+
+  selectedGender: any = null;
+  selectedDrug: any = null;
+  selectedFrequency: any = null;
+  selectedStatus: any = null;
+
+  ngOnInit(): void {
+    this.form = this.formBuilder.group({
       ssin: ['', [Validators.minLength(11), Validators.maxLength(15)]],
       idNumber: ['', [Validators.minLength(12), Validators.maxLength(14)]],
       firstName: [''],
       lastName: [''],
       alias: [''],
       gender: [''],
-      birthDate: ['', legalAgeValidator()],
+      birthDate: ['', legalAgeValidator],
       phoneNumber: ['', [Validators.minLength(9), Validators.maxLength(16)]],
       allergies: [''],
       isInsured: [''],
@@ -36,7 +59,8 @@ export class PatientCreation {
       isWorking: [''],
       drugType: [''],
       consumptionFrequency: ['']
-  });
+    });
+  };
 
   get ssin() {
     return this.form.controls['ssin'];
@@ -125,40 +149,9 @@ export class PatientCreation {
       return;
     }
 
-    const credentials: CreatePatientRequest = this.form.value;
-
-    this.patientsService.createPatient(credentials).subscribe({
-      next: () => {
-        this.patientsService
-          .createPatient({ 
-            ssin: credentials.ssin,
-            idNumber: credentials.idNumber,
-            firstName: credentials.firstName,
-            lastName: credentials.lastName,
-            alias: credentials.alias,
-            gender: credentials.gender,
-            birthDate: credentials.birthDate,
-            phoneNumber: credentials.phoneNumber,
-            allergies: credentials.allergies,
-            isInsured: credentials.isInsured,
-            insurance: credentials.insurance,
-            insuranceEndDate: credentials.insuranceEndDate,
-            hasInsuranceCard: credentials.hasInsuranceCard,
-            insuranceCardEndDate: credentials.insuranceCardEndDate,
-            isAtFedasil: credentials.isAtFedasil,
-            income: credentials.income,
-            status: credentials.status,
-            isWorking: credentials.isWorking,
-            drugType: credentials.drugType,
-            consumptionFrequency: credentials.consumptionFrequency })
-          .subscribe({
-            next: () => this.router.navigate(['patients']),
-            error: (err) => console.log('Erreur: ', err),
-          });
-      },
-      error: (err) => {
-        console.log('Erreur: ', err);
-      },
-    });
+    this.patientsService.create(this.form.getRawValue()).subscribe({
+      next: () => this.router.navigate(["dashboard"]),
+      error: (err) => console.log("Erreur: ", err)
+    })
   }
 }

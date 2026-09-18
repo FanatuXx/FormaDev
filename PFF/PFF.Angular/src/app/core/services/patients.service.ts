@@ -1,16 +1,16 @@
 import { inject, Service } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
-import { CreatePatientRequest } from '../../shared/models/patient.model';
+import { CreatePatientRequest, Patient } from '../../shared/models/patient.model';
 import { Observable } from 'rxjs';
 
 @Service()
 export class PatientsService {
 
-    private readonly http = inject(HttpClient);
-    private readonly baseUrl = environment.apiUrl + "/patients";
+    private readonly http: HttpClient = inject(HttpClient);
+    private readonly baseUrl = `${environment}/patients`;
 
-    createPatient(request: CreatePatientRequest): Observable<unknown> {
-        return this.http.post(`${environment.apiUrl}/patients`, request);
+    create(request: CreatePatientRequest): Observable<Patient> {
+        return this.http.post<Patient>(this.baseUrl, request);
     }
 }
