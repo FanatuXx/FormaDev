@@ -19,7 +19,6 @@ namespace PFF.Domain.Commands
         string? Allergies, 
         bool? IsInsured, 
         string? Insurance,
-        DateTime? InsuranceEndDate,
         bool? HasInsuranceCard,
         DateTime? InsuranceCardEndDate,
         bool? IsAtFedasil,

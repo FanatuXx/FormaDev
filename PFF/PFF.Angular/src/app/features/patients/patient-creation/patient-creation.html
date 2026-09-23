@@ -20,10 +20,10 @@
     Numéro ID
     <input type="text" name="idNumber" id="idNumber" formControlName="idNumber">
   </label>
-  @if (ssin.touched && ssin.invalid) {
-    @if (ssin.hasError('minlength')) {
+  @if (idNumber.touched && idNumber.invalid) {
+    @if (idNumber.hasError('minlength')) {
       <p class="error">Le champ doit faire minimum 12 caractères</p>
-    } @else if (ssin.hasError('maxlength')) {
+    } @else if (idNumber.hasError('maxlength')) {
       <p class="error">Le champ doit faire maximum 14 caractères</p>
     }
   }
@@ -39,41 +39,119 @@
   </label>
 
   <label for="alias">
-    Nom
+    Alias
     <input type="text" name="alias" id="alias" formControlName="alias">
   </label>
 
   <label for="gender">
     Genre
-    <select id="gender" [formControl]="selectedGender">
-      <option [ngValue]="null">Choisissez un genre...</option>
-      <option *ngFor="let gender of genderList" [ngValue]="gender">
-        {{ gender }}
-      </option>
+    <select id="gender" formControlName="gender">
+      <option value="">-- Sélectionnez un genre --</option>
+
+      @for (gender of genderOptions; track gender.value) {
+        <option [value]="gender.value">
+          {{ gender.label }}
+        </option>
+      }
     </select>
   </label>
 
-https://dev.to/shane/working-with-enums-in-angular-html-templates-2io9
+  <label for="birthDate">
+    Date de naissance
+    <input type="date" name="birthDate" id="birthDate" formControlName="birthDate">
+  </label>
 
+  <label for="phoneNumber">
+    Numéro de téléhphone
+    <input type="text" name="phoneNumber" id="phoneNumber" formControlName="phoneNumber">
+  </label>
 
+  <label for="allergies">
+    Allergies
+    <input type="text" name="allergies" id="allergies" formControlName="allergies">
+  </label>
 
+  <label for="isInsured">
+    En ordre de mutuelle ?
+    <input type="checkbox" name="isInsured" id="isInsured" formControlName="isInsured">
+  </label>
 
+  <label for="insurance">
+    Mutuelle
+    <input type="text" name="insurance" id="insurance" formControlName="insurance">
+  </label>
 
+  <label for="hasInsuranceCard">
+    Possède une carte médicale ?
+    <input type="checkbox" name="hasInsuranceCard" id="hasInsuranceCard" formControlName="hasInsuranceCard">
+  </label>
 
+  <label for="insuranceCardEndDate">
+    Expiration de la carte médicale 
+    <input type="date" name="insuranceCardEndDate" id="insuranceCardEndDate" formControlName="insuranceCardEndDate">
+  </label>
 
+  <label for="isAtFedasil">
+    Fedasil ?
+    <input type="checkbox" name="isAtFedasil" id="isAtFedasil" formControlName="isAtFedasil">
+  </label>
 
+  <label for="income">
+    Revenus mensuels 
+    <input type="number" name="income" id="income" formControlName="income">
+  </label>
 
+  <label for="status">
+    <select id="status" formControlName="status">
+      <option value="">-- Sélectionnez un statut --</option>
 
+      @for (status of statusOptions; track status.value) {
+        <option [value]="status.value">
+          {{ status.label }}
+        </option>
+      }
+    </select>
+  </label>
 
-  <button [disabled]="form.invalid">Créer le personnage</button>
+  <label for="isWorking">
+    Travailleur ?
+    <input type="checkbox" name="isWorking" id="isWorking" formControlName="isWorking">
+  </label>
 
+  <label for="drugType">
+    Produit consommé
+    <select id="drugType" formControlName="drugType">
+      <option value="">-- Sélectionnez le produit --</option>
+
+      @for (drug of drugOptions; track drug.value) {
+        <option [value]="drug.value">
+          {{drug.label}}
+        </option>
+      }
+    </select>
+  </label>
+
+  <label for="consumptionFrequency">
+    Fréquence de consommation
+    <select id="consumptionFrequency" formControlName="consumptionFrequency">
+      <option value="">-- Sélectionnez la fréquence --</option>
+
+      @for (frequency of consumptionFrequencyOptions; track frequency.value) {
+        <option [value]="frequency.value">
+          {{frequency.label}}
+        </option>
+      }
+    </select>
+  </label>
+
+  <button type="submit">Créer l'usager</button>
 
 </form>
 
 
 
 
-      ssin: ['', [Validators.minLength(11), Validators.maxLength(15)]],
+      <!-- ssin: ['', [Validators.minLength(11), Validators.maxLength(15)]],
       idNumber: ['', [Validators.minLength(12), Validators.maxLength(14)]],
       firstName: [''],
       lastName: [''],
@@ -84,7 +162,6 @@ https://dev.to/shane/working-with-enums-in-angular-html-templates-2io9
       allergies: [''],
       isInsured: [''],
       insurance: ['', [Validators.minLength(2), Validators.maxLength(50)]],
-      insuranceEndDate: [''],
       hasInsuranceCard: [''],
       insuranceCardEndDate: [''],
       isAtFedasil: [''],
@@ -92,4 +169,4 @@ https://dev.to/shane/working-with-enums-in-angular-html-templates-2io9
       status: [''],
       isWorking: [''],
       drugType: [''],
-      consumptionFrequency: ['']
+      consumptionFrequency: [''] -->

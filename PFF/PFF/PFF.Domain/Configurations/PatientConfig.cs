@@ -78,10 +78,6 @@ namespace PFF.Domain.Configurations
                 .HasColumnType("NVARCHAR(128)")
                 .HasColumnName("Mutuelle");
 
-            builder.Property(patient => patient.InsuranceEndDate)
-                .HasColumnType("DATETIME")
-                .HasColumnName("ExpirationMutuelle");
-
             builder.Property(patient => patient.HasInsuranceCard)
                 .HasColumnType("BIT")
                 .HasColumnName("CarteMédicale");

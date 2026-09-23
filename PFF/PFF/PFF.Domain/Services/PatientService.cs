@@ -42,7 +42,6 @@ namespace PFF.Domain.Services
                     Allergies = command.Allergies,
                     IsInsured = command.IsInsured,
                     Insurance = command.Insurance,
-                    InsuranceEndDate = command.InsuranceEndDate,
                     HasInsuranceCard = command.HasInsuranceCard,
                     InsuranceCardEndDate = command.InsuranceCardEndDate,
                     IsAtFedasil = command.IsAtFedasil,
@@ -59,7 +58,7 @@ namespace PFF.Domain.Services
                 return Result.Success();
             }
 
-            catch (Exception ex)
+            catch (Exception)
             {
                 return PatientErrors.PatientException;
             }

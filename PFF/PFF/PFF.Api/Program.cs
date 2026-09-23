@@ -5,6 +5,7 @@ using PFF.Domain.Repositories;
 using PFF.Domain.Services;
 using Scalar.AspNetCore;
 using System.Data.Common;
+using System.Text.Json.Serialization;
 
 string policyName = "CorsicanPoliceDepartment";
 
@@ -14,11 +15,16 @@ IConfiguration configuration = builder.Configuration;
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+    });
 
 builder.Services.AddCors(c => c.AddPolicy(policyName, o =>
 {
-    o.WithOrigins("https://localhost:7209").AllowAnyMethod().AllowAnyHeader();
+    o.WithOrigins("https://localhost:4200").AllowAnyMethod().AllowAnyHeader();
+    o.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();
 }));
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -42,7 +48,6 @@ if (app.Environment.IsDevelopment())
 app.UseCors(policyName);
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
 
 app.MapControllers();

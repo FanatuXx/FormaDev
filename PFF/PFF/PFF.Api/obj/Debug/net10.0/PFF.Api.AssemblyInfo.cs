@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PFF.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c64618957acb4b221cd317c0e40b8938a86055ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ad7912337c03630ecb4a4dfba6edbdf59c8c580")]
 [assembly: System.Reflection.AssemblyProductAttribute("PFF.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PFF.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

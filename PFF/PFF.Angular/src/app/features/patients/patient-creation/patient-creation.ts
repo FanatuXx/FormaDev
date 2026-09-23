@@ -14,28 +14,34 @@ import { ResidenceStatus } from '../../../shared/enum/residence-status.enum';
   templateUrl: './patient-creation.html',
   styleUrl: './patient-creation.css',
 })
+
 export class PatientCreation implements OnInit {
+
   private readonly patientsService: PatientsService = inject(PatientsService);
   private readonly formBuilder: FormBuilder = inject(FormBuilder);
   private readonly router = inject(Router);
-  eGender = Gender;
+
+  genderOptions = Object.entries(Gender).map(([value, label]) => ({
+  value,
+  label
+  }));
+
+  statusOptions = Object.entries(ResidenceStatus).map(([value, label]) => ({
+  value,
+  label
+  }));
+
+  drugOptions = Object.entries(DrugType).map(([value, label]) => ({
+  value,
+  label
+  }));
+
+  consumptionFrequencyOptions = Object.entries(ConsumptionFrequency).map(([value, label]) => ({
+  value,
+  label
+  }));
 
   form!: FormGroup;
-
-  // readonly genders = signal<Gender[]>([]);
-  // readonly drugs = signal<DrugType[]>([]);
-  // readonly consumptionFrequencies = signal<ConsumptionFrequency[]>([]);
-  // readonly residenceStatus = signal<ResidenceStatus[]>([]);
-
-  genderList = Object.values(Gender);
-  drugList = Object.values(DrugType);
-  consumptionFrequenciesList = Object.values(ConsumptionFrequency);
-  statusList = Object.values(ResidenceStatus);
-
-  selectedGender: any = null;
-  selectedDrug: any = null;
-  selectedFrequency: any = null;
-  selectedStatus: any = null;
 
   ngOnInit(): void {
     this.form = this.formBuilder.group({
@@ -50,7 +56,6 @@ export class PatientCreation implements OnInit {
       allergies: [''],
       isInsured: [''],
       insurance: ['', [Validators.minLength(2), Validators.maxLength(50)]],
-      insuranceEndDate: [''],
       hasInsuranceCard: [''],
       insuranceCardEndDate: [''],
       isAtFedasil: [''],
@@ -99,15 +104,22 @@ export class PatientCreation implements OnInit {
   }
   
   get isInsured() {
+    if (this.isInsured?.valueOf() == "true") {
+      return true;
+    }
+
+    else if (this.isInsured?.valueOf() == "false") {
+      return false;
+    }
+
+    else {
+      return null; 
+    }
     return this.form.controls['isInsured'];
   }
   
   get insurance() {
     return this.form.controls['insurance'];
-  }
-  
-  get insuranceEndDate() {
-    return this.form.controls['insuranceEndDate'];
   }
   
   get hasInsuranceCard() {
@@ -143,15 +155,47 @@ export class PatientCreation implements OnInit {
     return this.form.controls['consumptionFrequency'];
   }
 
-
   onSubmit() {
-    if (this.form.invalid) {
-      return;
-    }
+  console.log('Submit appelé');
+  console.log('Formulaire valide ?', this.form.valid);
+  console.log('Formulaire invalide ?', this.form.invalid);
+  console.log('Valeurs :', this.form.getRawValue());
+  console.log('Erreurs :', this.form.errors);
+  console.log('Erreur naissance :', this.form.controls['birthDate'].errors);
 
-    this.patientsService.create(this.form.getRawValue()).subscribe({
-      next: () => this.router.navigate(["dashboard"]),
-      error: (err) => console.log("Erreur: ", err)
-    })
+  if (this.form.invalid) {
+    this.form.markAllAsTouched();
+
+    Object.keys(this.form.controls).forEach(key => {
+      const control = this.form.get(key);
+
+      if (control?.invalid) {
+        console.log(`Erreur sur ${key}:`, control.errors);
+      }
+    });
+
+    return;
   }
+
+  this.patientsService.create(this.form.getRawValue()).subscribe({
+    next: () => {
+      console.log('Patient créé');
+      this.router.navigate(['/dashboard']);
+    },
+    error: (err) => {
+      console.error('Erreur API :', err);
+    }
+  });
+}
+
+  // onSubmit() {
+  //   if (this.form.invalid) {
+  //     return;
+  //   }
+
+  //   this.patientsService.create(this.form.getRawValue()).subscribe({
+  //     next: () => this.router.navigate(["dashboard"]),
+  //     error: (err) => console.log("Erreur: ", err)
+  //   })
+  // }
 }

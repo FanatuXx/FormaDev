@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class PatientsService {
 
     private readonly http: HttpClient = inject(HttpClient);
-    private readonly baseUrl = `${environment}/patients`;
+    private readonly baseUrl = `${environment.apiUrl}/patients`;
 
     create(request: CreatePatientRequest): Observable<Patient> {
         return this.http.post<Patient>(this.baseUrl, request);

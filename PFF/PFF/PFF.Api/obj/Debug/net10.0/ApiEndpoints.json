@@ -28,7 +28,7 @@
   {
     "ContainingType": "PFF.Api.Controllers.PatientController",
     "Method": "Get",
-    "RelativePath": "api/Patient",
+    "RelativePath": "api/patients",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -38,7 +38,7 @@
   {
     "ContainingType": "PFF.Api.Controllers.PatientController",
     "Method": "Post",
-    "RelativePath": "api/Patient",
+    "RelativePath": "api/patients",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

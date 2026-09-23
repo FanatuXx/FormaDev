@@ -11,8 +11,6 @@ export const appConfig: ApplicationConfig = {
       routes, 
       withComponentInputBinding()
     ),
-    // provideHttpClient(
-    //   withInterceptors([tokenInterceptor])
-    // )
+    provideHttpClient()
   ]
 };

@@ -12,7 +12,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 namespace PFF.Api.Controllers
 {
     [ApiController]
-    [Route("api/[Controller]")]
+    [Route("api/patients")]
     public class PatientController : ControllerBase
     {
         private readonly IPatientRepository _patientRepository;
@@ -43,7 +43,6 @@ namespace PFF.Api.Controllers
                 dto.Allergies,
                 dto.IsInsured,
                 dto.Insurance,
-                dto.InsuranceEndDate, 
                 dto.HasInsuranceCard, 
                 dto.InsuranceCardEndDate, 
                 dto.IsAtFedasil,

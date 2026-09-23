@@ -20,7 +20,6 @@ namespace PFF.Domain.Model.Entities
         public string? Allergies { get; set; }
         public bool? IsInsured { get; set; } = false;
         public string? Insurance { get; set; }
-        public DateTime? InsuranceEndDate { get; set; }
         public bool? HasInsuranceCard { get; set; } = false;
         public DateTime? InsuranceCardEndDate { get; set; }
         public bool? IsAtFedasil { get; set; } = false;

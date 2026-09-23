@@ -55,7 +55,7 @@
         }
       }
     },
-    "/api/Patient": {
+    "/api/patients": {
       "get": {
         "tags": [
           "Patient"
@@ -153,9 +153,13 @@
             ]
           },
           "gender": {
-            "type": [
-              "null",
-              "string"
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/GenderEnum"
+              }
             ]
           },
           "birthDate": {
@@ -185,13 +189,6 @@
               "null",
               "string"
             ]
-          },
-          "insuranceEndDate": {
-            "type": [
-              "null",
-              "string"
-            ],
-            "format": "date-time"
           },
           "hasInsuranceCard": {
             "type": [
@@ -256,6 +253,9 @@
         }
       },
       "DrugTypeEnum": {
+        "type": "integer"
+      },
+      "GenderEnum": {
         "type": "integer"
       }
     }
