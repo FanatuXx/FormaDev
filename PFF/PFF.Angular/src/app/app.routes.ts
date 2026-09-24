@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-import { Dashboard } from './features/dashboard/dashboard';
 
 export const routes: Routes = [
     {
@@ -15,7 +14,7 @@ export const routes: Routes = [
     {
         path: 'patients',
         loadChildren: () => import('./features/patients/patients.routes').then((x) => x.routes),
-        title: "Dune Intranet | Ajout d'un usager",
+        title: "Dune Intranet | Usagers",
     }
 
 ];

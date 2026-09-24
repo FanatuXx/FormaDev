@@ -50,3 +50,5 @@ export interface CreatePatientRequest {
     drugType: DrugType | null,
     consumptionFrequency: ConsumptionFrequency | null
 }
+
+
