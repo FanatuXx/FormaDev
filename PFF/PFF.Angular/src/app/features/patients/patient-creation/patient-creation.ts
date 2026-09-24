@@ -104,17 +104,6 @@ export class PatientCreation implements OnInit {
   }
   
   get isInsured() {
-    if (this.isInsured?.valueOf() == "true") {
-      return true;
-    }
-
-    else if (this.isInsured?.valueOf() == "false") {
-      return false;
-    }
-
-    else {
-      return null; 
-    }
     return this.form.controls['isInsured'];
   }
   
@@ -155,47 +144,71 @@ export class PatientCreation implements OnInit {
     return this.form.controls['consumptionFrequency'];
   }
 
+
+
   onSubmit() {
-  console.log('Submit appelé');
-  console.log('Formulaire valide ?', this.form.valid);
-  console.log('Formulaire invalide ?', this.form.invalid);
-  console.log('Valeurs :', this.form.getRawValue());
-  console.log('Erreurs :', this.form.errors);
-  console.log('Erreur naissance :', this.form.controls['birthDate'].errors);
+    if (this.form.invalid) {
+      return;
+    }
 
-  if (this.form.invalid) {
-    this.form.markAllAsTouched();
-
+    //Convert empty field into null 
     Object.keys(this.form.controls).forEach(key => {
       const control = this.form.get(key);
-
-      if (control?.invalid) {
-        console.log(`Erreur sur ${key}:`, control.errors);
+      if (control && (control.value === '' || (typeof control.value === 'string' && control.value.trim() === ''))) {
+        control.patchValue(null, { emitEvent: false }); // emitEvent: false prevents unnecessary valueChange triggers
+      }
+    });
+    
+    //Automatically consider untouched checkbox as false
+    Object.keys(this.form.controls).forEach(key => {
+      if (key == "isWorking" || key == "isAtFedasil" || key == "hasInsuranceCard" || key == "isInsured") {
+        const control = this.form.get(key);
+        if (control && (control.value === null )) {
+          control.patchValue(false, { emitEvent: false });
+        }
       }
     });
 
-    return;
+
+    this.patientsService.create(this.form.getRawValue()).subscribe({
+      next: () => this.router.navigate(["dashboard"]),
+      error: (err) => console.log("Erreur: ", err)
+    })
   }
-
-  this.patientsService.create(this.form.getRawValue()).subscribe({
-    next: () => {
-      console.log('Patient créé');
-      this.router.navigate(['/dashboard']);
-    },
-    error: (err) => {
-      console.error('Erreur API :', err);
-    }
-  });
 }
 
-  // onSubmit() {
-  //   if (this.form.invalid) {
-  //     return;
-  //   }
 
-  //   this.patientsService.create(this.form.getRawValue()).subscribe({
-  //     next: () => this.router.navigate(["dashboard"]),
-  //     error: (err) => console.log("Erreur: ", err)
-  //   })
-  // }
-}
+//// TEMPLATE TO RECEIVE ALL USEFUL INFO IF SUBMITTING FAILS
+//
+//   onSubmit() {
+//   console.log('Submit appelé');
+//   console.log('Formulaire valide ?', this.form.valid);
+//   console.log('Formulaire invalide ?', this.form.invalid);
+//   console.log('Valeurs :', this.form.getRawValue());
+//   console.log('Erreurs :', this.form.errors);
+//   console.log('Erreur naissance :', this.form.controls['birthDate'].errors);
+
+//   if (this.form.invalid) {
+//     this.form.markAllAsTouched();
+
+//     Object.keys(this.form.controls).forEach(key => {
+//       const control = this.form.get(key);
+
+//       if (control?.invalid) {
+//         console.log(`Erreur sur ${key}:`, control.errors);
+//       }
+//     });
+
+//     return;
+//   }
+
+//   this.patientsService.create(this.form.getRawValue()).subscribe({
+//     next: () => {
+//       console.log('Patient créé');
+//       this.router.navigate(['/dashboard']);
+//     },
+//     error: (err) => {
+//       console.error('Erreur API :', err);
+//     }
+//   });
+// }

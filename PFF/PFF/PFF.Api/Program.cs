@@ -16,10 +16,11 @@ IConfiguration configuration = builder.Configuration;
 // Add services to the container.
 
 builder.Services.AddControllers()
-    .AddJsonOptions(options =>
-    {
-        options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
-    });
+    .AddNewtonsoftJson();
+    //.AddJsonOptions(options =>
+    //{
+    //    options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+    //});
 
 builder.Services.AddCors(c => c.AddPolicy(policyName, o =>
 {
