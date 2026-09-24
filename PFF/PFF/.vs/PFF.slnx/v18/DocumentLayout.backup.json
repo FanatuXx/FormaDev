@@ -321,7 +321,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -333,15 +333,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PatientConfig.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\PatientConfig.cs",
-              "RelativeDocumentMoniker": "PFF.Domain\\Configurations\\PatientConfig.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\PatientConfig.cs",
-              "RelativeToolTip": "PFF.Domain\\Configurations\\PatientConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "CreatePatientCommand.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Commands\\CreatePatientCommand.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Commands\\CreatePatientCommand.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Commands\\CreatePatientCommand.cs",
+              "RelativeToolTip": "PFF.Domain\\Commands\\CreatePatientCommand.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T14:11:58.223Z",
+              "WhenOpened": "2026-09-09T14:07:57.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Services\\PatientService.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Services\\PatientService.cs",
+              "RelativeToolTip": "PFF.Domain\\Services\\PatientService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAC4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T14:16:49.683Z",
               "EditorCaption": ""
             },
             {
@@ -359,15 +372,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreatePatientCommand.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Commands\\CreatePatientCommand.cs",
-              "RelativeDocumentMoniker": "PFF.Domain\\Commands\\CreatePatientCommand.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Commands\\CreatePatientCommand.cs",
-              "RelativeToolTip": "PFF.Domain\\Commands\\CreatePatientCommand.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBQAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PatientConfig.cs",
+              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\PatientConfig.cs",
+              "RelativeDocumentMoniker": "PFF.Domain\\Configurations\\PatientConfig.cs",
+              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Configurations\\PatientConfig.cs",
+              "RelativeToolTip": "PFF.Domain\\Configurations\\PatientConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T14:07:57.347Z",
+              "WhenOpened": "2026-09-03T14:11:58.223Z",
               "EditorCaption": ""
             },
             {
@@ -381,19 +394,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-09T08:04:17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PatientService.cs",
-              "DocumentMoniker": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Services\\PatientService.cs",
-              "RelativeDocumentMoniker": "PFF.Domain\\Services\\PatientService.cs",
-              "ToolTip": "C:\\Users\\a.dufour\\OneDrive - TechnofuturTIC\\Documents\\FormaDev\\PFF\\PFF\\PFF.Domain\\Services\\PatientService.cs",
-              "RelativeToolTip": "PFF.Domain\\Services\\PatientService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAmwDwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T14:16:49.683Z",
               "EditorCaption": ""
             },
             {

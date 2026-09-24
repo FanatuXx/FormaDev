@@ -1,6 +1,6 @@
 import { Component, inject, OnInit, signal } from '@angular/core';
 import { PatientsService } from '../../../core/services/patients.service';
-import { Router, RouterLink } from '@angular/router';
+import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { legalAgeValidator } from '../../../shared/validators/legal-age.validator';
 import { Gender } from '../../../shared/enum/gender.enum';
@@ -10,7 +10,7 @@ import { ResidenceStatus } from '../../../shared/enum/residence-status.enum';
 
 @Component({
   selector: 'app-patient-creation',
-  imports: [RouterLink, ReactiveFormsModule],
+  imports: [ ReactiveFormsModule],
   templateUrl: './patient-creation.html',
   styleUrl: './patient-creation.css',
 })
@@ -51,7 +51,7 @@ export class PatientCreation implements OnInit {
       lastName: [''],
       alias: [''],
       gender: [''],
-      birthDate: ['', legalAgeValidator],
+      birthDate: ['', legalAgeValidator()],
       phoneNumber: ['', [Validators.minLength(9), Validators.maxLength(16)]],
       allergies: [''],
       isInsured: [''],

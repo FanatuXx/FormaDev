@@ -1,5 +1,3 @@
-<a routerLink="/dashboard">Retour au dashboard</a>
-
 <h1>Nouvel usager :</h1>
 
 <form [formGroup]="form" (ngSubmit)="onSubmit()">
@@ -16,6 +14,9 @@
       Date de naissance
       <input type="date" name="birthDate" id="birthDate" formControlName="birthDate">
     </label>
+    @if (birthDate.touched && birthDate.invalid) {
+      <p class="error">ATTENTION : la personne a moins de 18 ans ! La personne doit être réorientée vers un service spécialisé.</p>
+    }
     <br>
     <br>
 
